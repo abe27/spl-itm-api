@@ -14,6 +14,8 @@ var (
 	DB_NAME         string
 	DB_USER         string
 	DB_PASSWORD     string
+	DB_SSLMODE      string
+	DB_TZNAME       string
 	APP_SECRET_KEY  string
 	APP_TRIGGER_API string
 )
