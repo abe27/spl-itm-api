@@ -1,6 +1,9 @@
 package configs
 
-import "gorm.io/gorm"
+import (
+	"github.com/abe/erp.api/models"
+	"gorm.io/gorm"
+)
 
 var (
 	Store           *gorm.DB
@@ -20,7 +23,8 @@ var (
 	APP_TRIGGER_API string
 )
 
-func SetDB() error {
-	var err error
-	return err
+func SetDB() {
+	if !Store.Migrator().HasTable(&models.User{}) {
+		Store.AutoMigrate(&models.User{})
+	}
 }
