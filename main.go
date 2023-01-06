@@ -12,6 +12,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
+	"github.com/gofiber/fiber/v2/middleware/recover"
 	"github.com/gofiber/fiber/v2/middleware/requestid"
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
@@ -76,6 +77,7 @@ func main() {
 	}
 
 	app := fiber.New(config)
+	app.Use(recover.New())
 	app.Use(cors.New())
 	app.Use(requestid.New())
 	app.Use(logger.New())

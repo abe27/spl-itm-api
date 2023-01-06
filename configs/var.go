@@ -24,7 +24,11 @@ var (
 )
 
 func SetDB() {
-	if !Store.Migrator().HasTable(&models.User{}) {
-		Store.AutoMigrate(&models.User{})
-	}
+	Store.AutoMigrate(
+		&models.User{},
+		&models.Whs{},
+		&models.Unit{},
+		&models.Shipment{},
+		&models.SystemLogger{},
+	)
 }

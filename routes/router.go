@@ -13,4 +13,9 @@ func Router(c *fiber.App) {
 	// Prefix Api
 	r := c.Group(fmt.Sprintf("/api/%s", configs.APP_VERSION))
 	r.Get("", controllers.Hello)
+
+	log := r.Group("/logger")
+	log.Get("", controllers.GetSystemLogger)
+	log.Post("", controllers.CreateSystemLogger)
+	log.Put("/:id", controllers.UpdateSystemLogger)
 }
