@@ -5,6 +5,7 @@ import (
 
 	"github.com/abe/erp.api/configs"
 	"github.com/abe/erp.api/controllers"
+	"github.com/abe/erp.api/services"
 	"github.com/gofiber/fiber/v2"
 )
 
@@ -25,5 +26,9 @@ func Router(c *fiber.App) {
 	user.Post("/register", controllers.MemberRegister)
 	user.Post("/login", controllers.MemberAuth)
 	// Begin Use Middleware
+	appRouter := r.Use(services.AuthorizationRequired)
 
+	// User Authentication
+	auth := appRouter.Group("/auth")
+	auth.Get("/me", controllers.MemberProfile)
 }

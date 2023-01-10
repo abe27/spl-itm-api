@@ -62,3 +62,8 @@ func MemberAuth(c *fiber.Ctx) error {
 	r.Data = services.CreateToken(&userData)
 	return c.Status(r.StatusCode).JSON(&r)
 }
+
+func MemberProfile(c *fiber.Ctx) error {
+	var r models.Response
+	return c.Status(r.StatusCode).JSON(&r)
+}

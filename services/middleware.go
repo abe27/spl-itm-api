@@ -35,10 +35,10 @@ func ValidateToken(tokenKey string) (interface{}, error) {
 
 func AuthorizationRequired(c *fiber.Ctx) error {
 	var r models.Response
+	r.StatusCode = fiber.StatusUnauthorized
 	s := c.Get("Authorization")
 	token := strings.TrimPrefix(s, "Bearer ")
 	if token == "" {
-		r.StatusCode = fiber.StatusUnauthorized
 		r.Message = "Token is Required!"
 		return c.Status(r.StatusCode).JSON(&r)
 	}
@@ -46,24 +46,21 @@ func AuthorizationRequired(c *fiber.Ctx) error {
 	// Check Token On DB
 	db := configs.Store
 	var jwtToken models.JwtToken
-	err := db.Where("id=?", token).First(&jwtToken).Error
-	if err != nil {
-		r.StatusCode = fiber.StatusInternalServerError
-		r.Message = err.Error()
-		return c.Status(r.StatusCode).JSON(&r)
-	}
-
-	if jwtToken.ID == "" {
-		r.StatusCode = fiber.StatusUnauthorized
+	if err := db.Where("id=?", token).First(&jwtToken).Error; err != nil {
 		r.Message = "Token is Invalid!"
 		return c.Status(r.StatusCode).JSON(&r)
 	}
 
-	if _, er := ValidateToken(jwtToken.Token); er != nil {
-		r.StatusCode = fiber.StatusUnauthorized
+	if jwtToken.ID == "" {
+		r.Message = "Token is Invalid!"
+		return c.Status(r.StatusCode).JSON(&r)
+	}
+
+	_, err := ValidateToken(jwtToken.Token)
+	if err != nil {
 		r.Message = "Token is Expired!"
-		db.Delete(&jwtToken)
-		return c.Status(fiber.StatusInternalServerError).JSON(&r)
+		// db.Delete(&jwtToken)
+		return c.Status(r.StatusCode).JSON(&r)
 	}
 	return c.Next()
 }
@@ -86,20 +83,22 @@ func CreateToken(user *models.User) models.AuthSession {
 	claims["sub"] = obj.JwtToken
 	claims["name"] = user.ID
 	claims["exp"] = time.Now().Add(time.Hour * 24).Unix()
-	if tokenKey, err := token.SignedString([]byte(secret_key)); err == nil {
-		/// Insert Token Key to DB
-		t := new(models.JwtToken)
-		t.ID = obj.JwtToken
-		t.UserID = &user.ID
-		t.Token = tokenKey
-		// Delete UserID before creating TokenID
-		if err := db.Where("user_id=?", t.UserID).Delete(&models.JwtToken{}).Error; err != nil {
-			panic(err)
-		}
+	tokenKey, err := token.SignedString([]byte(secret_key))
+	if err != nil {
+		panic(err)
+	}
+	/// Insert Token Key to DB
+	t := new(models.JwtToken)
+	t.ID = obj.JwtToken
+	t.UserID = &user.ID
+	t.Token = tokenKey
+	// Delete UserID before creating TokenID
+	if err := db.Where("user_id=?", t.UserID).Delete(&models.JwtToken{}).Error; err != nil {
+		panic(err)
+	}
 
-		if err := db.Create(&t).Error; err != nil {
-			panic(err)
-		}
+	if err := db.Create(&t).Error; err != nil {
+		panic(err)
 	}
 	return obj
 }
