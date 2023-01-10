@@ -72,3 +72,24 @@ func UpdateSystemLogger(c *fiber.Ctx) error {
 	r.Data = &obj
 	return c.Status(r.StatusCode).JSON(&r)
 }
+
+func DeleteSystemLogger(c *fiber.Ctx) error {
+	var r models.Response
+	r.StatusCode = fiber.StatusOK
+	var obj models.SystemLogger
+	if err := configs.Store.First(&obj, "id", c.Params("id")).Error; err != nil {
+		r.Message = err.Error()
+		r.StatusCode = fiber.StatusNotFound
+		return c.Status(r.StatusCode).JSON(&r)
+	}
+
+	if err := configs.Store.Delete(&obj).Error; err != nil {
+		r.Message = err.Error()
+		r.StatusCode = fiber.StatusInternalServerError
+		return c.Status(r.StatusCode).JSON(&r)
+	}
+
+	r.Message = "Delete System Logger " + obj.Title
+	r.StatusCode = fiber.StatusOK
+	return c.Status(r.StatusCode).JSON(&r)
+}

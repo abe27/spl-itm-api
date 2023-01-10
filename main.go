@@ -31,6 +31,7 @@ func init() {
 	configs.APP_DESCRIPTION = os.Getenv("APP_DESCRIPTION")
 	configs.APP_BODY_LIMIT, _ = strconv.Atoi(os.Getenv("APP_BODY_LIMIT"))
 	configs.APP_PORT, _ = strconv.Atoi(os.Getenv("APP_PORT"))
+	configs.APP_PUBLIC_DIRS = os.Getenv("APP_PUBLIC_DIRS")
 	configs.DB_HOST = os.Getenv("DB_HOST")
 	configs.DB_PORT, _ = strconv.Atoi(os.Getenv("DB_PORT"))
 	configs.DB_NAME = os.Getenv("DB_NAME")
@@ -82,6 +83,6 @@ func main() {
 	app.Use(requestid.New())
 	app.Use(logger.New())
 	routes.Router(app)
-	app.Static("/", "/public")
+	app.Static("/", configs.APP_PUBLIC_DIRS)
 	app.Listen(fmt.Sprintf(":%d", configs.APP_PORT))
 }

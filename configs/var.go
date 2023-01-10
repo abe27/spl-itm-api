@@ -12,6 +12,7 @@ var (
 	APP_DESCRIPTION string
 	APP_BODY_LIMIT  int
 	APP_PORT        int
+	APP_PUBLIC_DIRS string
 	DB_HOST         string
 	DB_PORT         int
 	DB_NAME         string

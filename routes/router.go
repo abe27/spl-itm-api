@@ -18,4 +18,5 @@ func Router(c *fiber.App) {
 	log.Get("", controllers.GetSystemLogger)
 	log.Post("", controllers.CreateSystemLogger)
 	log.Put("/:id", controllers.UpdateSystemLogger)
+	log.Delete("/:id", controllers.DeleteSystemLogger)
 }
