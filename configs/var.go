@@ -28,6 +28,10 @@ func SetDB() {
 	Store.AutoMigrate(
 		&models.User{},
 		&models.JwtToken{},
+		&models.Administrator{},
+		&models.Position{},
+		&models.Section{},
+		&models.Department{},
 		&models.Whs{},
 		&models.Unit{},
 		&models.Shipment{},

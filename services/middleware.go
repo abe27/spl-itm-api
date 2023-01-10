@@ -86,25 +86,20 @@ func CreateToken(user *models.User) models.AuthSession {
 	claims["sub"] = obj.JwtToken
 	claims["name"] = user.ID
 	claims["exp"] = time.Now().Add(time.Hour * 24).Unix()
-	tokenKey, err := token.SignedString([]byte(secret_key))
-	if err != nil {
-		panic(err)
-	}
+	if tokenKey, err := token.SignedString([]byte(secret_key)); err == nil {
+		/// Insert Token Key to DB
+		t := new(models.JwtToken)
+		t.ID = obj.JwtToken
+		t.UserID = &user.ID
+		t.Token = tokenKey
+		// Delete UserID before creating TokenID
+		if err := db.Where("user_id=?", t.UserID).Delete(&models.JwtToken{}).Error; err != nil {
+			panic(err)
+		}
 
-	/// Insert Token Key to DB
-	t := new(models.JwtToken)
-	t.ID = obj.JwtToken
-	t.UserID = &user.ID
-	t.Token = tokenKey
-	// Delete UserID before creating TokenID
-	err = db.Where("user_id=?", t.UserID).Delete(&models.JwtToken{}).Error
-	if err != nil {
-		panic(err)
-	}
-
-	err = db.Create(&t).Error
-	if err != nil {
-		panic(err)
+		if err := db.Create(&t).Error; err != nil {
+			panic(err)
+		}
 	}
 	return obj
 }

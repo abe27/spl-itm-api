@@ -11,6 +11,8 @@ import (
 type User struct {
 	ID        string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	UserName  string    `validate:"required,min=5,max=10" gorm:"not null;column:username;index;unique;size:10" json:"username,omitempty" form:"username"`
+	FirstName string    `gorm:"size:100" json:"firstname,omitempty" form:"firstname"`
+	LastName  string    `gorm:"size:100" json:"lastname,omitempty" form:"lastname"`
 	Email     string    `validate:"required,email,min=15,max=50" gorm:"not null;unique;size:50;" json:"email,omitempty" form:"email"`
 	Password  string    `validate:"required,min=6,max=60" gorm:"not null;size:60;" json:"-" form:"password"`
 	IsActive  bool      `gorm:"null" json:"is_active,omitempty" form:"is_active" default:"false"`
