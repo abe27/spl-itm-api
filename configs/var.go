@@ -27,6 +27,7 @@ var (
 func SetDB() {
 	Store.AutoMigrate(
 		&models.User{},
+		&models.JwtToken{},
 		&models.Whs{},
 		&models.Unit{},
 		&models.Shipment{},

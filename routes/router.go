@@ -19,4 +19,11 @@ func Router(c *fiber.App) {
 	log.Post("", controllers.CreateSystemLogger)
 	log.Put("/:id", controllers.UpdateSystemLogger)
 	log.Delete("/:id", controllers.DeleteSystemLogger)
+
+	// Prefix User
+	user := r.Group("/user")
+	user.Post("/register", controllers.MemberRegister)
+	user.Post("/login", controllers.MemberAuth)
+	// Begin Use Middleware
+
 }
