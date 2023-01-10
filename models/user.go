@@ -9,25 +9,28 @@ import (
 )
 
 type User struct {
-	ID           string     `gorm:"primaryKey;size:21;" json:"id,omitempty"`
-	UserName     string     `validate:"required,min=5,max=10" gorm:"not null;column:username;index;unique;size:10" json:"username,omitempty" form:"username"`
-	FirstName    string     `gorm:"size:100" json:"firstname,omitempty" form:"firstname"`
-	LastName     string     `gorm:"size:100" json:"lastname,omitempty" form:"lastname"`
-	Email        string     `validate:"required,email,min=15,max=50" gorm:"not null;unique;size:50;" json:"email,omitempty" form:"email"`
+	ID           string     `gorm:"primaryKey;size:21;" json:"id"`
+	UserName     string     `validate:"required,min=5,max=10" gorm:"not null;column:username;index;unique;size:10" json:"username" form:"username"`
+	FirstName    string     `gorm:"size:100" json:"firstname" form:"firstname"`
+	LastName     string     `gorm:"size:100" json:"lastname" form:"lastname"`
+	Email        string     `validate:"required,email,min=15,max=50" gorm:"not null;unique;size:50;" json:"email" form:"email"`
 	Password     string     `validate:"required,min=6,max=60" gorm:"not null;size:60;" json:"-" form:"password"`
-	WhsID        *string    `json:"whs_id,omitempty" form:"whs_id"`
-	FactoryID    *string    `json:"factory_id,omitempty" form:"factory_id"`
-	PositionID   *string    `json:"position_id,omitempty" form:"position_id"`
-	SectionID    *string    `json:"section_id,omitempty" form:"section_id"`
-	DepartmentID *string    `json:"department_id,omitempty" form:"department_id"`
-	IsActive     bool       `gorm:"null" json:"is_active,omitempty" form:"is_active" default:"false"`
-	CreatedAt    time.Time  `json:"created_at,omitempty" default:"now"`
-	UpdatedAt    time.Time  `json:"updated_at,omitempty" default:"now"`
-	Whs          Whs        `gorm:"foreignKey:WhsID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"whs,omitempty"`
-	Factory      Factory    `gorm:"foreignKey:FactoryID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"factory,omitempty"`
-	Position     Position   `gorm:"foreignKey:PositionID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"position,omitempty"`
-	Section      Section    `gorm:"foreignKey:SectionID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"section,omitempty"`
-	Department   Department `gorm:"foreignKey:DepartmentID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"department,omitempty"`
+	AreaID       *string    `json:"area_id" form:"area_id"`
+	WhsID        *string    `json:"whs_id" form:"whs_id"`
+	FactoryID    *string    `json:"factory_id" form:"factory_id"`
+	PositionID   *string    `json:"position_id" form:"position_id"`
+	SectionID    *string    `json:"section_id" form:"section_id"`
+	DepartmentID *string    `json:"department_id" form:"department_id"`
+	AvatarURL    string     `json:"avatar_url" form:"avatar_url"`
+	IsActive     bool       `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt    time.Time  `json:"created_at" default:"now"`
+	UpdatedAt    time.Time  `json:"updated_at" default:"now"`
+	Area         Area       `gorm:"foreignKey:AreaID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"area"`
+	Whs          Whs        `gorm:"foreignKey:WhsID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"whs"`
+	Factory      Factory    `gorm:"foreignKey:FactoryID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"factory"`
+	Position     Position   `gorm:"foreignKey:PositionID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"position"`
+	Section      Section    `gorm:"foreignKey:SectionID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"section"`
+	Department   Department `gorm:"foreignKey:DepartmentID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"department"`
 }
 
 func (obj *User) BeforeCreate(tx *gorm.DB) (err error) {
@@ -64,13 +67,13 @@ type AuthSession struct {
 }
 
 type JwtToken struct {
-	ID        string    `gorm:"primaryKey;size:60;" json:"id,omitempty"`
-	UserID    *string   `gorm:"not null;unique;" json:"user_id,omitempty" form:"user_id" binding:"required"`
-	Token     string    `gorm:"not null;unique;" json:"token,omitempty" form:"token"`
-	IsActive  bool      `gorm:"null" json:"is_active,omitempty" form:"is_active" default:"false"`
-	CreatedAt time.Time `json:"created_at,omitempty" default:"now"`
-	UpdatedAt time.Time `json:"updated_at,omitempty" default:"now"`
-	User      User      `gorm:"foreignKey:UserID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"user,omitempty"`
+	ID        string    `gorm:"primaryKey;size:60;" json:"id"`
+	UserID    *string   `gorm:"not null;unique;" json:"user_id" form:"user_id" binding:"required"`
+	Token     string    `gorm:"not null;unique;" json:"token" form:"token"`
+	IsActive  bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt time.Time `json:"created_at" default:"now"`
+	UpdatedAt time.Time `json:"updated_at" default:"now"`
+	User      User      `gorm:"foreignKey:UserID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"user"`
 }
 
 func (obj *JwtToken) AfterSave(tx *gorm.DB) (err error) {
@@ -84,12 +87,12 @@ func (obj *JwtToken) AfterSave(tx *gorm.DB) (err error) {
 }
 
 type Administrator struct {
-	ID        string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
-	UserID    *string   `gorm:"unique;" json:"user_id,omitempty" form:"user_id"`
-	IsActive  bool      `gorm:"null" json:"is_active,omitempty" form:"is_active" default:"false"`
-	CreatedAt time.Time `json:"created_at,omitempty" default:"now"`
-	UpdatedAt time.Time `json:"updated_at,omitempty" default:"now"`
-	User      User      `gorm:"foreignKey:UserID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"user,omitempty"`
+	ID        string    `gorm:"primaryKey;size:21;" json:"id"`
+	UserID    *string   `gorm:"unique;" json:"user_id" form:"user_id"`
+	IsActive  bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt time.Time `json:"created_at" default:"now"`
+	UpdatedAt time.Time `json:"updated_at" default:"now"`
+	User      User      `gorm:"foreignKey:UserID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"user"`
 }
 
 func (obj *Administrator) BeforeCreate(tx *gorm.DB) (err error) {
