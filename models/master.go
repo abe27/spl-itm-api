@@ -40,7 +40,7 @@ func (obj *Whs) BeforeCreate(tx *gorm.DB) (err error) {
 }
 
 type Factory struct {
-	ID           string    `gorm:"primaryKey;size:21;" json:"id"`
+	ID           string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	Title        string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
 	Description  string    `json:"description" form:"description"`
 	LabelPrefix  string    `validate:"required,min=1,max=10" gorm:"not null;index;unique;size:10" json:"label_prefix" form:"label_prefix"`

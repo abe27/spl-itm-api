@@ -67,7 +67,7 @@ type AuthSession struct {
 }
 
 type JwtToken struct {
-	ID        string    `gorm:"primaryKey;size:60;" json:"id"`
+	ID        string    `gorm:"primaryKey;size:60;" json:"id,omitempty"`
 	UserID    *string   `gorm:"not null;unique;" json:"user_id" form:"user_id" binding:"required"`
 	Token     string    `gorm:"not null;unique;" json:"token" form:"token"`
 	IsActive  bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
@@ -87,7 +87,7 @@ func (obj *JwtToken) AfterSave(tx *gorm.DB) (err error) {
 }
 
 type Administrator struct {
-	ID        string    `gorm:"primaryKey;size:21;" json:"id"`
+	ID        string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	UserID    *string   `gorm:"unique;" json:"user_id" form:"user_id"`
 	IsActive  bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
 	CreatedAt time.Time `json:"created_at" default:"now"`
