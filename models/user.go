@@ -9,7 +9,7 @@ import (
 )
 
 type User struct {
-	ID           string     `gorm:"primaryKey;size:21;" json:"id"`
+	ID           string     `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	UserName     string     `validate:"required,min=5,max=10" gorm:"not null;column:username;index;unique;size:10" json:"username" form:"username"`
 	FirstName    string     `gorm:"size:100" json:"firstname" form:"firstname"`
 	LastName     string     `gorm:"size:100" json:"lastname" form:"lastname"`

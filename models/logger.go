@@ -8,7 +8,7 @@ import (
 )
 
 type SystemLogger struct {
-	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	UserID      *string   `json:"user_id" form:"user_id"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"size:25" json:"title" form:"title"`
 	Description string    `json:"description" form:"description"`

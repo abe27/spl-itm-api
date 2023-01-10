@@ -8,7 +8,7 @@ import (
 )
 
 type Area struct {
-	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
 	Description string    `json:"description" form:"description"`
 	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
@@ -23,7 +23,7 @@ func (obj *Area) BeforeCreate(tx *gorm.DB) (err error) {
 }
 
 type Whs struct {
-	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	Prefix      string    `validate:"required,min=1,max=10" gorm:"not null;index;unique;size:10" json:"prefix" form:"prefix"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
 	Value       string    `validate:"required,min=1,max=5" gorm:"size:5" json:"value" form:"value"`
@@ -57,7 +57,7 @@ func (obj *Factory) BeforeCreate(tx *gorm.DB) (err error) {
 }
 
 type Unit struct {
-	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
 	Description string    `json:"description" form:"description"`
 	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
@@ -72,7 +72,7 @@ func (obj *Unit) BeforeCreate(tx *gorm.DB) (err error) {
 }
 
 type Position struct {
-	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
 	Description string    `json:"description" form:"description"`
 	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
@@ -87,7 +87,7 @@ func (obj *Position) BeforeCreate(tx *gorm.DB) (err error) {
 }
 
 type Section struct {
-	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
 	Description string    `json:"description" form:"description"`
 	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
@@ -102,7 +102,7 @@ func (obj *Section) BeforeCreate(tx *gorm.DB) (err error) {
 }
 
 type Department struct {
-	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
 	Description string    `json:"description" form:"description"`
 	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
@@ -117,7 +117,7 @@ func (obj *Department) BeforeCreate(tx *gorm.DB) (err error) {
 }
 
 type Shipment struct {
-	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
 	Description string    `json:"description" form:"description"`
 	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
