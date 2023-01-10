@@ -33,6 +33,7 @@ func SetDB() {
 		&models.Section{},
 		&models.Department{},
 		&models.Whs{},
+		&models.Factory{},
 		&models.Unit{},
 		&models.Shipment{},
 		&models.SystemLogger{},

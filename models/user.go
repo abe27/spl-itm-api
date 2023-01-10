@@ -9,15 +9,25 @@ import (
 )
 
 type User struct {
-	ID        string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
-	UserName  string    `validate:"required,min=5,max=10" gorm:"not null;column:username;index;unique;size:10" json:"username,omitempty" form:"username"`
-	FirstName string    `gorm:"size:100" json:"firstname,omitempty" form:"firstname"`
-	LastName  string    `gorm:"size:100" json:"lastname,omitempty" form:"lastname"`
-	Email     string    `validate:"required,email,min=15,max=50" gorm:"not null;unique;size:50;" json:"email,omitempty" form:"email"`
-	Password  string    `validate:"required,min=6,max=60" gorm:"not null;size:60;" json:"-" form:"password"`
-	IsActive  bool      `gorm:"null" json:"is_active,omitempty" form:"is_active" default:"false"`
-	CreatedAt time.Time `json:"created_at,omitempty" default:"now"`
-	UpdatedAt time.Time `json:"updated_at,omitempty" default:"now"`
+	ID           string     `gorm:"primaryKey;size:21;" json:"id,omitempty"`
+	UserName     string     `validate:"required,min=5,max=10" gorm:"not null;column:username;index;unique;size:10" json:"username,omitempty" form:"username"`
+	FirstName    string     `gorm:"size:100" json:"firstname,omitempty" form:"firstname"`
+	LastName     string     `gorm:"size:100" json:"lastname,omitempty" form:"lastname"`
+	Email        string     `validate:"required,email,min=15,max=50" gorm:"not null;unique;size:50;" json:"email,omitempty" form:"email"`
+	Password     string     `validate:"required,min=6,max=60" gorm:"not null;size:60;" json:"-" form:"password"`
+	WhsID        *string    `json:"whs_id,omitempty" form:"whs_id"`
+	FactoryID    *string    `json:"factory_id,omitempty" form:"factory_id"`
+	PositionID   *string    `json:"position_id,omitempty" form:"position_id"`
+	SectionID    *string    `json:"section_id,omitempty" form:"section_id"`
+	DepartmentID *string    `json:"department_id,omitempty" form:"department_id"`
+	IsActive     bool       `gorm:"null" json:"is_active,omitempty" form:"is_active" default:"false"`
+	CreatedAt    time.Time  `json:"created_at,omitempty" default:"now"`
+	UpdatedAt    time.Time  `json:"updated_at,omitempty" default:"now"`
+	Whs          Whs        `gorm:"foreignKey:WhsID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"whs,omitempty"`
+	Factory      Factory    `gorm:"foreignKey:FactoryID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"factory,omitempty"`
+	Position     Position   `gorm:"foreignKey:PositionID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"position,omitempty"`
+	Section      Section    `gorm:"foreignKey:SectionID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"section,omitempty"`
+	Department   Department `gorm:"foreignKey:DepartmentID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"department,omitempty"`
 }
 
 func (obj *User) BeforeCreate(tx *gorm.DB) (err error) {
