@@ -53,7 +53,7 @@ func UpdateSystemLogger(c *fiber.Ctx) error {
 	}
 
 	var obj models.SystemLogger
-	if err := configs.Store.First(&obj, "id", c.Params("id")).Error; err != nil {
+	if err := configs.Store.Select("id").First(&obj, "id", c.Params("id")).Error; err != nil {
 		r.StatusCode = fiber.StatusNotFound
 		r.Message = err.Error()
 		return c.Status(r.StatusCode).JSON(&r)
@@ -77,7 +77,7 @@ func DeleteSystemLogger(c *fiber.Ctx) error {
 	var r models.Response
 	r.StatusCode = fiber.StatusOK
 	var obj models.SystemLogger
-	if err := configs.Store.First(&obj, "id", c.Params("id")).Error; err != nil {
+	if err := configs.Store.Select("id").First(&obj, "id", c.Params("id")).Error; err != nil {
 		r.Message = err.Error()
 		r.StatusCode = fiber.StatusNotFound
 		return c.Status(r.StatusCode).JSON(&r)
