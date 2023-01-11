@@ -26,10 +26,21 @@ func Router(c *fiber.App) {
 	user := r.Group("/user")
 	user.Post("/register", controllers.MemberRegister)
 	user.Post("/login", controllers.MemberAuth)
+	user.Post("/admin", controllers.CreateAdmin)
 
 	// Begin Use Middleware
 	appRouter := r.Use(services.AuthorizationRequired)
 	// User Authentication
 	auth := appRouter.Group("/auth")
 	auth.Get("/me", controllers.MemberProfile)
+
+	// Area Group
+	area := appRouter.Group("/area")
+	area.Get("", controllers.GetArea)
+	area.Post("", controllers.CreateArea)
+	area.Put("/:id", controllers.UpdateArea)
+	area.Delete("/:id", controllers.DeleteArea)
+
+	// System Group
+	// Whs Group
 }
