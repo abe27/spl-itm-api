@@ -101,3 +101,11 @@ func CreateToken(user *models.User) models.AuthSession {
 	}
 	return obj
 }
+
+func GetProfile(c *fiber.Ctx) string {
+	var r models.Response
+	r.At = time.Now()
+	r.StatusCode = fiber.StatusUnauthorized
+	s := c.Get("Authorization")
+	return strings.TrimPrefix(s, "Bearer ")
+}

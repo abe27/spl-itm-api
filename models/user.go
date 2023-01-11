@@ -68,11 +68,11 @@ type AuthSession struct {
 
 type JwtToken struct {
 	ID        string    `gorm:"primaryKey;size:60;" json:"id,omitempty"`
-	UserID    *string   `gorm:"not null;unique;" json:"user_id" form:"user_id" binding:"required"`
-	Token     string    `gorm:"not null;unique;" json:"token" form:"token"`
-	IsActive  bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
-	CreatedAt time.Time `json:"created_at" default:"now"`
-	UpdatedAt time.Time `json:"updated_at" default:"now"`
+	UserID    *string   `gorm:"not null;unique;" json:"-"`
+	Token     string    `gorm:"not null;unique;" json:"-"`
+	IsActive  bool      `gorm:"null" json:"-"`
+	CreatedAt time.Time `json:"-" default:"now"`
+	UpdatedAt time.Time `json:"-" default:"now"`
 	User      User      `gorm:"foreignKey:UserID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"user"`
 }
 

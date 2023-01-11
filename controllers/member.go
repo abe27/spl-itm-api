@@ -3,6 +3,7 @@ package controllers
 import (
 	"fmt"
 	"strings"
+	"time"
 
 	"github.com/abe/erp.api/configs"
 	"github.com/abe/erp.api/models"
@@ -77,5 +78,23 @@ func MemberAuth(c *fiber.Ctx) error {
 
 func MemberProfile(c *fiber.Ctx) error {
 	var r models.Response
+	r.StatusCode = fiber.StatusOK
+	r.At = time.Now()
+	jwtToken := services.GetProfile(c)
+	var userData models.JwtToken
+	if err := configs.Store.
+		Preload("User.Area").
+		Preload("User.Whs").
+		Preload("User.Factory").
+		Preload("User.Position").
+		Preload("User.Section").
+		Preload("User.Department").
+		Where("id=?", jwtToken).First(&userData).Error; err != nil {
+		r.StatusCode = fiber.StatusNotFound
+		r.Message = err.Error()
+		return c.Status(r.StatusCode).JSON(&r)
+	}
+	r.Message = "แสดงข้อมูลส่วนตัว"
+	r.Data = &userData
 	return c.Status(r.StatusCode).JSON(&r)
 }
