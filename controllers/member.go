@@ -80,7 +80,7 @@ func MemberProfile(c *fiber.Ctx) error {
 	var r models.Response
 	r.StatusCode = fiber.StatusOK
 	r.At = time.Now()
-	jwtToken := services.GetProfile(c)
+	jwtToken := services.GetJWTToken(c)
 	var userData models.JwtToken
 	if err := configs.Store.
 		Preload("User.Area").

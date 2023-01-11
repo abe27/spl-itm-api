@@ -43,4 +43,9 @@ func Router(c *fiber.App) {
 
 	// System Group
 	// Whs Group
+	whs := appRouter.Group("/whs")
+	whs.Get("", controllers.GetWhs)
+	whs.Post("", controllers.CreateWhs)
+	whs.Put("/:id", controllers.UpdateWhs)
+	whs.Delete("/:id", controllers.DeleteWhs)
 }

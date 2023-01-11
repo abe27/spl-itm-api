@@ -6,6 +6,7 @@ import (
 
 	"github.com/abe/erp.api/configs"
 	"github.com/abe/erp.api/models"
+	"github.com/abe/erp.api/services"
 	"github.com/gofiber/fiber/v2"
 )
 
@@ -62,6 +63,7 @@ func CreateArea(c *fiber.Ctx) error {
 
 	r.Message = fmt.Sprintf("บันทึก %s เรียบร้อยแล้ว", frm.Title)
 	r.Data = &area
+	services.Logger(services.GetUserID(c), "บันทึกข้อมูล", r.Message)
 	return c.Status(r.StatusCode).JSON(&r)
 }
 
@@ -94,6 +96,7 @@ func UpdateArea(c *fiber.Ctx) error {
 	}
 	r.Message = fmt.Sprintf("อัพเดท %s เรียบร้อยแล้ว", frm.Title)
 	r.Data = &area
+	services.Logger(services.GetUserID(c), "อัพเดทข้อมูล", r.Message)
 	return c.Status(r.StatusCode).JSON(&r)
 }
 
@@ -116,5 +119,6 @@ func DeleteArea(c *fiber.Ctx) error {
 	}
 
 	r.Message = fmt.Sprintf("ลบ %s เรียบร้อยแล้ว", c.Params("id"))
+	services.Logger(services.GetUserID(c), "ลบข้อมูล", r.Message)
 	return c.Status(r.StatusCode).JSON(&r)
 }

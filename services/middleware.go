@@ -102,10 +102,22 @@ func CreateToken(user *models.User) models.AuthSession {
 	return obj
 }
 
-func GetProfile(c *fiber.Ctx) string {
+func GetJWTToken(c *fiber.Ctx) string {
 	var r models.Response
 	r.At = time.Now()
 	r.StatusCode = fiber.StatusUnauthorized
 	s := c.Get("Authorization")
 	return strings.TrimPrefix(s, "Bearer ")
+}
+
+func GetUserID(c *fiber.Ctx) string {
+	var r models.Response
+	r.At = time.Now()
+	r.StatusCode = fiber.StatusUnauthorized
+	s := c.Get("Authorization")
+	var jwt models.JwtToken
+	if err := configs.Store.First(&jwt, "id", strings.TrimPrefix(s, "Bearer ")).Error; err != nil {
+		panic(err)
+	}
+	return *jwt.UserID
 }
