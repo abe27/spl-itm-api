@@ -22,6 +22,11 @@ var (
 	DB_TZNAME       string
 	APP_SECRET_KEY  string
 	APP_TRIGGER_API string
+
+	MAIL_SMTP      string
+	MAIL_SMTP_PORT int
+	MAIL_USERNAME  string
+	MAIL_PASSWORD  string
 )
 
 func SetDB() {

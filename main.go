@@ -42,6 +42,11 @@ func init() {
 	configs.APP_SECRET_KEY = os.Getenv("APP_SECRET_KEY")
 	configs.APP_TRIGGER_API = os.Getenv("APP_TRIGGER_API")
 
+	configs.MAIL_SMTP = os.Getenv("MAIL_SMTP")
+	configs.MAIL_SMTP_PORT, _ = strconv.Atoi(os.Getenv("MAIL_SMTP_PORT"))
+	configs.MAIL_USERNAME = os.Getenv("MAIL_USERNAME")
+	configs.MAIL_PASSWORD = os.Getenv("MAIL_PASSWORD")
+
 	dns := fmt.Sprintf("host=%s user=%s dbname=%s port=%d password=%s sslmode=%s TimeZone=%s", configs.DB_HOST, configs.DB_USER, configs.DB_NAME, configs.DB_PORT, configs.DB_PASSWORD, configs.DB_SSLMODE, configs.DB_TZNAME)
 	configs.Store, err = gorm.Open(postgres.Open(dns), &gorm.Config{
 		DisableAutomaticPing:                     true,
