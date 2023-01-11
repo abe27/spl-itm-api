@@ -36,6 +36,9 @@ func MemberRegister(c *fiber.Ctx) error {
 		r.Message = err.Error()
 		return c.Status(fiber.StatusInternalServerError).JSON(r)
 	}
+
+	// Send Mail After Register
+	_, _, _ = services.SendMail(frm.Email, "ลงทะเบียนเข้าใช้งานระบบ", fmt.Sprintf("คุณได้ลงทะเบียนในชื่อ: %s\nลงทะเบียนเรียบร้อยแล้ว\nกรุณาติดต่อทางผู้ดูแลระบบเพื่อร้องขอเข้าใช้งาน", frm.UserName))
 	r.Message = fmt.Sprintf("%s Registered!", frm.UserName)
 	r.StatusCode = fiber.StatusCreated
 	r.Data = &frm
@@ -52,11 +55,20 @@ func MemberAuth(c *fiber.Ctx) error {
 	}
 
 	var userData models.User
-	if err := configs.Store.Where("username=?", frm.UserName).First(&userData).Error; err != nil {
+	if err := configs.Store.Where("username=?", frm.UserName).Where("is_active=?", true).First(&userData).Error; err != nil {
 		r.StatusCode = fiber.StatusNotFound
-		r.Message = err.Error()
+		r.Message = fmt.Sprintf("ไม่พบข้อมูลผู้ใช้งาน %s", frm.UserName)
 		return c.Status(r.StatusCode).JSON(&r)
 	}
+
+	if !services.ComparePassword(frm.Password, userData.Password) {
+		r.StatusCode = fiber.StatusUnauthorized
+		r.Message = fmt.Sprintf("ขอ อภัย %s รหัสผ่านของท่านไม่ถูกต้อง!", frm.UserName)
+		// Delete JWT
+		configs.Store.Where("user_id=?", &userData.ID).Delete(&models.JwtToken{})
+		return c.Status(r.StatusCode).JSON(&r)
+	}
+
 	r.StatusCode = fiber.StatusCreated
 	r.Message = fmt.Sprintf("%s login is successfully!", frm.UserName)
 	r.Data = services.CreateToken(&userData)

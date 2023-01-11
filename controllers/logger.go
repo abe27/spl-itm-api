@@ -5,6 +5,7 @@ import (
 
 	"github.com/abe/erp.api/configs"
 	"github.com/abe/erp.api/models"
+	"github.com/abe/erp.api/services"
 	"github.com/gofiber/fiber/v2"
 )
 
@@ -91,5 +92,11 @@ func DeleteSystemLogger(c *fiber.Ctx) error {
 
 	r.Message = "Delete System Logger " + obj.Title
 	r.StatusCode = fiber.StatusOK
+	return c.Status(r.StatusCode).JSON(&r)
+}
+
+func TestSendMail(c *fiber.Ctx) error {
+	var r models.Response
+	r.StatusCode, r.Message, r.At = services.SendMail("krumii.it@gmail.com", "Test Send Mail", "Test body\nxxxx")
 	return c.Status(r.StatusCode).JSON(&r)
 }

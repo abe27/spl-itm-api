@@ -2,7 +2,6 @@ package services
 
 import (
 	"fmt"
-	"os"
 	"strings"
 	"time"
 
@@ -35,6 +34,7 @@ func ValidateToken(tokenKey string) (interface{}, error) {
 
 func AuthorizationRequired(c *fiber.Ctx) error {
 	var r models.Response
+	r.At = time.Now()
 	r.StatusCode = fiber.StatusUnauthorized
 	s := c.Get("Authorization")
 	token := strings.TrimPrefix(s, "Bearer ")
@@ -58,8 +58,8 @@ func AuthorizationRequired(c *fiber.Ctx) error {
 
 	_, err := ValidateToken(jwtToken.Token)
 	if err != nil {
-		r.Message = "Token is Expired!"
-		// db.Delete(&jwtToken)
+		r.Message = err.Error()
+		db.Delete(&jwtToken)
 		return c.Status(r.StatusCode).JSON(&r)
 	}
 	return c.Next()
@@ -77,13 +77,12 @@ func CreateToken(user *models.User) models.AuthSession {
 	obj.User = &user
 	obj.JwtType = "Bearer"
 	obj.JwtToken, _ = g.New(60)
-	secret_key := os.Getenv("SECRET_KEY")
 	token := jwt.New(jwt.SigningMethodHS256)
 	claims := token.Claims.(jwt.MapClaims)
 	claims["sub"] = obj.JwtToken
 	claims["name"] = user.ID
 	claims["exp"] = time.Now().Add(time.Hour * 24).Unix()
-	tokenKey, err := token.SignedString([]byte(secret_key))
+	tokenKey, err := token.SignedString([]byte(configs.APP_SECRET_KEY))
 	if err != nil {
 		panic(err)
 	}

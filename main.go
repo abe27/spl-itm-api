@@ -43,7 +43,7 @@ func init() {
 	configs.APP_TRIGGER_API = os.Getenv("APP_TRIGGER_API")
 
 	configs.MAIL_SMTP = os.Getenv("MAIL_SMTP")
-	configs.MAIL_SMTP_PORT, _ = strconv.Atoi(os.Getenv("MAIL_SMTP_PORT"))
+	configs.MAIL_SMTP_PORT = os.Getenv("MAIL_SMTP_PORT")
 	configs.MAIL_USERNAME = os.Getenv("MAIL_USERNAME")
 	configs.MAIL_PASSWORD = os.Getenv("MAIL_PASSWORD")
 

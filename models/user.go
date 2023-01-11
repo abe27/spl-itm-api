@@ -42,7 +42,7 @@ func (obj *User) BeforeCreate(tx *gorm.DB) (err error) {
 func (obj *User) AfterCreate(tx *gorm.DB) (err error) {
 	var log SystemLogger
 	log.UserID = &obj.ID
-	log.Title = "User created"
+	log.Title = "ลงทะเบียนเข้าใช้งานระบบ"
 	log.Description = fmt.Sprintf("%s ลงทะเบียนเรียบร้อยแล้ว", obj.UserName)
 	log.IsSuccess = true
 	tx.Save(&log)

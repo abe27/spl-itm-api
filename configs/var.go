@@ -24,7 +24,7 @@ var (
 	APP_TRIGGER_API string
 
 	MAIL_SMTP      string
-	MAIL_SMTP_PORT int
+	MAIL_SMTP_PORT string
 	MAIL_USERNAME  string
 	MAIL_PASSWORD  string
 )

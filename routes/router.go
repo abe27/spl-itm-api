@@ -18,6 +18,7 @@ func Router(c *fiber.App) {
 	log := r.Group("/logger")
 	log.Get("", controllers.GetSystemLogger)
 	log.Post("", controllers.CreateSystemLogger)
+	log.Patch("", controllers.TestSendMail)
 	log.Put("/:id", controllers.UpdateSystemLogger)
 	log.Delete("/:id", controllers.DeleteSystemLogger)
 
@@ -25,9 +26,9 @@ func Router(c *fiber.App) {
 	user := r.Group("/user")
 	user.Post("/register", controllers.MemberRegister)
 	user.Post("/login", controllers.MemberAuth)
+
 	// Begin Use Middleware
 	appRouter := r.Use(services.AuthorizationRequired)
-
 	// User Authentication
 	auth := appRouter.Group("/auth")
 	auth.Get("/me", controllers.MemberProfile)
