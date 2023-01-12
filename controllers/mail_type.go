@@ -16,7 +16,7 @@ func GetMailType(c *fiber.Ctx) error {
 	r.StatusCode = fiber.StatusOK
 	if c.Query("id") == "" {
 		var MailType []models.MailType
-		if err := configs.Store.Where("is_active=?", true).Find(&MailType).Error; err != nil {
+		if err := configs.Store.Preload("Factory").Where("is_active=?", true).Find(&MailType).Error; err != nil {
 			r.StatusCode = fiber.StatusNotFound
 			r.Message = err.Error()
 			return c.Status(r.StatusCode).JSON(r)
@@ -28,7 +28,7 @@ func GetMailType(c *fiber.Ctx) error {
 	}
 
 	var MailType models.MailType
-	if err := configs.Store.First(&MailType, "id=?", c.Query("id")).Error; err != nil {
+	if err := configs.Store.Preload("Factory").First(&MailType, "id=?", c.Query("id")).Error; err != nil {
 		r.StatusCode = fiber.StatusNotFound
 		r.Message = err.Error()
 		return c.Status(r.StatusCode).JSON(r)
@@ -51,7 +51,15 @@ func CreateMailType(c *fiber.Ctx) error {
 		return c.Status(r.StatusCode).JSON(r)
 	}
 
+	var Factory models.Factory
+	if err := configs.Store.First(&Factory, "title", frm.FactoryID).Error; err != nil {
+		r.StatusCode = fiber.StatusNotFound
+		r.Message = fmt.Sprintf("%s %s", err.Error(), frm.FactoryID)
+		return c.Status(r.StatusCode).JSON(r)
+	}
+
 	var MailType models.MailType
+	MailType.FactoryID = Factory.ID
 	MailType.Prefix = strings.ToUpper(frm.Prefix)
 	MailType.Title = strings.ToUpper(frm.Title)
 	MailType.Description = frm.Description
@@ -63,6 +71,7 @@ func CreateMailType(c *fiber.Ctx) error {
 	}
 
 	r.Message = fmt.Sprintf("บันทึกข้อมูล %s เรียบร้อยแล้ว", MailType.Title)
+	MailType.Factory = Factory
 	r.Data = &MailType
 	return c.Status(r.StatusCode).JSON(&r)
 }
@@ -86,6 +95,14 @@ func UpdateMailType(c *fiber.Ctx) error {
 		return c.Status(r.StatusCode).JSON(r)
 	}
 
+	var Factory models.Factory
+	if err := configs.Store.First(&Factory, "title", frm.FactoryID).Error; err != nil {
+		r.StatusCode = fiber.StatusNotFound
+		r.Message = fmt.Sprintf("%s %s", err.Error(), frm.FactoryID)
+		return c.Status(r.StatusCode).JSON(r)
+	}
+
+	MailType.FactoryID = Factory.ID
 	MailType.Prefix = strings.ToUpper(frm.Prefix)
 	MailType.Title = strings.ToUpper(frm.Title)
 	MailType.Description = frm.Description
@@ -96,6 +113,7 @@ func UpdateMailType(c *fiber.Ctx) error {
 		return c.Status(r.StatusCode).JSON(r)
 	}
 	r.Message = fmt.Sprintf("อัพเดท %s เรียบร้อยแล้ว", c.Params("id"))
+	MailType.Factory = Factory
 	r.Data = &MailType
 	return c.Status(r.StatusCode).JSON(&r)
 }

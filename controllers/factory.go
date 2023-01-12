@@ -56,6 +56,7 @@ func CreateFactory(c *fiber.Ctx) error {
 	factory.Description = frm.Description
 	factory.LabelPrefix = frm.LabelPrefix
 	factory.InvPrefix = frm.InvPrefix
+	factory.Value = frm.Value
 	factory.IsActive = frm.IsActive
 	if err := configs.Store.Create(&factory).Error; err != nil {
 		r.StatusCode = fiber.StatusInternalServerError
@@ -91,6 +92,7 @@ func UpdateFactory(c *fiber.Ctx) error {
 	factory.Description = frm.Description
 	factory.LabelPrefix = frm.LabelPrefix
 	factory.InvPrefix = frm.InvPrefix
+	factory.Value = frm.Value
 	factory.IsActive = frm.IsActive
 	if err := configs.Store.Save(&factory).Error; err != nil {
 		r.StatusCode = fiber.StatusInternalServerError

@@ -78,6 +78,6 @@ $RECYCLE.BIN/
 .env
 .env.local
 /public/*.*
-/public/upload/*.*
+/public/upload/
 
 go.sum
