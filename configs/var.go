@@ -47,5 +47,6 @@ func SetDB() {
 		&models.MailBox{},
 		&models.MailType{},
 		&models.DownloadMailBox{},
+		&models.Part{},
 	)
 }

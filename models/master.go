@@ -210,3 +210,19 @@ func (obj *DownloadMailBox) BeforeCreate(tx *gorm.DB) (err error) {
 	obj.ID = id
 	return
 }
+
+type Part struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
+	Slug        string    `validate:"required,min=1,max=25" gorm:"size:25" json:"prefix" form:"prefix"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *Part) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
