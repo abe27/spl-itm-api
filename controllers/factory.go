@@ -2,7 +2,6 @@ package controllers
 
 import (
 	"fmt"
-	"strings"
 	"time"
 
 	"github.com/abe/erp.api/configs"
@@ -10,115 +9,117 @@ import (
 	"github.com/gofiber/fiber/v2"
 )
 
-func GetWhs(c *fiber.Ctx) error {
+func GetFactory(c *fiber.Ctx) error {
 	var r models.Response
 	r.At = time.Now()
 	r.StatusCode = fiber.StatusOK
 
 	if c.Query("id") == "" {
-		var whs []models.Whs
-		if err := configs.Store.Where("is_active =?", true).Find(&whs).Error; err != nil {
+		var factory []models.Factory
+		if err := configs.Store.Where("is_active=?", true).Find(&factory).Error; err != nil {
 			r.StatusCode = fiber.StatusNotFound
 			r.Message = err.Error()
 			return c.Status(r.StatusCode).JSON(&r)
 		}
+
 		r.Message = "แสดงข้อมูลทั้งหมด"
-		r.Data = &whs
+		r.Data = &factory
 		return c.Status(r.StatusCode).JSON(&r)
 	}
 
-	var whs models.Whs
-	if err := configs.Store.Where("is_active=?", true).Where("id=?", c.Query("id")).First(&whs).Error; err != nil {
+	var factory models.Factory
+	if err := configs.Store.First(&factory, "id", c.Query("id")).Error; err != nil {
 		r.StatusCode = fiber.StatusNotFound
 		r.Message = err.Error()
 		return c.Status(r.StatusCode).JSON(&r)
 	}
-	r.Message = fmt.Sprintf("แสดง %s ข้อมูล", c.Query("id"))
-	r.Data = &whs
+
+	r.Message = fmt.Sprintf("แสดงข้อมูล %s", c.Query("id"))
+	r.Data = &factory
 	return c.Status(r.StatusCode).JSON(&r)
 }
 
-func CreateWhs(c *fiber.Ctx) error {
+func CreateFactory(c *fiber.Ctx) error {
 	var r models.Response
 	r.At = time.Now()
 	r.StatusCode = fiber.StatusCreated
 
-	var frm models.Whs
-	if err := c.BodyParser(&frm); err != nil {
-		r.StatusCode = fiber.StatusInternalServerError
-		r.Message = err.Error()
-		return c.Status(r.StatusCode).JSON(&r)
-	}
-
-	var whs models.Whs
-	whs.Prefix = strings.ToUpper(frm.Prefix)
-	whs.Title = strings.ToUpper(frm.Title)
-	whs.Value = frm.Value
-	whs.Description = frm.Description
-	whs.IsActive = frm.IsActive
-	if err := configs.Store.Create(&whs).Error; err != nil {
-		r.StatusCode = fiber.StatusInternalServerError
-		r.Message = err.Error()
-		return c.Status(r.StatusCode).JSON(&r)
-	}
-	r.Message = fmt.Sprintf("บันทึก %s ข้อมูลเรียบร้อยแล้ว", whs.ID)
-	r.Data = &whs
-	return c.Status(r.StatusCode).JSON(&r)
-}
-
-func UpdateWhs(c *fiber.Ctx) error {
-	var r models.Response
-	r.At = time.Now()
-	r.StatusCode = fiber.StatusOK
-
-	var frm models.Whs
+	var frm models.Factory
 	if err := c.BodyParser(&frm); err != nil {
 		r.StatusCode = fiber.StatusBadRequest
 		r.Message = err.Error()
 		return c.Status(r.StatusCode).JSON(&r)
 	}
 
-	var whs models.Whs
-	if err := configs.Store.Where("id=?", c.Params("id")).First(&whs).Error; err != nil {
-		r.StatusCode = fiber.StatusNotFound
-		r.Message = fmt.Sprintf("%s id %s!", err.Error(), c.Params("id"))
+	var factory models.Factory
+	factory.Title = frm.Title
+	factory.Description = frm.Description
+	factory.LabelPrefix = frm.LabelPrefix
+	factory.InvPrefix = frm.InvPrefix
+	factory.IsActive = frm.IsActive
+	if err := configs.Store.Create(&factory).Error; err != nil {
+		r.StatusCode = fiber.StatusInternalServerError
+		r.Message = err.Error()
 		return c.Status(r.StatusCode).JSON(&r)
 	}
 
-	whs.Prefix = strings.ToUpper(frm.Prefix)
-	whs.Title = strings.ToUpper(frm.Title)
-	whs.Value = frm.Value
-	whs.Description = frm.Description
-	whs.IsActive = frm.IsActive
-	if err := configs.Store.Save(&whs).Error; err != nil {
+	r.Message = fmt.Sprintf("บันทึกข้อมูล %s เรียบร้อยแล้ว", factory.Title)
+	r.Data = &factory
+	return c.Status(r.StatusCode).JSON(&r)
+}
+
+func UpdateFactory(c *fiber.Ctx) error {
+	var r models.Response
+	r.At = time.Now()
+	r.StatusCode = fiber.StatusOK
+
+	var frm models.Factory
+	if err := c.BodyParser(&frm); err != nil {
+		r.StatusCode = fiber.StatusBadRequest
+		r.Message = err.Error()
+		return c.Status(r.StatusCode).JSON(&r)
+	}
+
+	var factory models.Factory
+	if err := configs.Store.First(&factory, "id", c.Params("id")).Error; err != nil {
+		r.StatusCode = fiber.StatusNotFound
+		r.Message = err.Error()
+		return c.Status(r.StatusCode).JSON(&r)
+	}
+
+	factory.Title = frm.Title
+	factory.Description = frm.Description
+	factory.LabelPrefix = frm.LabelPrefix
+	factory.InvPrefix = frm.InvPrefix
+	factory.IsActive = frm.IsActive
+	if err := configs.Store.Save(&factory).Error; err != nil {
 		r.StatusCode = fiber.StatusInternalServerError
 		r.Message = err.Error()
 		return c.Status(r.StatusCode).JSON(&r)
 	}
 
 	r.Message = fmt.Sprintf("อัพเดท %s เรียบร้อยแล้ว", c.Params("id"))
-	r.Data = &whs
+	r.Data = &factory
 	return c.Status(r.StatusCode).JSON(&r)
 }
 
-func DeleteWhs(c *fiber.Ctx) error {
+func DeleteFactory(c *fiber.Ctx) error {
 	var r models.Response
 	r.At = time.Now()
 	r.StatusCode = fiber.StatusOK
 
-	var whs models.Whs
-	if err := configs.Store.First(&whs, "id", c.Params("id")).Error; err != nil {
+	var factory models.Factory
+	if err := configs.Store.First(&factory, "id", c.Params("id")).Error; err != nil {
 		r.StatusCode = fiber.StatusNotFound
 		r.Message = err.Error()
 		return c.Status(r.StatusCode).JSON(&r)
 	}
 
-	if err := configs.Store.Delete(&whs).Error; err != nil {
+	if err := configs.Store.Delete(&factory).Error; err != nil {
 		r.StatusCode = fiber.StatusInternalServerError
 		r.Message = err.Error()
 		return c.Status(r.StatusCode).JSON(&r)
 	}
-
-	r.Message = fmt.Sprintf("ลบ %s ข้อมูลเรียบร้อยแล้ว", c.Params("id"))
+	r.Message = fmt.Sprintf("ลบข้อมูล %s เรียบร้อยแล้ว", c.Params("id"))
 	return c.Status(r.StatusCode).JSON(&r)
 }

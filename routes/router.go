@@ -48,4 +48,10 @@ func Router(c *fiber.App) {
 	whs.Post("", controllers.CreateWhs)
 	whs.Put("/:id", controllers.UpdateWhs)
 	whs.Delete("/:id", controllers.DeleteWhs)
+	// Whs Group
+	factory := appRouter.Group("/factory")
+	factory.Get("", controllers.GetFactory)
+	factory.Post("", controllers.CreateFactory)
+	factory.Put("/:id", controllers.UpdateFactory)
+	factory.Delete("/:id", controllers.DeleteFactory)
 }
