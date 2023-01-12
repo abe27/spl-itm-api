@@ -32,6 +32,7 @@ var (
 func SetDB() {
 	Store.AutoMigrate(
 		&models.User{},
+		&models.SystemLogger{},
 		&models.JwtToken{},
 		&models.Administrator{},
 		&models.Position{},
@@ -41,7 +42,10 @@ func SetDB() {
 		&models.Whs{},
 		&models.Factory{},
 		&models.Unit{},
+		&models.ItemType{},
 		&models.Shipment{},
-		&models.SystemLogger{},
+		&models.MailBox{},
+		&models.MailType{},
+		&models.DownloadMailBox{},
 	)
 }
