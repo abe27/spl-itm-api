@@ -100,4 +100,11 @@ func Router(c *fiber.App) {
 	mailBox.Post("", controllers.CreateMailBox)
 	mailBox.Put("/:id", controllers.UpdateMailBox)
 	mailBox.Delete("/:id", controllers.DeleteMailBox)
+
+	// Route Process Upload EDI
+	edi := appRouter.Group("/edi")
+	edi.Get("", controllers.GetDownloadMailBox)
+	edi.Post("", controllers.CreateDownloadMailBox)
+	edi.Put("/:id", controllers.UpdateDownloadMailBox)
+	edi.Delete("/:id", controllers.DeleteDownloadMailBox)
 }
