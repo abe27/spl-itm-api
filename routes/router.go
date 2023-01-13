@@ -188,4 +188,11 @@ func Router(c *fiber.App) {
 	edi.Post("", controllers.CreateDownloadMailBox)
 	edi.Put("/:id", controllers.UpdateDownloadMailBox)
 	edi.Delete("/:id", controllers.DeleteDownloadMailBox)
+
+	// Route Process Receive
+	receiveEnt := appRouter.Group("/receiveEnt")
+	receiveEnt.Get("", controllers.GetReceiveEnt)
+	receiveEnt.Post("", controllers.CreateReceiveEnt)
+	receiveEnt.Put("/:id", controllers.UpdateReceiveEnt)
+	receiveEnt.Delete("/:id", controllers.DeleteReceiveEnt)
 }

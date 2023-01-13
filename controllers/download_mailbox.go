@@ -109,17 +109,17 @@ func CreateDownloadMailBox(c *fiber.Ctx) error {
 	data.IsDownload = true //frm.IsDownload
 	data.IsActive = frm.IsActive
 	data.FilePath = fmt.Sprintf("upload/edi/%s/%s.%s", time.Now().Format("20060102"), frm.BatchNo, file.Filename)
-	// if err := db.Create(&data).Error; err != nil {
-	// 	r.StatusCode = fiber.StatusInternalServerError
-	// 	r.Message = err.Error()
-	// 	return c.Status(r.StatusCode).JSON(&r)
-	// }
-
-	if err := db.First(&data, "batch_no", frm.BatchNo).Error; err != nil {
+	if err := db.Create(&data).Error; err != nil {
 		r.StatusCode = fiber.StatusInternalServerError
 		r.Message = err.Error()
 		return c.Status(r.StatusCode).JSON(&r)
 	}
+
+	// if err := db.First(&data, "batch_no", frm.BatchNo).Error; err != nil {
+	// 	r.StatusCode = fiber.StatusInternalServerError
+	// 	r.Message = err.Error()
+	// 	return c.Status(r.StatusCode).JSON(&r)
+	// }
 	data.MailBox = mailBox
 	data.MailType = mailType
 	r.Data = &data
