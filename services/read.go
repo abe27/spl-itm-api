@@ -42,7 +42,7 @@ func ReadEDI(obj *models.DownloadMailBox, userID *string) (err error) {
 	txtUnit := "BOX"
 	txtPartType := "PART"
 	isSync := true
-	if obj.MailType.Factory.Title == "INJ" {
+	if obj.MailType.Factory.Title != "INJ" {
 		txtUnit = "COIL"
 		txtPartType = "WIRE"
 		isSync = false
