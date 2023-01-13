@@ -148,6 +148,24 @@ func (obj *Shipment) BeforeCreate(tx *gorm.DB) (err error) {
 	return
 }
 
+type ReceiveType struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
+	WhsID       string    `json:"whs_id" form:"whs_id"`
+	Prefix      string    `validate:"required,min=1,max=10" gorm:"not null;index;unique;size:50" json:"prefix" form:"prefix"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;size:50" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+	Whs         Whs       `gorm:"foreignKey:WhsID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE;" json:"whs"`
+}
+
+func (obj *ReceiveType) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
 type MailType struct {
 	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
 	FactoryID   string    `json:"factory_id" form:"factory_id"`
@@ -191,8 +209,7 @@ type DownloadMailBox struct {
 	BatchNo      string    `gorm:"not null;unique;size:50;" json:"batch_no" form:"batch_no"`
 	Size         float64   `json:"size" form:"size" default:"0"`
 	BatchID      string    `gorm:"not null;" json:"batch_id" form:"batch_id"`
-	CreationDate time.Time `gorm:"type:date;" json:"creation_date" form:"creation_date" default:"now"`
-	CreationTime time.Time `gorm:"type:time;" json:"creation_time" form:"creation_time" default:"now"`
+	CreationDate time.Time `json:"creation_date" form:"creation_date" default:"now"`
 	Flags        string    `gorm:"size:10;" json:"flags" form:"flags" default:"-"`
 	Format       string    `gorm:"type:string;size:5;" json:"format" form:"format" default:"A"`
 	Originator   string    `gorm:"type:string;size:25;" json:"originator" form:"originator" default:"-"`
@@ -213,7 +230,7 @@ func (obj *DownloadMailBox) BeforeCreate(tx *gorm.DB) (err error) {
 
 type Part struct {
 	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
-	Slug        string    `validate:"required,min=1,max=25" gorm:"size:25" json:"prefix" form:"prefix"`
+	Slug        string    `validate:"required,min=1,max=25" gorm:"size:25;unique;" json:"slug" form:"slug"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
 	Description string    `json:"description" form:"description"`
 	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
@@ -222,6 +239,160 @@ type Part struct {
 }
 
 func (obj *Part) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type Ledger struct {
+	ID          string    `gorm:"primaryKey;size:21" json:"id,omitempty"`
+	AreaID      *string   `gorm:"not null;" json:"area_id,omitempty" form:"area_id" binding:"required"`
+	FactoryID   *string   `gorm:"not null;" json:"factory_id,omitempty" form:"factory_id" binding:"required"`
+	PartID      *string   `gorm:"not null;" json:"part_id,omitempty" form:"part_id" binding:"required"`
+	ItemTypeID  *string   `gorm:"not null;" json:"item_type_id,omitempty" form:"item_type_id" binding:"required"`
+	UnitID      *string   `gorm:"not null;" json:"unit_id,omitempty" form:"unit_id" binding:"required"`
+	DimWidth    float64   `json:"dim_width,omitempty" form:"dim_width" default:"0"`
+	DimLength   float64   `json:"dim_length,omitempty" form:"dim_length" default:"0"`
+	DimHeight   float64   `json:"dim_height,omitempty" form:"dim_height" default:"0"`
+	GrossWeight float64   `json:"gross_weight,omitempty" form:"gross_weight" default:"0"`
+	NetWeight   float64   `json:"net_weight,omitempty" form:"net_weight" default:"0"`
+	Qty         float64   `json:"qty,omitempty" form:"qty" default:"0"`
+	Ctn         float64   `json:"ctn,omitempty" form:"ctn" default:"0"`
+	IsActive    bool      `json:"is_active,omitempty" form:"is_active" default:"true"`
+	CreatedAt   time.Time `json:"created_at,omitempty" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at,omitempty" default:"now"`
+	Area        Area      `gorm:"foreignKey:AreaID;references:ID" json:"area"`
+	Factory     Factory   `gorm:"foreignKey:FactoryID;references:ID" json:"factory"`
+	Part        Part      `gorm:"foreignKey:PartID;references:ID;" json:"part"`
+	ItemType    ItemType  `gorm:"foreignKey:ItemTypeID;references:ID" json:"part_type"`
+	Unit        Unit      `gorm:"foreignKey:UnitID;references:ID" json:"unit"`
+}
+
+func (u *Ledger) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	u.ID = id
+	return nil
+}
+
+type Affcode struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *Affcode) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type Customer struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *Customer) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type ReviseOrder struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:5" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *ReviseOrder) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type Pc struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:5" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *Pc) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type Commercial struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:5" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *Commercial) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type SampleFlg struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:5" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *SampleFlg) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type OrderType struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:5" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *OrderType) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type OrderZone struct {
+	ID          string    `gorm:"primaryKey;size:21" json:"id,omitempty"`
+	Value       int64     `gorm:"not null;" json:"value,omitempty" form:"value" binding:"required"`
+	FactoryID   *string   `gorm:"not null;" json:"factory_id,omitempty" form:"factory_id" binding:"required"`
+	WhsID       *string   `gorm:"not null;" json:"whs_id,omitempty" form:"whs_id" binding:"required"`
+	Description string    `json:"description,omitempty" form:"description" binding:"required"`
+	IsActive    bool      `json:"is_active,omitempty" form:"is_active" binding:"required"`
+	CreatedAt   time.Time `json:"created_at,omitempty" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at,omitempty" default:"now"`
+	Factory     Factory   `gorm:"foreignKey:FactoryID;references:ID" json:"factory,omitempty"`
+	Whs         Whs       `gorm:"foreignKey:WhsID;references:ID" json:"whs,omitempty"`
+}
+
+func (obj *OrderZone) BeforeCreate(tx *gorm.DB) (err error) {
 	id, _ := g.New()
 	obj.ID = id
 	return

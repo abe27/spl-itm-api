@@ -100,6 +100,66 @@ func Router(c *fiber.App) {
 	mailBox.Post("", controllers.CreateMailBox)
 	mailBox.Put("/:id", controllers.UpdateMailBox)
 	mailBox.Delete("/:id", controllers.DeleteMailBox)
+	// <!----->
+	part := appRouter.Group("/part")
+	part.Get("", controllers.GetPart)
+	part.Post("", controllers.CreatePart)
+	part.Put("/:id", controllers.UpdatePart)
+	part.Delete("/:id", controllers.DeletePart)
+	// <!----->
+	receiveType := appRouter.Group("/receiveType")
+	receiveType.Get("", controllers.GetReceiveType)
+	receiveType.Post("", controllers.CreateReceiveType)
+	receiveType.Put("/:id", controllers.UpdateReceiveType)
+	receiveType.Delete("/:id", controllers.DeleteReceiveType)
+	// <!----->
+	affcode := appRouter.Group("/affcode")
+	affcode.Get("", controllers.GetAffcode)
+	affcode.Post("", controllers.CreateAffcode)
+	affcode.Put("/:id", controllers.UpdateAffcode)
+	affcode.Delete("/:id", controllers.DeleteAffcode)
+	// <!----->
+	customer := appRouter.Group("/customer")
+	customer.Get("", controllers.GetCustomer)
+	customer.Post("", controllers.CreateCustomer)
+	customer.Put("/:id", controllers.UpdateCustomer)
+	customer.Delete("/:id", controllers.DeleteCustomer)
+	// <!----->
+	reviseOrder := appRouter.Group("/reviseOrder")
+	reviseOrder.Get("", controllers.GetReviseOrder)
+	reviseOrder.Post("", controllers.CreateReviseOrder)
+	reviseOrder.Put("/:id", controllers.UpdateReviseOrder)
+	reviseOrder.Delete("/:id", controllers.DeleteReviseOrder)
+	// <!----->
+	pc := appRouter.Group("/pc")
+	pc.Get("", controllers.GetPc)
+	pc.Post("", controllers.CreatePc)
+	pc.Put("/:id", controllers.UpdatePc)
+	pc.Delete("/:id", controllers.DeletePc)
+	// <!----->
+	commercial := appRouter.Group("/commercial")
+	commercial.Get("", controllers.GetCommercial)
+	commercial.Post("", controllers.CreateCommercial)
+	commercial.Put("/:id", controllers.UpdateCommercial)
+	commercial.Delete("/:id", controllers.DeleteCommercial)
+	// <!----->
+	sampleFlg := appRouter.Group("/sampleFlg")
+	sampleFlg.Get("", controllers.GetSampleFlg)
+	sampleFlg.Post("", controllers.CreateSampleFlg)
+	sampleFlg.Put("/:id", controllers.UpdateSampleFlg)
+	sampleFlg.Delete("/:id", controllers.DeleteSampleFlg)
+	// <!----->
+	orderType := appRouter.Group("/orderType")
+	orderType.Get("", controllers.GetOrderType)
+	orderType.Post("", controllers.CreateOrderType)
+	orderType.Put("/:id", controllers.UpdateOrderType)
+	orderType.Delete("/:id", controllers.DeleteOrderType)
+	// <!----->
+	orderZone := appRouter.Group("/orderZone")
+	orderZone.Get("", controllers.GetOrderZone)
+	orderZone.Post("", controllers.CreateOrderZone)
+	orderZone.Put("/:id", controllers.UpdateOrderZone)
+	orderZone.Delete("/:id", controllers.DeleteOrderZone)
 
 	// Route Process Upload EDI
 	edi := appRouter.Group("/edi")
