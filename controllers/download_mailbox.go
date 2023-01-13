@@ -114,6 +114,12 @@ func CreateDownloadMailBox(c *fiber.Ctx) error {
 	// 	r.Message = err.Error()
 	// 	return c.Status(r.StatusCode).JSON(&r)
 	// }
+
+	if err := db.First(&data, "batch_no", frm.BatchNo).Error; err != nil {
+		r.StatusCode = fiber.StatusInternalServerError
+		r.Message = err.Error()
+		return c.Status(r.StatusCode).JSON(&r)
+	}
 	data.MailBox = mailBox
 	data.MailType = mailType
 	r.Data = &data

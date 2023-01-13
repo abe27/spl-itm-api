@@ -377,6 +377,50 @@ func ReadEDI(obj *models.DownloadMailBox, userID *string) (err error) {
 		db.First(&sampleFlg, "title=?", orderPlan.SampFlg)
 		orderPlan.SampleFlgID = &sampleFlg.ID
 
+		var orderGroup models.OrderGroup
+		db.Preload("OrderGroupType").Where("affcode_id=?", affcode.ID).Where("customer_id=?", customer.ID).First(&orderGroup)
+		txtOrderGroup := "N" // For not group order
+		if orderGroup.ID != "" {
+			txtOrderGroup = orderGroup.OrderGroupType.Title
+		}
+		switch txtOrderGroup {
+		case "N":
+			txtOrderGroup = "ALL"
+
+		case "S":
+			txtOrderGroup = orderPlan.Pono
+
+		case "E":
+			txtOrderGroup = orderPlan.Pono[len(orderPlan.Pono)-3:]
+			var chkGroup models.OrderGroup
+			db.Preload("OrderGroupType").Where("sub_order like ?", "%"+strings.TrimSpace(txtOrderGroup)+"%").Where("affcode_id=?", affcode.ID).Where("customer_id=?", customer.ID).First(&chkGroup)
+			if chkGroup.ID == "" {
+				txtOrderGroup = "ALL"
+			}
+
+		case "F":
+			txtOrderGroup = orderPlan.Pono[:3]
+			switch orderPlan.Pono[:1] {
+			case "#", "@":
+				txtOrderGroup = orderPlan.Pono[:4]
+			}
+			// case "NESC", "ICAM":
+			// 	txtOrderGroup = orderPlan.Pono[:4]
+			// }
+
+			var chkGroup models.OrderGroup
+			db.Preload("OrderGroupType").Where("sub_order like ?", "%"+strings.TrimSpace(txtOrderGroup)+"%").Where("affcode_id=?", affcode.ID).Where("customer_id=?", customer.ID).First(&chkGroup)
+			if chkGroup.ID == "" {
+				txtOrderGroup = "ALL"
+			}
+			if chkGroup.ID == "" {
+				txtOrderGroup = "ALL"
+			}
+		}
+		orderPlan.OrderGroup = txtOrderGroup
+		if err := db.Create(&orderPlan).Error; err != nil {
+			panic(err)
+		}
 		rnd++
 	}
 	return
