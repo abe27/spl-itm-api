@@ -1,0 +1,2828 @@
+{
+    "data": [
+        {
+            "username": "00534",
+            "aff": "32Y1",
+            "custcode": "32Y1",
+            "custname": "YAS",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32BF",
+            "custcode": "32BF",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32H0",
+            "custcode": "32H0",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32G0",
+            "custcode": "32G0",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W9",
+            "custcode": "32W9",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W9",
+            "custcode": "32W93",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32Q8",
+            "custcode": "32Q8",
+            "custname": "EMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M8",
+            "custcode": "32M8",
+            "custname": "PEMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32D1",
+            "custcode": "32D1",
+            "custname": "YOT-K",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32D2",
+            "custcode": "32D2",
+            "custname": "YOT-G",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W6",
+            "custcode": "32W6",
+            "custname": "SYA-WJ",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W7",
+            "custcode": "32W7",
+            "custname": "SYA-CH",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32Y8",
+            "custcode": "32Y8",
+            "custname": "YCL",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32BG",
+            "custcode": "32BG",
+            "custname": "YYA",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32G7",
+            "custcode": "32G7",
+            "custname": "JAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M3",
+            "custcode": "32M3",
+            "custname": "SAMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M4",
+            "custcode": "32M4",
+            "custname": "SAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32DG",
+            "custcode": "32DG",
+            "custname": "SAIBF",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32CH",
+            "custcode": "32CH",
+            "custname": "SAMIJF",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32DE",
+            "custcode": "32DE",
+            "custname": "YEV-TV",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M1",
+            "custcode": "32M1",
+            "custname": "YEV",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32N2",
+            "custcode": "32N2",
+            "custname": "YIPLTC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32G8",
+            "custcode": "32G8",
+            "custname": "PASI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32CG",
+            "custcode": "32CG",
+            "custname": "ASIACO",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32R4",
+            "custcode": "32R4",
+            "custname": "HZYME",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32D9",
+            "custcode": "32D9",
+            "custname": "HESTO",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32CA",
+            "custcode": "32CA",
+            "custname": "YPY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32W2",
+            "custcode": "32W2",
+            "custname": "HNY",
+            "grp": "E",
+            "sub_order": "NHW"
+        },
+        {
+            "username": "00523",
+            "aff": "32P8",
+            "custcode": "32P8",
+            "custname": "YTM",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32G2",
+            "custcode": "32G2",
+            "custname": "SUAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32A7",
+            "custcode": "32A7",
+            "custname": "ZZY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32J1",
+            "custcode": "32J1",
+            "custname": "YEL-BL",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y2",
+            "custcode": "32Y2",
+            "custname": "YUY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32DA",
+            "custcode": "32DA",
+            "custname": "YIPLGB",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32DJ",
+            "custcode": "32DJ",
+            "custname": "YIPLRB",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32N1",
+            "custcode": "32N1",
+            "custname": "YIPL",
+            "grp": "F",
+            "sub_order": "NST"
+        },
+        {
+            "username": "00523",
+            "aff": "32N3",
+            "custcode": "32N3",
+            "custname": "YIPL-B",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32CJ",
+            "custcode": "32CJ",
+            "custname": "YHVQN",
+            "grp": "F",
+            "sub_order": "JQN"
+        },
+        {
+            "username": "00523",
+            "aff": "32AF",
+            "custcode": "32AF",
+            "custname": "YHVTB",
+            "grp": "F",
+            "sub_order": "JTB"
+        },
+        {
+            "username": "00523",
+            "aff": "32H2",
+            "custcode": "32H2",
+            "custname": "YHV",
+            "grp": "F",
+            "sub_order": "TIJ"
+        },
+        {
+            "username": "00523",
+            "aff": "32X5",
+            "custcode": "32X5",
+            "custname": "YNA-E",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32U9",
+            "custcode": "32U9",
+            "custname": "YNA-E",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32B1",
+            "custcode": "32B1",
+            "custname": "ARNE-M",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32B6",
+            "custcode": "32B6",
+            "custname": "ARNE-M",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32B7",
+            "custcode": "32B7",
+            "custname": "ARNE-M",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32U5",
+            "custcode": "32U5",
+            "custname": "AMSD",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32H8",
+            "custcode": "32H8",
+            "custname": "TYC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32H7",
+            "custcode": "32H7",
+            "custname": "FSY",
+            "grp": "E",
+            "sub_order": "DMW"
+        },
+        {
+            "username": "00523",
+            "aff": "32AG",
+            "custcode": "32AG",
+            "custname": "XGY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y4",
+            "custcode": "32Y4",
+            "custname": "YAB-I",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32E1",
+            "custcode": "32E1",
+            "custname": "YSE",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32E2",
+            "custcode": "32E2",
+            "custname": "YSE",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W923",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W416",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W451",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4N6",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W465",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W48",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W418",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4N2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4O6",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W456",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32G0",
+            "custcode": "32G0",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W7",
+            "custcode": "32W7",
+            "custname": "SYA-CH",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32G7",
+            "custcode": "32G7",
+            "custname": "JAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M1",
+            "custcode": "32M1",
+            "custname": "YEV",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32N2",
+            "custcode": "32N2",
+            "custname": "YIPLTC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32A7",
+            "custcode": "32A7",
+            "custname": "ZZY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32DJ",
+            "custcode": "32DJ",
+            "custname": "YIPLRB",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32N1",
+            "custcode": "32N1",
+            "custname": "YIPL",
+            "grp": "F",
+            "sub_order": "@NST"
+        },
+        {
+            "username": "00523",
+            "aff": "32AF",
+            "custcode": "32AF",
+            "custname": "YHVTB",
+            "grp": "F",
+            "sub_order": "@TIK"
+        },
+        {
+            "username": "00523",
+            "aff": "32H2",
+            "custcode": "32H2",
+            "custname": "YHV",
+            "grp": "F",
+            "sub_order": "@TIJ"
+        },
+        {
+            "username": "00523",
+            "aff": "32X5",
+            "custcode": "32X5",
+            "custname": "YNA-E",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32EJ",
+            "custcode": "32EJ",
+            "custname": "YKBO",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4L6",
+            "custname": "YHK-K",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W449",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4K8",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4O2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4D3",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W7",
+            "custcode": "32W7",
+            "custname": "SYA-CH",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32D9",
+            "custcode": "32D9",
+            "custname": "HESTO",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32W2",
+            "custcode": "32W2",
+            "custname": "HNY",
+            "grp": "E",
+            "sub_order": "WMW"
+        },
+        {
+            "username": "00523",
+            "aff": "32P8",
+            "custcode": "32P8",
+            "custname": "YTM",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32D4",
+            "custcode": "32D4",
+            "custname": "YRL",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32DA",
+            "custcode": "32DA",
+            "custname": "YIPLGB",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32DJ",
+            "custcode": "32DJ",
+            "custname": "YIPLRB",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32N1",
+            "custcode": "32N1",
+            "custname": "YIPL",
+            "grp": "F",
+            "sub_order": "#NTT"
+        },
+        {
+            "username": "00523",
+            "aff": "32H2",
+            "custcode": "32H2",
+            "custname": "YHV",
+            "grp": "F",
+            "sub_order": "#TIJ"
+        },
+        {
+            "username": "00523",
+            "aff": "32K8",
+            "custcode": "32K8",
+            "custname": "ELCOM",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32H8",
+            "custcode": "32H8",
+            "custname": "TYC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32CC",
+            "custcode": "32CC",
+            "custname": "YABCBU",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32E1",
+            "custcode": "32E1",
+            "custname": "YSE",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32E2",
+            "custcode": "32E2",
+            "custname": "YSE",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4M5",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W48",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W442",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W432",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4H3",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W446",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4K8",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W9",
+            "custcode": "32W9",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W9",
+            "custcode": "32W93",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32Q8",
+            "custcode": "32Q8",
+            "custname": "EMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32D2",
+            "custcode": "32D2",
+            "custname": "YOT-G",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32R7",
+            "custcode": "32R7",
+            "custname": "YCIC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32EJ",
+            "custcode": "32EJ",
+            "custname": "YKBO",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W480",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W414",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W459",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W446",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4O2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W41",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4H3",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4L6",
+            "custname": "YHK-K",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4Q2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4M9",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W420",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W9",
+            "custcode": "32W93",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32Q8",
+            "custcode": "32Q8",
+            "custname": "EMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32DE",
+            "custcode": "32DE",
+            "custname": "YEV-TV",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32W2",
+            "custcode": "32W2",
+            "custname": "HNY",
+            "grp": "E",
+            "sub_order": "NHW"
+        },
+        {
+            "username": "00523",
+            "aff": "32P8",
+            "custcode": "32P8",
+            "custname": "YTM",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32G2",
+            "custcode": "32G2",
+            "custname": "SUAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32CJ",
+            "custcode": "32CJ",
+            "custname": "YHVQN",
+            "grp": "F",
+            "sub_order": "@JTK"
+        },
+        {
+            "username": "00523",
+            "aff": "32H7",
+            "custcode": "32H7",
+            "custname": "FSY",
+            "grp": "E",
+            "sub_order": "DMW"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W416",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W451",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32G0",
+            "custcode": "32G0",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32Q8",
+            "custcode": "32Q8",
+            "custname": "EMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M8",
+            "custcode": "32M8",
+            "custname": "PEMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32Y8",
+            "custcode": "32Y8",
+            "custname": "YCL",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32BG",
+            "custcode": "32BG",
+            "custname": "YYA",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M4",
+            "custcode": "32M4",
+            "custname": "SAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M1",
+            "custcode": "32M1",
+            "custname": "YEV",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32G2",
+            "custcode": "32G2",
+            "custname": "SUAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32A7",
+            "custcode": "32A7",
+            "custname": "ZZY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y2",
+            "custcode": "32Y2",
+            "custname": "YUY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32N3",
+            "custcode": "32N3",
+            "custname": "YIPL-B",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32CJ",
+            "custcode": "32CJ",
+            "custname": "YHVQN",
+            "grp": "F",
+            "sub_order": "#JQN"
+        },
+        {
+            "username": "00523",
+            "aff": "32AF",
+            "custcode": "32AF",
+            "custname": "YHVTB",
+            "grp": "F",
+            "sub_order": "#JTB"
+        },
+        {
+            "username": "00523",
+            "aff": "32U5",
+            "custcode": "32U5",
+            "custname": "AMSD",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32H7",
+            "custcode": "32H7",
+            "custname": "FSY",
+            "grp": "E",
+            "sub_order": "CMW"
+        },
+        {
+            "username": "00523",
+            "aff": "32R7",
+            "custcode": "32R7",
+            "custname": "YCIC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W480",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y5",
+            "custcode": "32Y5",
+            "custname": "YBL",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32CC",
+            "custcode": "32CC",
+            "custname": "YABCBU",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W466",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W419",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4M6",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4B7",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W449",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W46",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W473",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W437",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W442",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4G3",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W428",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4M4",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M4",
+            "custcode": "32M4",
+            "custname": "SAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32DG",
+            "custcode": "32DG",
+            "custname": "SAIBF",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "1200",
+            "custcode": "1200",
+            "custname": "YC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4M5",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4L7",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4O7",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4A2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W433",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4P8",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4D4",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W417",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W424",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W426",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4P7",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4G9",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4K8",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4E3",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M8",
+            "custcode": "32M8",
+            "custname": "PEMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M3",
+            "custcode": "32M3",
+            "custname": "SAMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32CH",
+            "custcode": "32CH",
+            "custname": "SAMIJF",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32D9",
+            "custcode": "32D9",
+            "custname": "HESTO",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32N3",
+            "custcode": "32N3",
+            "custname": "YIPL-B",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W48",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W419",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4N2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32Y1",
+            "custcode": "32Y1",
+            "custname": "YAS",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32H0",
+            "custcode": "32H0",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W9",
+            "custcode": "32W9",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W9",
+            "custcode": "32W93",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32D1",
+            "custcode": "32D1",
+            "custname": "YOT-K",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32D2",
+            "custcode": "32D2",
+            "custname": "YOT-G",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W6",
+            "custcode": "32W6",
+            "custname": "SYA-WJ",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32G7",
+            "custcode": "32G7",
+            "custname": "JAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M3",
+            "custcode": "32M3",
+            "custname": "SAMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32DG",
+            "custcode": "32DG",
+            "custname": "SAIBF",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32CH",
+            "custcode": "32CH",
+            "custname": "SAMIJF",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32DE",
+            "custcode": "32DE",
+            "custname": "YEV-TV",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32N2",
+            "custcode": "32N2",
+            "custname": "YIPLTC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32CG",
+            "custcode": "32CG",
+            "custname": "ASIACO",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32R4",
+            "custcode": "32R4",
+            "custname": "HZYME",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32CA",
+            "custcode": "32CA",
+            "custname": "YPY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32J1",
+            "custcode": "32J1",
+            "custname": "YEL-BL",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32X5",
+            "custcode": "32X5",
+            "custname": "YNA-E",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32U9",
+            "custcode": "32U9",
+            "custname": "YNA-E",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32B1",
+            "custcode": "32B1",
+            "custname": "ARNE-M",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32B6",
+            "custcode": "32B6",
+            "custname": "ARNE-M",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32B7",
+            "custcode": "32B7",
+            "custname": "ARNE-M",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32AG",
+            "custcode": "32AG",
+            "custname": "XGY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4A2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W428",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4G9",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W42",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W433",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4D4",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4N6",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4P7",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4O2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4G3",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32H0",
+            "custcode": "32H0",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W9",
+            "custcode": "32W915",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32D1",
+            "custcode": "32D1",
+            "custname": "YOT-K",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32G7",
+            "custcode": "32G7",
+            "custname": "JAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32CH",
+            "custcode": "32CH",
+            "custname": "SAMIJF",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32G8",
+            "custcode": "32G8",
+            "custname": "PASI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32CA",
+            "custcode": "32CA",
+            "custname": "YPY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32W2",
+            "custcode": "32W2",
+            "custname": "HNY",
+            "grp": "E",
+            "sub_order": "WMW"
+        },
+        {
+            "username": "00523",
+            "aff": "32P8",
+            "custcode": "32P8",
+            "custname": "YTM",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32D4",
+            "custcode": "32D4",
+            "custname": "YRL",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32DJ",
+            "custcode": "32DJ",
+            "custname": "YIPLRB",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32N1",
+            "custcode": "32N1",
+            "custname": "YIPL",
+            "grp": "F",
+            "sub_order": "NST"
+        },
+        {
+            "username": "00523",
+            "aff": "32N3",
+            "custcode": "32N3",
+            "custname": "YIPL-B",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32CJ",
+            "custcode": "32CJ",
+            "custname": "YHVQN",
+            "grp": "F",
+            "sub_order": "JQN"
+        },
+        {
+            "username": "00523",
+            "aff": "32H8",
+            "custcode": "32H8",
+            "custname": "TYC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32H7",
+            "custcode": "32H7",
+            "custname": "FSY",
+            "grp": "E",
+            "sub_order": "CMW"
+        },
+        {
+            "username": "00523",
+            "aff": "32AG",
+            "custcode": "32AG",
+            "custname": "XGY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y4",
+            "custcode": "32Y4",
+            "custname": "YAB-I",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32E2",
+            "custcode": "32E2",
+            "custname": "YSE",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W456",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W41",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W416",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W433",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W473",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W915",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y6",
+            "custcode": "32Y6",
+            "custname": "YBL-S",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y4",
+            "custcode": "32Y4",
+            "custname": "YAB-I",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32EJ",
+            "custcode": "32EJ",
+            "custname": "YKBO",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "1200",
+            "custcode": "1200",
+            "custname": "YC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W416",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W466",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4Q1",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W419",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W459",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W417",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4B7",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W46",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W451",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W41",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W414",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W465",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W449",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W43",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W437",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W481",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32Y1",
+            "custcode": "32Y1",
+            "custname": "YAS",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32G0",
+            "custcode": "32G0",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M8",
+            "custcode": "32M8",
+            "custname": "PEMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W6",
+            "custcode": "32W6",
+            "custname": "SYA-WJ",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M3",
+            "custcode": "32M3",
+            "custname": "SAMI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32DG",
+            "custcode": "32DG",
+            "custname": "SAIBF",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32DE",
+            "custcode": "32DE",
+            "custname": "YEV-TV",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32N2",
+            "custcode": "32N2",
+            "custname": "YIPLTC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32R4",
+            "custcode": "32R4",
+            "custname": "HZYME",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32G2",
+            "custcode": "32G2",
+            "custname": "SUAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32A7",
+            "custcode": "32A7",
+            "custname": "ZZY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32J1",
+            "custcode": "32J1",
+            "custname": "YEL-BL",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y2",
+            "custcode": "32Y2",
+            "custname": "YUY",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32DA",
+            "custcode": "32DA",
+            "custname": "YIPLGB",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32AF",
+            "custcode": "32AF",
+            "custname": "YHVTB",
+            "grp": "F",
+            "sub_order": "JTB"
+        },
+        {
+            "username": "00523",
+            "aff": "32H2",
+            "custcode": "32H2",
+            "custname": "YHV",
+            "grp": "F",
+            "sub_order": "TIJ"
+        },
+        {
+            "username": "00523",
+            "aff": "32X5",
+            "custcode": "32X5",
+            "custname": "YNA-E",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32U9",
+            "custcode": "32U9",
+            "custname": "YNA-E",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32B1",
+            "custcode": "32B1",
+            "custname": "ARNE-M",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32B6",
+            "custcode": "32B6",
+            "custname": "ARNE-M",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32B7",
+            "custcode": "32B7",
+            "custname": "ARNE-M",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32U5",
+            "custcode": "32U5",
+            "custname": "AMSD",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32R7",
+            "custcode": "32R7",
+            "custname": "YCIC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y5",
+            "custcode": "32Y5",
+            "custname": "YBL",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y6",
+            "custcode": "32Y6",
+            "custname": "YBL-S",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32CC",
+            "custcode": "32CC",
+            "custname": "YABCBU",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32EJ",
+            "custcode": "32EJ",
+            "custname": "YKBO",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "1200",
+            "custcode": "1200",
+            "custname": "YC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4M5",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4P6",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4B7",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W446",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32W7",
+            "custcode": "32W7",
+            "custname": "SYA-CH",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32Y8",
+            "custcode": "32Y8",
+            "custname": "YCL",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32BG",
+            "custcode": "32BG",
+            "custname": "YYA",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M4",
+            "custcode": "32M4",
+            "custname": "SAI",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32M1",
+            "custcode": "32M1",
+            "custname": "YEV",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32D9",
+            "custcode": "32D9",
+            "custname": "HESTO",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32E1",
+            "custcode": "32E1",
+            "custname": "YSE",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W419",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W459",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4G9",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W452",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W414",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W48",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4O2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W465",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W451",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W437",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4A2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4D4",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4L7",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4N2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4P7",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4K8",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W480",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W417",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4M6",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4N6",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4H3",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4D3",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W442",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32G9",
+            "custcode": "32G9",
+            "custname": "TYC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y6",
+            "custcode": "32Y6",
+            "custname": "YBL-S",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W432",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32H8",
+            "custcode": "32H8",
+            "custname": "TYC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4O6",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32G9",
+            "custcode": "32G9",
+            "custname": "TYC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32R8",
+            "custcode": "32R8",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32BF",
+            "custcode": "32BF",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4J2",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32BF",
+            "custcode": "32BF",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32R8",
+            "custcode": "32R8",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W476",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32Y6",
+            "custcode": "32Y6",
+            "custname": "YBL-S",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W42",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W9",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W45",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00523",
+            "aff": "32G9",
+            "custcode": "32G9",
+            "custname": "TYC",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4L8",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32Y8",
+            "custcode": "32Y8",
+            "custname": "YCL",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4L8",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4G3",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W432",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W456",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W452",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00534",
+            "aff": "32R8",
+            "custcode": "32R8",
+            "custname": "TJY",
+            "grp": "S",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W44",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W476",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W917",
+            "custname": "YHK",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4L9",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        },
+        {
+            "username": "00566",
+            "aff": "32W4",
+            "custcode": "32W4L9",
+            "custname": "YHK-J",
+            "grp": "N",
+            "sub_order": "-"
+        }
+    ]
+}

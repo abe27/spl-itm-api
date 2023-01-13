@@ -10,7 +10,6 @@ import (
 type OrderPlan struct {
 	ID               string          `gorm:"primaryKey;size:21;" json:"id"`
 	DownloadID       *string         `gorm:"not null;" json:"download_id" form:"download_id"`
-	WhsID            *string         `gorm:"not null;" json:"whs_id" form:"whs_id"`
 	OrderZoneID      *string         `gorm:"not null;" json:"order_zone_id" form:"order_type_id" binding:"required"`
 	AffcodeID        *string         `gorm:"not null;" json:"affcode_id" form:"affcode_id"`
 	CustomerID       *string         `gorm:"not null;" json:"customer_id" form:"customer_id"`
@@ -79,7 +78,6 @@ type OrderPlan struct {
 	CreatedAt        time.Time       `json:"created_at" form:"created_at" default:"now"`
 	UpdatedAt        time.Time       `json:"updated_at" form:"updated_at" default:"now"`
 	DownloadMailBox  DownloadMailBox `gorm:"foreignKey:DownloadID;references:ID;" json:"file_edi"`
-	Whs              Whs             `gorm:"foreignKey:WhsID;references:ID;" json:"whs"`
 	Affcode          Affcode         `gorm:"foreignKey:AffcodeID;references:ID" json:"affcode"`
 	Customer         Customer        `gorm:"foreignKey:CustomerID;references:ID" json:"customer"`
 	ReviseOrder      ReviseOrder     `gorm:"foreignKey:ReviseOrderID;references:ID" json:"revise_order"`

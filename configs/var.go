@@ -62,5 +62,8 @@ func SetDB() {
 		&models.OrderType{},
 		&models.OrderZone{},
 		&models.OrderPlan{},
+		&models.LastInvoice{},
+		&models.OrderGroupType{},
+		&models.OrderGroup{},
 	)
 }

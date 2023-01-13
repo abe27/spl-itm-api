@@ -14,8 +14,17 @@ import (
 )
 
 func ConvertInt(txt string) int64 {
-	result, _ := strconv.ParseInt(txt, 0, 64)
-	return result
+	if result, err := strconv.ParseInt(txt, 0, 64); err == nil {
+		return result
+	}
+	return 0
+}
+
+func ConvertFloat(i string) float64 {
+	if n, err := strconv.ParseFloat(i, 64); err == nil {
+		return n
+	}
+	return 0
 }
 
 func ReadEDI(obj *models.DownloadMailBox, userID *string) (err error) {
@@ -195,12 +204,179 @@ func ReadEDI(obj *models.DownloadMailBox, userID *string) (err error) {
 
 	rnd := 1
 	for scanner.Scan() {
-		// line := scanner.Text()
-		// etd := strings.ReplaceAll(line[28:(28+8)], " ", "")
-		// Upddte, _ := time.Parse("20060102150405", strings.ReplaceAll(line[141:(141+14)], " ", ""))  //, "%Y%m%d%H%M%S"),
-		// Updtime, _ := time.Parse("20060102150405", strings.ReplaceAll(line[141:(141+14)], " ", "")) // "%Y%m%d%H%M%S"),
-		// EtdDte, _ := time.Parse("20060102", etd)
-		// OrderMonth, _ := time.Parse("20060102", strings.ReplaceAll(line[118:(118+8)], " ", ""))
+		line := scanner.Text()
+		etd := strings.ReplaceAll(line[28:(28+8)], " ", "")
+		Upddte, _ := time.Parse("20060102150405", strings.ReplaceAll(line[141:(141+14)], " ", ""))  //, "%Y%m%d%H%M%S"),
+		Updtime, _ := time.Parse("20060102150405", strings.ReplaceAll(line[141:(141+14)], " ", "")) // "%Y%m%d%H%M%S"),
+		EtdDte, _ := time.Parse("20060102", etd)
+		OrderMonth, _ := time.Parse("20060102", strings.ReplaceAll(line[118:(118+8)], " ", ""))
+		orderPlan := models.OrderPlan{
+			Seq:              int64(rnd),
+			Vendor:           obj.MailType.Factory.Title,
+			Cd:               "",
+			Sortg1:           "",
+			Sortg2:           "",
+			Sortg3:           "",
+			Tagrp:            "C",
+			PlanType:         "ORDERPLAN",
+			Pono:             strings.ReplaceAll(line[13:(13+15)], " ", ""),
+			RecId:            strings.ReplaceAll(line[0:4], " ", ""),
+			Biac:             strings.ReplaceAll(line[5:(5+8)], " ", ""),
+			EtdTap:           EtdDte, //), "%Y%m%d"),
+			PartNo:           strings.ReplaceAll(line[36:(36+25)], " ", ""),
+			PartName:         strings.TrimRight(line[61:(61+25)], " "),
+			SampFlg:          strings.ReplaceAll(line[88:(88+1)], " ", ""),
+			Orderorgi:        ConvertFloat(line[89:(89 + 9)]),
+			Orderround:       ConvertFloat(line[98:(98 + 9)]),
+			FirmFlg:          strings.ReplaceAll(line[107:(107+1)], " ", ""),
+			ShippedFlg:       strings.ReplaceAll(line[108:(108+1)], " ", ""),
+			ShippedQty:       ConvertFloat(line[109:(109 + 9)]),
+			Ordermonth:       OrderMonth, //, "%Y%m%d" ),
+			BalQty:           ConvertFloat(line[126:(126 + 9)]),
+			Bidrfl:           strings.ReplaceAll(line[135:(135+1)], " ", ""),
+			DeleteFlg:        strings.ReplaceAll(line[136:(136+1)], " ", ""),
+			Reasoncd:         strings.ReplaceAll(line[138:(138+3)], " ", ""),
+			Upddte:           Upddte,                                         //, "%Y%m%d%H%M%S"),
+			Updtime:          Updtime,                                        // "%Y%m%d%H%M%S"),
+			CarrierCode:      strings.ReplaceAll(line[155:(155+4)], " ", ""), //
+			Bioabt:           ConvertInt(line[159:(159 + 1)]),
+			Bicomd:           strings.ReplaceAll(line[160:(160+1)], " ", ""), //
+			Bistdp:           ConvertFloat(line[165:(165 + 9)]),
+			Binewt:           ConvertFloat(line[174:(174 + 9)]),
+			Bigrwt:           ConvertFloat(line[183:(183 + 9)]),
+			Bishpc:           strings.ReplaceAll(line[192:(192+8)], " ", ""), //
+			Biivpx:           strings.ReplaceAll(line[200:(200+2)], " ", ""), //
+			Bisafn:           strings.ReplaceAll(line[202:(202+6)], " ", ""), //
+			Biwidt:           ConvertFloat(line[212:(212 + 4)]),
+			Bihigh:           ConvertFloat(line[216:(216 + 4)]),
+			Bileng:           ConvertFloat(line[208:(208 + 4)]),
+			LotNo:            strings.ReplaceAll(line[220:], " ", ""),
+			Minimum:          0,
+			Maximum:          0,
+			Picshelfbin:      "PNON",
+			Stkshelfbin:      "SNON",
+			Ovsshelfbin:      "ONON",
+			PicshelfbasicQty: 0,
+			OuterPcs:         0,
+			AllocateQty:      0,
+			CreatedAt:        Updtime,
+			IsReviseError:    true,
+		}
+
+		orderPlan.DownloadID = &obj.ID
+
+		var orderZone models.OrderZone
+		db.Select("id").Where("value=?", orderPlan.Bioabt).Where("factory_id=?", obj.MailType.Factory.ID).First(&orderZone)
+		orderPlan.OrderZoneID = &orderZone.ID
+
+		affcode := models.Affcode{
+			Title:       orderPlan.Biac,
+			Description: "-",
+			IsActive:    true,
+		}
+		db.FirstOrCreate(&affcode, &models.Affcode{Title: orderPlan.Biac})
+		orderPlan.AffcodeID = &affcode.ID
+
+		customer := models.Customer{
+			Title:       orderPlan.Bishpc,
+			Description: orderPlan.Bisafn,
+			IsActive:    true,
+		}
+		db.FirstOrCreate(&customer, &models.Customer{Title: orderPlan.Bishpc})
+		orderPlan.CustomerID = &customer.ID
+
+		// Create LastInvoice
+		lastInv := models.LastInvoice{
+			FactoryID: &obj.MailType.Factory.ID,
+			AffcodeID: &affcode.ID,
+			OnYear:    ConvertInt(etd[:4]),
+			IsActive:  true,
+		}
+		db.FirstOrCreate(&lastInv, &models.LastInvoice{
+			FactoryID: &obj.MailType.Factory.ID,
+			AffcodeID: &affcode.ID,
+			OnYear:    ConvertInt(etd[:4]),
+		})
+
+		/// Revise Type
+		reviseTitle := "-"
+		var reviseData models.ReviseOrder
+		if len(orderPlan.Reasoncd) > 0 {
+			reviseTitle = orderPlan.Reasoncd[:1]
+		}
+		if err := db.First(&reviseData, "title=?", reviseTitle).Error; err != nil {
+			panic(err)
+		}
+		if reviseData.ID != "" {
+			orderPlan.IsReviseError = false
+			orderPlan.ReviseOrderID = &reviseData.ID
+		}
+
+		// Part
+		part := models.Part{
+			Slug:        strings.ReplaceAll(orderPlan.PartNo, "-", ""),
+			Title:       orderPlan.PartNo,
+			Description: orderPlan.PartName,
+			IsActive:    true,
+		}
+		db.FirstOrCreate(&part, &models.Part{Slug: strings.ReplaceAll(orderPlan.PartNo, "-", "")})
+		part.Description = orderPlan.PartName
+		db.Save(&part)
+
+		// Ledger
+		ledger := models.Ledger{
+			AreaID:      &obj.MailBox.Area.ID,
+			FactoryID:   &obj.MailType.Factory.ID,
+			PartID:      &part.ID,
+			ItemTypeID:  &itemTypeData.ID,
+			UnitID:      &unitData.ID,
+			DimWidth:    0,
+			DimLength:   0,
+			DimHeight:   0,
+			GrossWeight: 0,
+			NetWeight:   0,
+			Qty:         0,
+			Ctn:         0,
+			IsActive:    true,
+		}
+
+		db.FirstOrCreate(&ledger, &models.Ledger{
+			AreaID:     &obj.MailBox.Area.ID,
+			FactoryID:  &obj.MailType.Factory.ID,
+			PartID:     &part.ID,
+			ItemTypeID: &itemTypeData.ID,
+			UnitID:     &unitData.ID,
+		})
+
+		ledger.DimWidth = orderPlan.Biwidt
+		ledger.DimLength = orderPlan.Bileng
+		ledger.DimHeight = orderPlan.Bihigh
+		ledger.GrossWeight = (orderPlan.Bigrwt / 1000)
+		ledger.NetWeight = (orderPlan.Binewt / 1000)
+		ledger.Qty = orderPlan.Bistdp
+		db.Save(&ledger)
+
+		orderPlan.LedgerID = &ledger.ID
+		var pc models.Pc
+		db.First(&pc, "title=?", strings.ReplaceAll(line[86:(86+1)], " ", ""))
+		orderPlan.PcID = &pc.ID
+
+		var comm models.Commercial
+		db.First(&comm, "title=?", strings.ReplaceAll(line[87:(87+1)], " ", ""))
+		orderPlan.CommercialID = &comm.ID
+
+		var orderTypeData models.OrderType
+		db.First(&orderTypeData, &models.OrderType{Title: strings.ReplaceAll(line[137:(137+1)], " ", "")})
+		orderPlan.OrderTypeID = &orderTypeData.ID
+
+		var shipment models.Shipment
+		db.First(&shipment, "prefix=?", strings.ReplaceAll(line[4:(4+1)], " ", ""))
+		orderPlan.ShipmentID = &shipment.ID
+
+		var sampleFlg models.SampleFlg
+		db.First(&sampleFlg, "title=?", orderPlan.SampFlg)
+		orderPlan.SampleFlgID = &sampleFlg.ID
+
 		rnd++
 	}
 	return

@@ -161,6 +161,27 @@ func Router(c *fiber.App) {
 	orderZone.Put("/:id", controllers.UpdateOrderZone)
 	orderZone.Delete("/:id", controllers.DeleteOrderZone)
 
+	// <!----->
+	orderGroupType := appRouter.Group("/orderGroupType")
+	orderGroupType.Get("", controllers.GetOrderGroupType)
+	orderGroupType.Post("", controllers.CreateOrderGroupType)
+	orderGroupType.Put("/:id", controllers.UpdateOrderGroupType)
+	orderGroupType.Delete("/:id", controllers.DeleteOrderGroupType)
+	// <!----->
+	orderGroup := appRouter.Group("/orderGroup")
+	orderGroup.Get("", controllers.GetOrderGroup)
+	orderGroup.Post("", controllers.CreateOrderGroup)
+	orderGroup.Put("/:id", controllers.UpdateOrderGroup)
+	orderGroup.Delete("/:id", controllers.DeleteOrderGroup)
+	orderGroup.Patch("", controllers.GenerateOrderGroup)
+
+	// <!----->
+	lastInvoice := appRouter.Group("/lastInvoice")
+	lastInvoice.Get("", controllers.GetLastInvoice)
+	lastInvoice.Post("", controllers.CreateLastInvoice)
+	lastInvoice.Put("/:id", controllers.UpdateLastInvoice)
+	lastInvoice.Delete("/:id", controllers.DeleteLastInvoice)
+
 	// Route Process Upload EDI
 	edi := appRouter.Group("/edi")
 	edi.Get("", controllers.GetDownloadMailBox)

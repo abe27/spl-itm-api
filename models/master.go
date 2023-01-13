@@ -397,3 +397,60 @@ func (obj *OrderZone) BeforeCreate(tx *gorm.DB) (err error) {
 	obj.ID = id
 	return
 }
+
+type LastInvoice struct {
+	ID          string    `gorm:"primaryKey;size:21" json:"id,omitempty"`
+	FactoryID   *string   `gorm:"not null;" json:"factory_id,omitempty" form:"factory_id" binding:"required"`
+	AffcodeID   *string   `gorm:"not null;" json:"affcode_id,omitempty" form:"affcode_id" binding:"required"`
+	OnYear      int64     `gorm:"not null;" json:"on_year,omitempty" form:"on_year" binding:"required"`
+	LastRunning int64     `json:"last_running,omitempty" form:"last_running" binding:"required"`
+	IsActive    bool      `json:"is_active,omitempty" form:"is_active" binding:"required"`
+	CreatedAt   time.Time `json:"created_at,omitempty" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at,omitempty" default:"now"`
+	Factory     Factory   `gorm:"foreignKey:FactoryID;references:ID" json:"factory,omitempty"`
+	Affcode     Affcode   `gorm:"foreignKey:AffcodeID;references:ID" json:"affcode,omitempty"`
+}
+
+func (obj *LastInvoice) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type OrderGroupType struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id,omitempty"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:5" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *OrderGroupType) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type OrderGroup struct {
+	ID               string          `gorm:"primaryKey;size:21" json:"id,omitempty"`
+	UserID           *string         `gorm:"not null;" json:"user_id,omitempty" form:"user_id" binding:"required"`
+	AffcodeID        *string         `gorm:"not null;" json:"affcode_id,omitempty" form:"affcode_id" binding:"required"`
+	CustomerID       *string         `gorm:"not null;" json:"customer_id,omitempty" form:"customer_id" binding:"required"`
+	OrderGroupTypeID *string         `gorm:"not null;" json:"order_group_type_id,omitempty" form:"order_group_type_id" binding:"required"`
+	SubOrder         string          `gorm:"not null;size:15" json:"sub_order,omitempty" form:"sub_order" binding:"required"`
+	Description      string          `json:"description,omitempty" form:"description" binding:"required"`
+	IsActive         bool            `json:"is_active,omitempty" form:"is_active" binding:"required"`
+	CreatedAt        time.Time       `json:"created_at,omitempty" default:"now"`
+	UpdatedAt        time.Time       `json:"updated_at,omitempty" default:"now"`
+	User             *User           `gorm:"foreignKey:UserID;references:ID" json:"user,omitempty"`
+	Affcode          *Affcode        `gorm:"foreignKey:AffcodeID;references:ID" json:"affcode,omitempty"`
+	Customer         *Customer       `gorm:"foreignKey:CustomerID;references:ID" json:"customer,omitempty"`
+	OrderGroupType   *OrderGroupType `gorm:"foreignKey:OrderGroupTypeID;references:ID" json:"order_group_type,omitempty"`
+}
+
+func (obj *OrderGroup) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
