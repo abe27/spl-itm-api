@@ -48,6 +48,15 @@ func CreateReceiveEnt(c *fiber.Ctx) error {
 	var r models.Response
 	r.At = time.Now()
 	r.StatusCode = fiber.StatusCreated
+
+	var frm models.Receive
+	if err := c.BodyParser(&frm); err != nil {
+		r.StatusCode = fiber.StatusBadRequest
+		r.Message = err.Error()
+		return c.Status(r.StatusCode).JSON(&r)
+	}
+
+	r.Message = fmt.Sprintf("บันทึกข้อมูล %s เรียบร้อยแล้ว", frm.TransferOutNo)
 	return c.Status(r.StatusCode).JSON(&r)
 }
 
