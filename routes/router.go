@@ -33,6 +33,7 @@ func Router(c *fiber.App) {
 	// User Authentication
 	auth := appRouter.Group("/auth")
 	auth.Get("/me", controllers.MemberProfile)
+	auth.Get("/logout", controllers.MemberLogOut)
 
 	// Master Group
 	area := appRouter.Group("/area")

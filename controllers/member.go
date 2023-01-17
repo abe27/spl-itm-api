@@ -99,3 +99,11 @@ func MemberProfile(c *fiber.Ctx) error {
 	r.Data = &userData
 	return c.Status(r.StatusCode).JSON(&r)
 }
+
+func MemberLogOut(c *fiber.Ctx) error {
+	var r models.Response
+	r.At = time.Now()
+	r.StatusCode = fiber.StatusOK
+	r.Message = services.SignOut(c)
+	return c.Status(r.StatusCode).JSON(&r)
+}

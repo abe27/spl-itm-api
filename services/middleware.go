@@ -121,3 +121,14 @@ func GetUserID(c *fiber.Ctx) string {
 	}
 	return *jwt.UserID
 }
+
+func SignOut(c *fiber.Ctx) string {
+	var r models.Response
+	r.At = time.Now()
+	r.StatusCode = fiber.StatusUnauthorized
+	s := c.Get("Authorization")
+	if err := configs.Store.Delete(&models.JwtToken{}, "id", strings.TrimPrefix(s, "Bearer ")).Error; err != nil {
+		panic(err)
+	}
+	return "ออกจากระบบเรียบร้อยแล้ว"
+}
