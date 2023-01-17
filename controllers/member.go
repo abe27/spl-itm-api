@@ -48,6 +48,7 @@ func MemberRegister(c *fiber.Ctx) error {
 
 func MemberAuth(c *fiber.Ctx) error {
 	var r models.Response
+	r.At = time.Now()
 	var frm models.User
 	if err := c.BodyParser(&frm); err != nil {
 		r.StatusCode = fiber.StatusBadRequest
@@ -70,7 +71,7 @@ func MemberAuth(c *fiber.Ctx) error {
 		return c.Status(r.StatusCode).JSON(&r)
 	}
 
-	r.StatusCode = fiber.StatusCreated
+	r.StatusCode = fiber.StatusOK
 	r.Message = fmt.Sprintf("%s login is successfully!", frm.UserName)
 	r.Data = services.CreateToken(&userData)
 	return c.Status(r.StatusCode).JSON(&r)
