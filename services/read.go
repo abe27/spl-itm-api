@@ -87,20 +87,6 @@ func ReadEDI(obj *models.DownloadMailBox, userID *string) (err error) {
 				db.Create(&logData)
 			}
 
-			// Initailize Ledger
-			ledger := models.Ledger{
-				AreaID:     &obj.MailBox.Area.ID,
-				FactoryID:  &obj.MailType.Factory.ID,
-				PartID:     &part.ID,
-				ItemTypeID: &itemTypeData.ID,
-				UnitID:     &unitData.ID,
-			}
-			db.FirstOrCreate(&ledger, &models.Ledger{
-				AreaID:    &obj.MailBox.Area.ID,
-				FactoryID: &obj.MailType.Factory.ID,
-				PartID:    &part.ID,
-			})
-
 			ediReceive := models.GEDIReceive{
 				Factory:          obj.MailType.Factory.Title,
 				FacZone:          txt[4:(4 + 12)],
@@ -152,6 +138,23 @@ func ReadEDI(obj *models.DownloadMailBox, userID *string) (err error) {
 			if err := db.First(&receiveType, "prefix", receiveKey[:3]).Error; err != nil {
 				log.Fatal(err)
 			}
+
+			// Initailize Ledger
+			ledger := models.Ledger{
+				WhsID:      &receiveType.WhsID,
+				AreaID:     &obj.MailBox.Area.ID,
+				FactoryID:  &obj.MailType.Factory.ID,
+				PartID:     &part.ID,
+				ItemTypeID: &itemTypeData.ID,
+				UnitID:     &unitData.ID,
+			}
+			db.FirstOrCreate(&ledger, &models.Ledger{
+				WhsID:     &receiveType.WhsID,
+				AreaID:    &obj.MailBox.Area.ID,
+				FactoryID: &obj.MailType.Factory.ID,
+				PartID:    &part.ID,
+			})
+
 			// Initailize ReceiveEnt
 			dte, _ := time.Parse("02/01/2006", ediReceive.Aetodt)
 			receiveEnt := models.Receive{
@@ -266,7 +269,7 @@ func ReadEDI(obj *models.DownloadMailBox, userID *string) (err error) {
 		orderPlan.DownloadID = &obj.ID
 
 		var orderZone models.OrderZone
-		db.Select("id").Where("value=?", orderPlan.Bioabt).Where("factory_id=?", obj.MailType.Factory.ID).First(&orderZone)
+		db.Select("id,whs_id").Where("value=?", orderPlan.Bioabt).Where("factory_id=?", obj.MailType.Factory.ID).First(&orderZone)
 		orderPlan.OrderZoneID = &orderZone.ID
 
 		affcode := models.Affcode{
@@ -325,6 +328,7 @@ func ReadEDI(obj *models.DownloadMailBox, userID *string) (err error) {
 
 		// Ledger
 		ledger := models.Ledger{
+			WhsID:       orderZone.WhsID,
 			AreaID:      &obj.MailBox.Area.ID,
 			FactoryID:   &obj.MailType.Factory.ID,
 			PartID:      &part.ID,

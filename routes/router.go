@@ -102,11 +102,23 @@ func Router(c *fiber.App) {
 	mailBox.Put("/:id", controllers.UpdateMailBox)
 	mailBox.Delete("/:id", controllers.DeleteMailBox)
 	// <!----->
+	shelve := appRouter.Group("/shelve")
+	shelve.Get("", controllers.GetShelve)
+	shelve.Post("", controllers.CreateShelve)
+	shelve.Put("/:id", controllers.UpdateShelve)
+	shelve.Delete("/:id", controllers.DeleteShelve)
+	// <!----->
 	part := appRouter.Group("/part")
 	part.Get("", controllers.GetPart)
 	part.Post("", controllers.CreatePart)
 	part.Put("/:id", controllers.UpdatePart)
 	part.Delete("/:id", controllers.DeletePart)
+	// <!----->
+	ledger := appRouter.Group("/ledger")
+	ledger.Get("", controllers.GetLedger)
+	ledger.Post("", controllers.CreateLedger)
+	ledger.Put("/:id", controllers.UpdateLedger)
+	ledger.Delete("/:id", controllers.DeleteLedger)
 	// <!----->
 	receiveType := appRouter.Group("/receiveType")
 	receiveType.Get("", controllers.GetReceiveType)
