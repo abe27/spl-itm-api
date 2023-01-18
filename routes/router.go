@@ -119,6 +119,12 @@ func Router(c *fiber.App) {
 	ledger.Post("", controllers.CreateLedger)
 	ledger.Put("/:id", controllers.UpdateLedger)
 	ledger.Delete("/:id", controllers.DeleteLedger)
+
+	ledgerCarton := appRouter.Group("/carton/list")
+	ledgerCarton.Get("", controllers.GetLedgerCarton)
+	ledgerCarton.Post("", controllers.CreateLedgerCarton)
+	ledgerCarton.Put("/:id", controllers.UpdateLedgerCarton)
+	ledgerCarton.Delete("/:id", controllers.DeleteLedgerCarton)
 	// <!----->
 	receiveType := appRouter.Group("/receiveType")
 	receiveType.Get("", controllers.GetReceiveType)
