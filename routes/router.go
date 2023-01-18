@@ -196,4 +196,10 @@ func Router(c *fiber.App) {
 	receiveEnt.Post("", controllers.CreateReceiveEnt)
 	receiveEnt.Put("/:id", controllers.UpdateReceiveEnt)
 	receiveEnt.Delete("/:id", controllers.DeleteReceiveEnt)
+
+	receiveDetail := appRouter.Group("/receiveDetail")
+	receiveDetail.Get("", controllers.GetReceiveDetail)
+	receiveDetail.Post("", controllers.CreateReceiveDetail)
+	receiveDetail.Put("/:id", controllers.UpdateReceiveDetail)
+	receiveDetail.Delete("/:id", controllers.DeleteReceiveDetail)
 }
