@@ -429,3 +429,20 @@ func ReadEDI(obj *models.DownloadMailBox, userID *string) (err error) {
 	}
 	return
 }
+
+func SubStringWire(txt string) (string, string, string) {
+	var kinds string = ""
+	var size string = ""
+	var color string = ""
+	lK := strings.Index(txt, " ")
+	if lK >= 0 {
+		txtKind := txt[:lK]
+		lSize := txt[lK+1:]
+		lS := strings.Index(lSize, " ")
+		txtColor := lSize[lS+1:]
+		kinds = txtKind
+		size = lSize[:lS]
+		color = txtColor
+	}
+	return kinds, size, color
+}

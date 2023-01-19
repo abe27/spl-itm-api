@@ -228,10 +228,17 @@ func (obj *DownloadMailBox) BeforeCreate(tx *gorm.DB) (err error) {
 	return
 }
 
+type SdPart struct {
+	Data []Part `json:"data"`
+}
+
 type Part struct {
 	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
 	Slug        string    `validate:"required,min=1,max=25" gorm:"size:25;unique;" json:"slug" form:"slug"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
+	Kinds       string    `json:"kinds" form:"kinds"`
+	Size        string    `json:"size" form:"size"`
+	Color       string    `json:"color" form:"color"`
 	Description string    `json:"description" form:"description"`
 	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
 	CreatedAt   time.Time `json:"created_at" default:"now"`
@@ -246,8 +253,8 @@ func (obj *Part) BeforeCreate(tx *gorm.DB) (err error) {
 
 type Ledger struct {
 	ID          string    `gorm:"primaryKey;size:21" json:"id"`
-	WhsID       *string   `gorm:"not null;" json:"whs_id" form:"whs_id" binding:"required"`
 	AreaID      *string   `gorm:"not null;" json:"area_id" form:"area_id" binding:"required"`
+	WhsID       *string   `gorm:"not null;" json:"whs_id" form:"whs_id" binding:"required"`
 	FactoryID   *string   `gorm:"not null;" json:"factory_id" form:"factory_id" binding:"required"`
 	PartID      *string   `gorm:"not null;" json:"part_id" form:"part_id" binding:"required"`
 	ItemTypeID  *string   `gorm:"not null;" json:"item_type_id" form:"item_type_id" binding:"required"`
@@ -458,12 +465,13 @@ func (obj *OrderGroup) BeforeCreate(tx *gorm.DB) (err error) {
 }
 
 type Shelve struct {
-	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
-	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
-	Description string    `json:"description" form:"description"`
-	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
-	CreatedAt   time.Time `json:"created_at" default:"now"`
-	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+	ID              string    `gorm:"primaryKey;size:21;" json:"id"`
+	Title           string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
+	Description     string    `json:"description" form:"description"`
+	IsPrintLocation bool      `json:"is_print_location" form:"is_print_location" default:"false"`
+	IsActive        bool      `json:"is_active" form:"is_active" default:"false"`
+	CreatedAt       time.Time `json:"created_at" default:"now"`
+	UpdatedAt       time.Time `json:"updated_at" default:"now"`
 }
 
 func (obj *Shelve) BeforeCreate(tx *gorm.DB) (err error) {

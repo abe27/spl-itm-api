@@ -1,0 +1,5184 @@
+{
+    "data": [
+        {
+            "TITLE": "113403-40070",
+            "DESCRIPTION": "113403-40070"
+        },
+        {
+            "TITLE": "113403-40110",
+            "DESCRIPTION": "11340340110"
+        },
+        {
+            "TITLE": "18000004530",
+            "DESCRIPTION": "AV 8 B"
+        },
+        {
+            "TITLE": "18000004534",
+            "DESCRIPTION": "AV 8 B\/W"
+        },
+        {
+            "TITLE": "18000004535",
+            "DESCRIPTION": "AV 8 B\/R"
+        },
+        {
+            "TITLE": "18000004537",
+            "DESCRIPTION": "AV 8 B\/Y"
+        },
+        {
+            "TITLE": "18000004540",
+            "DESCRIPTION": "AV 8 W"
+        },
+        {
+            "TITLE": "18000004543",
+            "DESCRIPTION": "AV 8 W\/B"
+        },
+        {
+            "TITLE": "18000004545",
+            "DESCRIPTION": "AV 8 W\/R"
+        },
+        {
+            "TITLE": "18000004546",
+            "DESCRIPTION": "AV 8 W\/G"
+        },
+        {
+            "TITLE": "18000004550",
+            "DESCRIPTION": "AV 8 R"
+        },
+        {
+            "TITLE": "18000004553",
+            "DESCRIPTION": "AV 8 R\/B"
+        },
+        {
+            "TITLE": "18000004554",
+            "DESCRIPTION": "AV 8 R\/W"
+        },
+        {
+            "TITLE": "18000004560",
+            "DESCRIPTION": "AV 8 G"
+        },
+        {
+            "TITLE": "18000004570",
+            "DESCRIPTION": "AV 8 Y"
+        },
+        {
+            "TITLE": "18000004580",
+            "DESCRIPTION": "AV 8 BR"
+        },
+        {
+            "TITLE": "18000004590",
+            "DESCRIPTION": "AV 8 L"
+        },
+        {
+            "TITLE": "18001403930",
+            "DESCRIPTION": "AV 0.5F B"
+        },
+        {
+            "TITLE": "18001403939",
+            "DESCRIPTION": "AV 0.5F B\/L"
+        },
+        {
+            "TITLE": "18001403946",
+            "DESCRIPTION": "AV 0.5F W\/G"
+        },
+        {
+            "TITLE": "18001403960",
+            "DESCRIPTION": "AV 0.5F G"
+        },
+        {
+            "TITLE": "18001403964",
+            "DESCRIPTION": "AV 0.5F G\/W"
+        },
+        {
+            "TITLE": "18001403973",
+            "DESCRIPTION": "AV 0.5F Y\/B"
+        },
+        {
+            "TITLE": "18001403994",
+            "DESCRIPTION": "18001403994"
+        },
+        {
+            "TITLE": "18007703717",
+            "DESCRIPTION": "AVSS 0.3F LG\/B"
+        },
+        {
+            "TITLE": "18007703718",
+            "DESCRIPTION": "AVSS 0.3F G\/O"
+        },
+        {
+            "TITLE": "18007703730",
+            "DESCRIPTION": "AVSS 0.3F B"
+        },
+        {
+            "TITLE": "18007703734",
+            "DESCRIPTION": "AVSS 0.3F B\/W"
+        },
+        {
+            "TITLE": "18007703735",
+            "DESCRIPTION": "AVSS 0.3F B\/R"
+        },
+        {
+            "TITLE": "18007703737",
+            "DESCRIPTION": "AVSS 0.3F B\/Y"
+        },
+        {
+            "TITLE": "18007703739",
+            "DESCRIPTION": "AVSS 0.3F B\/L"
+        },
+        {
+            "TITLE": "18007703740",
+            "DESCRIPTION": "AVSS 0.3F W"
+        },
+        {
+            "TITLE": "18007703741",
+            "DESCRIPTION": "AVSS 0.3F GY"
+        },
+        {
+            "TITLE": "18007703743",
+            "DESCRIPTION": "AVSS 0.3F W\/B"
+        },
+        {
+            "TITLE": "18007703745",
+            "DESCRIPTION": "AVSS 0.3F W\/R"
+        },
+        {
+            "TITLE": "18007703746",
+            "DESCRIPTION": "AVSS 0.3F W\/G"
+        },
+        {
+            "TITLE": "18007703747",
+            "DESCRIPTION": "AVSS 0.3F W\/Y"
+        },
+        {
+            "TITLE": "18007703749",
+            "DESCRIPTION": "AVSS 0.3F W\/L"
+        },
+        {
+            "TITLE": "18007703750",
+            "DESCRIPTION": "AVSS 0.3F R"
+        },
+        {
+            "TITLE": "18007703751",
+            "DESCRIPTION": "AVSS 0.3F O"
+        },
+        {
+            "TITLE": "18007703752",
+            "DESCRIPTION": "AVSS 0.3F P"
+        },
+        {
+            "TITLE": "18007703753",
+            "DESCRIPTION": "AVSS 0.3F R\/B"
+        },
+        {
+            "TITLE": "18007703754",
+            "DESCRIPTION": "AVSS 0.3F R\/W"
+        },
+        {
+            "TITLE": "18007703756",
+            "DESCRIPTION": "AVSS 0.3F R\/G"
+        },
+        {
+            "TITLE": "18007703759",
+            "DESCRIPTION": "AVSS 0.3F R\/L"
+        },
+        {
+            "TITLE": "1800770375U",
+            "DESCRIPTION": "AVSS 0.3F BE"
+        },
+        {
+            "TITLE": "18007703760",
+            "DESCRIPTION": "AVSS 0.3F G"
+        },
+        {
+            "TITLE": "18007703761",
+            "DESCRIPTION": "AVSS 0.3F LG"
+        },
+        {
+            "TITLE": "18007703763",
+            "DESCRIPTION": "AVSS 0.3F G\/B"
+        },
+        {
+            "TITLE": "18007703764",
+            "DESCRIPTION": "AVSS 0.3F G\/W"
+        },
+        {
+            "TITLE": "18007703765",
+            "DESCRIPTION": "AVSS 0.3F G\/R"
+        },
+        {
+            "TITLE": "18007703767",
+            "DESCRIPTION": "AVSS 0.3F G\/Y"
+        },
+        {
+            "TITLE": "18007703770",
+            "DESCRIPTION": "AVSS 0.3F Y"
+        },
+        {
+            "TITLE": "18007703773",
+            "DESCRIPTION": "AVSS 0.3F Y\/B"
+        },
+        {
+            "TITLE": "18007703775",
+            "DESCRIPTION": "AVSS 0.3F Y\/R"
+        },
+        {
+            "TITLE": "18007703776",
+            "DESCRIPTION": "AVSS 0.3F Y\/G"
+        },
+        {
+            "TITLE": "18007703777",
+            "DESCRIPTION": "AVSS 0.3F O\/L"
+        },
+        {
+            "TITLE": "18007703779",
+            "DESCRIPTION": "AVSS 0.3F Y\/L"
+        },
+        {
+            "TITLE": "18007703780",
+            "DESCRIPTION": "AVSS 0.3F BR"
+        },
+        {
+            "TITLE": "18007703790",
+            "DESCRIPTION": "AVSS 0.3F L"
+        },
+        {
+            "TITLE": "18007703791",
+            "DESCRIPTION": "AVSS 0.3F SB"
+        },
+        {
+            "TITLE": "18007703792",
+            "DESCRIPTION": "AVSS 0.3F V"
+        },
+        {
+            "TITLE": "18007703793",
+            "DESCRIPTION": "AVSS 0.3F L\/B"
+        },
+        {
+            "TITLE": "18007703794",
+            "DESCRIPTION": "AVSS 0.3F L\/W"
+        },
+        {
+            "TITLE": "18007703795",
+            "DESCRIPTION": "AVSS 0.3F L\/R"
+        },
+        {
+            "TITLE": "18007703796",
+            "DESCRIPTION": "AVSS 0.3F L\/G"
+        },
+        {
+            "TITLE": "18007703797",
+            "DESCRIPTION": "AVSS 0.3F L\/Y"
+        },
+        {
+            "TITLE": "180077037G4",
+            "DESCRIPTION": "AVSS 0.3F V\/R"
+        },
+        {
+            "TITLE": "18007703900",
+            "DESCRIPTION": "AVSS 0.5F P\/W"
+        },
+        {
+            "TITLE": "18007703903",
+            "DESCRIPTION": "AVSS 0.5F B\/O"
+        },
+        {
+            "TITLE": "18007703904",
+            "DESCRIPTION": "AVSS 0.5F O\/W"
+        },
+        {
+            "TITLE": "18007703907",
+            "DESCRIPTION": "AVSS 0.5F P\/B"
+        },
+        {
+            "TITLE": "18007703909",
+            "DESCRIPTION": "AVSS 0.5F LG\/R"
+        },
+        {
+            "TITLE": "18007703910",
+            "DESCRIPTION": "AVSS 0.5F GY\/R"
+        },
+        {
+            "TITLE": "18007703911",
+            "DESCRIPTION": "AVSS 0.5F GY\/L"
+        },
+        {
+            "TITLE": "18007703914",
+            "DESCRIPTION": "AVSS 0.5F L\/O"
+        },
+        {
+            "TITLE": "18007703917",
+            "DESCRIPTION": "AVSS 0.5F LG\/B"
+        },
+        {
+            "TITLE": "18007703918",
+            "DESCRIPTION": "AVSS 0.5F G\/O"
+        },
+        {
+            "TITLE": "18007703928",
+            "DESCRIPTION": "AVSS 0.5F LG\/Y"
+        },
+        {
+            "TITLE": "18007703929",
+            "DESCRIPTION": "AVSS 0.5F LG\/W"
+        },
+        {
+            "TITLE": "18007703930",
+            "DESCRIPTION": "AVSS 0.5F B"
+        },
+        {
+            "TITLE": "18007703934",
+            "DESCRIPTION": "AVSS 0.5F B\/W"
+        },
+        {
+            "TITLE": "18007703935",
+            "DESCRIPTION": "AVSS 0.5F B\/R"
+        },
+        {
+            "TITLE": "18007703936",
+            "DESCRIPTION": "AVSS 0.5F B\/G"
+        },
+        {
+            "TITLE": "18007703937",
+            "DESCRIPTION": "AVSS 0.5F B\/Y"
+        },
+        {
+            "TITLE": "18007703939",
+            "DESCRIPTION": "AVSS 0.5F B\/L"
+        },
+        {
+            "TITLE": "18007703940",
+            "DESCRIPTION": "AVSS 0.5F W"
+        },
+        {
+            "TITLE": "18007703941",
+            "DESCRIPTION": "AVSS 0.5F GY"
+        },
+        {
+            "TITLE": "18007703943",
+            "DESCRIPTION": "AVSS 0.5F W\/B"
+        },
+        {
+            "TITLE": "18007703945",
+            "DESCRIPTION": "AVSS 0.5F W\/R"
+        },
+        {
+            "TITLE": "18007703946",
+            "DESCRIPTION": "AVSS 0.5F W\/G"
+        },
+        {
+            "TITLE": "18007703947",
+            "DESCRIPTION": "AVSS 0.5F W\/Y"
+        },
+        {
+            "TITLE": "18007703949",
+            "DESCRIPTION": "AVSS 0.5F W\/L"
+        },
+        {
+            "TITLE": "18007703950",
+            "DESCRIPTION": "AVSS 0.5F R"
+        },
+        {
+            "TITLE": "18007703951",
+            "DESCRIPTION": "AVSS 0.5F O"
+        },
+        {
+            "TITLE": "18007703952",
+            "DESCRIPTION": "AVSS 0.5F P"
+        },
+        {
+            "TITLE": "18007703953",
+            "DESCRIPTION": "AVSS 0.5F R\/B"
+        },
+        {
+            "TITLE": "18007703954",
+            "DESCRIPTION": "AVSS 0.5F R\/W"
+        },
+        {
+            "TITLE": "18007703956",
+            "DESCRIPTION": "AVSS 0.5F R\/G"
+        },
+        {
+            "TITLE": "18007703957",
+            "DESCRIPTION": "AVSS 0.5F R\/Y"
+        },
+        {
+            "TITLE": "18007703959",
+            "DESCRIPTION": "AVSS 0.5F R\/L"
+        },
+        {
+            "TITLE": "18007703960",
+            "DESCRIPTION": "AVSS 0.5F G"
+        },
+        {
+            "TITLE": "18007703961",
+            "DESCRIPTION": "AVSS 0.5F LG"
+        },
+        {
+            "TITLE": "18007703963",
+            "DESCRIPTION": "AVSS 0.5F G\/B"
+        },
+        {
+            "TITLE": "18007703964",
+            "DESCRIPTION": "AVSS 0.5F G\/W"
+        },
+        {
+            "TITLE": "18007703965",
+            "DESCRIPTION": "AVSS 0.5F G\/R"
+        },
+        {
+            "TITLE": "18007703967",
+            "DESCRIPTION": "AVSS 0.5F G\/Y"
+        },
+        {
+            "TITLE": "18007703969",
+            "DESCRIPTION": "AVSS 0.5F G\/L"
+        },
+        {
+            "TITLE": "18007703970",
+            "DESCRIPTION": "AVSS 0.5F Y"
+        },
+        {
+            "TITLE": "18007703973",
+            "DESCRIPTION": "AVSS 0.5F Y\/B"
+        },
+        {
+            "TITLE": "18007703974",
+            "DESCRIPTION": "AVSS 0.5F Y\/W"
+        },
+        {
+            "TITLE": "18007703975",
+            "DESCRIPTION": "AVSS 0.5F Y\/R"
+        },
+        {
+            "TITLE": "18007703976",
+            "DESCRIPTION": "AVSS 0.5F Y\/G"
+        },
+        {
+            "TITLE": "18007703977",
+            "DESCRIPTION": "AVSS 0.5F O\/L"
+        },
+        {
+            "TITLE": "18007703979",
+            "DESCRIPTION": "AVSS 0.5F Y\/L"
+        },
+        {
+            "TITLE": "18007703980",
+            "DESCRIPTION": "AVSS 0.5F BR"
+        },
+        {
+            "TITLE": "18007703983",
+            "DESCRIPTION": "AVSS 0.5F BR\/B"
+        },
+        {
+            "TITLE": "18007703984",
+            "DESCRIPTION": "AVSS 0.5F BR\/W"
+        },
+        {
+            "TITLE": "18007703985",
+            "DESCRIPTION": "AVSS 0.5F BR\/R"
+        },
+        {
+            "TITLE": "18007703987",
+            "DESCRIPTION": "AVSS 0.5F BR\/Y"
+        },
+        {
+            "TITLE": "18007703990",
+            "DESCRIPTION": "AVSS 0.5F L"
+        },
+        {
+            "TITLE": "18007703991",
+            "DESCRIPTION": "AVSS 0.5F SB"
+        },
+        {
+            "TITLE": "18007703992",
+            "DESCRIPTION": "AVSS 0.5F V"
+        },
+        {
+            "TITLE": "18007703993",
+            "DESCRIPTION": "AVSS 0.5F L\/B"
+        },
+        {
+            "TITLE": "18007703994",
+            "DESCRIPTION": "AVSS 0.5F L\/W"
+        },
+        {
+            "TITLE": "18007703995",
+            "DESCRIPTION": "AVSS 0.5F L\/R"
+        },
+        {
+            "TITLE": "18007703996",
+            "DESCRIPTION": "AVSS 0.5F L\/G"
+        },
+        {
+            "TITLE": "18007703997",
+            "DESCRIPTION": "AVSS 0.5F L\/Y"
+        },
+        {
+            "TITLE": "180077039A8",
+            "DESCRIPTION": "AVSS 0.5F B\/P"
+        },
+        {
+            "TITLE": "180077039F0",
+            "DESCRIPTION": "AVSS 0.5F GY\/B"
+        },
+        {
+            "TITLE": "180077039F7",
+            "DESCRIPTION": "AVSS 0.5F V\/Y"
+        },
+        {
+            "TITLE": "180077039G1",
+            "DESCRIPTION": "AVSS 0.5F Y\/V"
+        },
+        {
+            "TITLE": "180077039G4",
+            "DESCRIPTION": "AVSS 0.5F V\/R"
+        },
+        {
+            "TITLE": "180077039G6",
+            "DESCRIPTION": "AVSS 0.5F P\/L"
+        },
+        {
+            "TITLE": "180077039G9",
+            "DESCRIPTION": "AVSS 0.5F V\/G"
+        },
+        {
+            "TITLE": "180077039H1",
+            "DESCRIPTION": "AVSS 0.5F GY\/G"
+        },
+        {
+            "TITLE": "180077039H2",
+            "DESCRIPTION": "AVSS 0.5F P\/G"
+        },
+        {
+            "TITLE": "180077039H7",
+            "DESCRIPTION": "AVSS 0.5F GY\/W"
+        },
+        {
+            "TITLE": "180077039M3",
+            "DESCRIPTION": "AVSS 0.5F O\/B"
+        },
+        {
+            "TITLE": "18007704003",
+            "DESCRIPTION": "AVSS 0.75F B\/O"
+        },
+        {
+            "TITLE": "18007704009",
+            "DESCRIPTION": "AVSS 0.75F LG\/R"
+        },
+        {
+            "TITLE": "18007704010",
+            "DESCRIPTION": "AVSS 0.75F GY\/R"
+        },
+        {
+            "TITLE": "18007704011",
+            "DESCRIPTION": "AVSS 0.75F GY\/L"
+        },
+        {
+            "TITLE": "18007704030",
+            "DESCRIPTION": "AVSS 0.75F B"
+        },
+        {
+            "TITLE": "18007704033",
+            "DESCRIPTION": "AVSS 0.75F V\/W"
+        },
+        {
+            "TITLE": "18007704034",
+            "DESCRIPTION": "AVSS 0.75F B\/W"
+        },
+        {
+            "TITLE": "18007704035",
+            "DESCRIPTION": "AVSS 0.75F B\/R"
+        },
+        {
+            "TITLE": "18007704036",
+            "DESCRIPTION": "AVSS 0.75F B\/G"
+        },
+        {
+            "TITLE": "18007704037",
+            "DESCRIPTION": "AVSS 0.75F B\/Y"
+        },
+        {
+            "TITLE": "18007704039",
+            "DESCRIPTION": "AVSS 0.75F B\/L"
+        },
+        {
+            "TITLE": "18007704040",
+            "DESCRIPTION": "AVSS 0.75F W"
+        },
+        {
+            "TITLE": "18007704041",
+            "DESCRIPTION": "AVSS 0.75F GY"
+        },
+        {
+            "TITLE": "18007704043",
+            "DESCRIPTION": "AVSS 0.75F W\/B"
+        },
+        {
+            "TITLE": "18007704045",
+            "DESCRIPTION": "AVSS 0.75F W\/R"
+        },
+        {
+            "TITLE": "18007704046",
+            "DESCRIPTION": "AVSS 0.75F W\/G"
+        },
+        {
+            "TITLE": "18007704049",
+            "DESCRIPTION": "AVSS 0.75F W\/L"
+        },
+        {
+            "TITLE": "18007704050",
+            "DESCRIPTION": "AVSS 0.75F R"
+        },
+        {
+            "TITLE": "18007704051",
+            "DESCRIPTION": "AVSS 0.75F O"
+        },
+        {
+            "TITLE": "18007704052",
+            "DESCRIPTION": "AVSS 0.75F P"
+        },
+        {
+            "TITLE": "18007704053",
+            "DESCRIPTION": "AVSS 0.75F R\/B"
+        },
+        {
+            "TITLE": "18007704054",
+            "DESCRIPTION": "AVSS 0.75F R\/W"
+        },
+        {
+            "TITLE": "18007704056",
+            "DESCRIPTION": "AVSS 0.75F R\/G"
+        },
+        {
+            "TITLE": "18007704057",
+            "DESCRIPTION": "AVSS 0.75F R\/Y"
+        },
+        {
+            "TITLE": "18007704059",
+            "DESCRIPTION": "AVSS 0.75F R\/L"
+        },
+        {
+            "TITLE": "18007704060",
+            "DESCRIPTION": "AVSS 0.75F G"
+        },
+        {
+            "TITLE": "18007704061",
+            "DESCRIPTION": "AVSS 0.75F LG"
+        },
+        {
+            "TITLE": "18007704063",
+            "DESCRIPTION": "AVSS 0.75F G\/B"
+        },
+        {
+            "TITLE": "18007704064",
+            "DESCRIPTION": "AVSS 0.75F G\/W"
+        },
+        {
+            "TITLE": "18007704065",
+            "DESCRIPTION": "AVSS 0.75F G\/R"
+        },
+        {
+            "TITLE": "18007704067",
+            "DESCRIPTION": "AVSS 0.75F G\/Y"
+        },
+        {
+            "TITLE": "18007704069",
+            "DESCRIPTION": "AVSS 0.75F G\/L"
+        },
+        {
+            "TITLE": "18007704070",
+            "DESCRIPTION": "AVSS 0.75F Y"
+        },
+        {
+            "TITLE": "18007704073",
+            "DESCRIPTION": "AVSS 0.75F Y\/B"
+        },
+        {
+            "TITLE": "18007704075",
+            "DESCRIPTION": "AVSS 0.75F Y\/R"
+        },
+        {
+            "TITLE": "18007704076",
+            "DESCRIPTION": "AVSS 0.75F Y\/G"
+        },
+        {
+            "TITLE": "18007704077",
+            "DESCRIPTION": "AVSS 0.75F O\/L"
+        },
+        {
+            "TITLE": "18007704079",
+            "DESCRIPTION": "AVSS 0.75F Y\/L"
+        },
+        {
+            "TITLE": "18007704080",
+            "DESCRIPTION": "AVSS 0.75F BR"
+        },
+        {
+            "TITLE": "18007704084",
+            "DESCRIPTION": "AVSS 0.75F BR\/W"
+        },
+        {
+            "TITLE": "18007704087",
+            "DESCRIPTION": "AVSS 0.75F BR\/Y"
+        },
+        {
+            "TITLE": "18007704090",
+            "DESCRIPTION": "AVSS 0.75F L"
+        },
+        {
+            "TITLE": "18007704091",
+            "DESCRIPTION": "AVSS 0.75F SB"
+        },
+        {
+            "TITLE": "18007704092",
+            "DESCRIPTION": "AVSS 0.75F V"
+        },
+        {
+            "TITLE": "18007704093",
+            "DESCRIPTION": "AVSS 0.75F L\/B"
+        },
+        {
+            "TITLE": "18007704094",
+            "DESCRIPTION": "AVSS 0.75F L\/W"
+        },
+        {
+            "TITLE": "18007704095",
+            "DESCRIPTION": "AVSS 0.75F L\/R"
+        },
+        {
+            "TITLE": "18007704096",
+            "DESCRIPTION": "AVSS 0.75F L\/G"
+        },
+        {
+            "TITLE": "18007704097",
+            "DESCRIPTION": "AVSS 0.75F L\/Y"
+        },
+        {
+            "TITLE": "180077040A8",
+            "DESCRIPTION": "180077040A8"
+        },
+        {
+            "TITLE": "180077040F0",
+            "DESCRIPTION": "AVSS 0.75F GY\/B"
+        },
+        {
+            "TITLE": "180077040F7",
+            "DESCRIPTION": "AVSS 0.75F V\/Y"
+        },
+        {
+            "TITLE": "180077040G9",
+            "DESCRIPTION": "AVSS 0.75F V\/G"
+        },
+        {
+            "TITLE": "180077040H1",
+            "DESCRIPTION": "AVSS 0.75F GY\/G"
+        },
+        {
+            "TITLE": "180077040H2",
+            "DESCRIPTION": "AVSS 0.75F P\/G"
+        },
+        {
+            "TITLE": "180077040M3",
+            "DESCRIPTION": "AVSS 0.75F O\/B"
+        },
+        {
+            "TITLE": "18007704103",
+            "DESCRIPTION": "18007704103"
+        },
+        {
+            "TITLE": "18007704130",
+            "DESCRIPTION": "AVSS 1.25F B"
+        },
+        {
+            "TITLE": "18007704134",
+            "DESCRIPTION": "AVSS 1.25F B\/W"
+        },
+        {
+            "TITLE": "18007704135",
+            "DESCRIPTION": "AVSS 1.25F B\/R"
+        },
+        {
+            "TITLE": "18007704136",
+            "DESCRIPTION": "AVSS 1.25F B\/G"
+        },
+        {
+            "TITLE": "18007704137",
+            "DESCRIPTION": "AVSS 1.25F B\/Y"
+        },
+        {
+            "TITLE": "18007704139",
+            "DESCRIPTION": "AVSS 1.25F B\/L"
+        },
+        {
+            "TITLE": "18007704140",
+            "DESCRIPTION": "AVSS 1.25F W"
+        },
+        {
+            "TITLE": "18007704141",
+            "DESCRIPTION": "AVSS 1.25F GY"
+        },
+        {
+            "TITLE": "18007704143",
+            "DESCRIPTION": "AVSS 1.25F W\/B"
+        },
+        {
+            "TITLE": "18007704145",
+            "DESCRIPTION": "AVSS 1.25F W\/R"
+        },
+        {
+            "TITLE": "18007704146",
+            "DESCRIPTION": "AVSS 1.25F W\/G"
+        },
+        {
+            "TITLE": "18007704149",
+            "DESCRIPTION": "AVSS 1.25F W\/L"
+        },
+        {
+            "TITLE": "18007704150",
+            "DESCRIPTION": "AVSS 1.25F R"
+        },
+        {
+            "TITLE": "18007704151",
+            "DESCRIPTION": "AVSS 1.25F O"
+        },
+        {
+            "TITLE": "18007704152",
+            "DESCRIPTION": "AVSS 1.25F P"
+        },
+        {
+            "TITLE": "18007704153",
+            "DESCRIPTION": "AVSS 1.25F R\/B"
+        },
+        {
+            "TITLE": "18007704154",
+            "DESCRIPTION": "AVSS 1.25F R\/W"
+        },
+        {
+            "TITLE": "18007704156",
+            "DESCRIPTION": "AVSS 1.25F R\/G"
+        },
+        {
+            "TITLE": "18007704157",
+            "DESCRIPTION": "AVSS 1.25F R\/Y"
+        },
+        {
+            "TITLE": "18007704159",
+            "DESCRIPTION": "AVSS 1.25F R\/L"
+        },
+        {
+            "TITLE": "18007704160",
+            "DESCRIPTION": "AVSS 1.25F G"
+        },
+        {
+            "TITLE": "18007704161",
+            "DESCRIPTION": "AVSS 1.25F LG"
+        },
+        {
+            "TITLE": "18007704163",
+            "DESCRIPTION": "AVSS 1.25F G\/B"
+        },
+        {
+            "TITLE": "18007704165",
+            "DESCRIPTION": "AVSS 1.25F G\/R"
+        },
+        {
+            "TITLE": "18007704167",
+            "DESCRIPTION": "AVSS 1.25F G\/Y"
+        },
+        {
+            "TITLE": "18007704169",
+            "DESCRIPTION": "AVSS 1.25F G\/L"
+        },
+        {
+            "TITLE": "18007704170",
+            "DESCRIPTION": "AVSS 1.25F Y"
+        },
+        {
+            "TITLE": "18007704173",
+            "DESCRIPTION": "AVSS 1.25F Y\/B"
+        },
+        {
+            "TITLE": "18007704174",
+            "DESCRIPTION": "AVSS 1.25F Y\/W"
+        },
+        {
+            "TITLE": "18007704175",
+            "DESCRIPTION": "AVSS 1.25F Y\/R"
+        },
+        {
+            "TITLE": "18007704176",
+            "DESCRIPTION": "AVSS 1.25F Y\/G"
+        },
+        {
+            "TITLE": "18007704179",
+            "DESCRIPTION": "AVSS 1.25F Y\/L"
+        },
+        {
+            "TITLE": "18007704180",
+            "DESCRIPTION": "AVSS 1.25F BR"
+        },
+        {
+            "TITLE": "18007704183",
+            "DESCRIPTION": "AVSS 1.25F BR\/B"
+        },
+        {
+            "TITLE": "18007704184",
+            "DESCRIPTION": "AVSS 1.25F BR\/W"
+        },
+        {
+            "TITLE": "18007704185",
+            "DESCRIPTION": "AVSS 1.25F BR\/R"
+        },
+        {
+            "TITLE": "18007704187",
+            "DESCRIPTION": "AVSS 1.25F BR\/Y"
+        },
+        {
+            "TITLE": "18007704190",
+            "DESCRIPTION": "AVSS 1.25F L"
+        },
+        {
+            "TITLE": "18007704192",
+            "DESCRIPTION": "AVSS 1.25F V"
+        },
+        {
+            "TITLE": "18007704193",
+            "DESCRIPTION": "AVSS 1.25F L\/B"
+        },
+        {
+            "TITLE": "18007704194",
+            "DESCRIPTION": "AVSS 1.25F L\/W"
+        },
+        {
+            "TITLE": "18007704195",
+            "DESCRIPTION": "AVSS 1.25F L\/R"
+        },
+        {
+            "TITLE": "18007704197",
+            "DESCRIPTION": "AVSS 1.25F L\/Y"
+        },
+        {
+            "TITLE": "18007704218",
+            "DESCRIPTION": "AVSS 2.F G\/O"
+        },
+        {
+            "TITLE": "18007704230",
+            "DESCRIPTION": "AVSS 2F B"
+        },
+        {
+            "TITLE": "18007704234",
+            "DESCRIPTION": "AVSS 2.F B\/W"
+        },
+        {
+            "TITLE": "18007704235",
+            "DESCRIPTION": "AVSS 2.F B\/R"
+        },
+        {
+            "TITLE": "18007704237",
+            "DESCRIPTION": "AVSS 2F B\/Y"
+        },
+        {
+            "TITLE": "18007704239",
+            "DESCRIPTION": "AVSS 2.F B\/L"
+        },
+        {
+            "TITLE": "18007704240",
+            "DESCRIPTION": "AVSS 2F W"
+        },
+        {
+            "TITLE": "18007704241",
+            "DESCRIPTION": "AVSS 2.F GY"
+        },
+        {
+            "TITLE": "18007704243",
+            "DESCRIPTION": "AVSS 2F W\/B"
+        },
+        {
+            "TITLE": "18007704245",
+            "DESCRIPTION": "AVSS 2.F W\/R"
+        },
+        {
+            "TITLE": "18007704246",
+            "DESCRIPTION": "AVSS 2F W\/G"
+        },
+        {
+            "TITLE": "18007704249",
+            "DESCRIPTION": "AVSS 2.F W\/L"
+        },
+        {
+            "TITLE": "18007704250",
+            "DESCRIPTION": "AVSS 2F R"
+        },
+        {
+            "TITLE": "18007704251",
+            "DESCRIPTION": "AVSS 2.F O"
+        },
+        {
+            "TITLE": "18007704252",
+            "DESCRIPTION": "AVSS 2.F P"
+        },
+        {
+            "TITLE": "18007704253",
+            "DESCRIPTION": "AVSS 2.F R\/B"
+        },
+        {
+            "TITLE": "18007704254",
+            "DESCRIPTION": "AVSS 2F R\/W"
+        },
+        {
+            "TITLE": "18007704256",
+            "DESCRIPTION": "AVSS 2.F R\/G"
+        },
+        {
+            "TITLE": "18007704257",
+            "DESCRIPTION": "AVSS 2.F R\/Y"
+        },
+        {
+            "TITLE": "18007704259",
+            "DESCRIPTION": "AVSS 2.F R\/L"
+        },
+        {
+            "TITLE": "1800770425U",
+            "DESCRIPTION": "AVSS 2.F BE"
+        },
+        {
+            "TITLE": "18007704260",
+            "DESCRIPTION": "AVSS 2F G"
+        },
+        {
+            "TITLE": "18007704261",
+            "DESCRIPTION": "AVSS 2.F LG"
+        },
+        {
+            "TITLE": "18007704263",
+            "DESCRIPTION": "AVSS 2.F G\/B"
+        },
+        {
+            "TITLE": "18007704264",
+            "DESCRIPTION": "AVSS 2.F G\/W"
+        },
+        {
+            "TITLE": "18007704265",
+            "DESCRIPTION": "AVSS 2.F G\/R"
+        },
+        {
+            "TITLE": "18007704267",
+            "DESCRIPTION": "AVSS 2.F G\/Y"
+        },
+        {
+            "TITLE": "18007704270",
+            "DESCRIPTION": "AVSS 2F Y"
+        },
+        {
+            "TITLE": "18007704273",
+            "DESCRIPTION": "AVSS 2.F Y\/B"
+        },
+        {
+            "TITLE": "18007704275",
+            "DESCRIPTION": "AVSS 2.F Y\/R"
+        },
+        {
+            "TITLE": "18007704276",
+            "DESCRIPTION": "AVSS 2.F Y\/G"
+        },
+        {
+            "TITLE": "18007704279",
+            "DESCRIPTION": "AVSS 2.F Y\/L"
+        },
+        {
+            "TITLE": "18007704280",
+            "DESCRIPTION": "AVSS 2.F BR"
+        },
+        {
+            "TITLE": "18007704287",
+            "DESCRIPTION": "AVSS 2F BR\/Y"
+        },
+        {
+            "TITLE": "18007704290",
+            "DESCRIPTION": "AVSS 2F L"
+        },
+        {
+            "TITLE": "18007704291",
+            "DESCRIPTION": "AVSS 2.F SB"
+        },
+        {
+            "TITLE": "18007704292",
+            "DESCRIPTION": "AVSS 2.F V"
+        },
+        {
+            "TITLE": "18007704293",
+            "DESCRIPTION": "AVSS 2.F L\/B"
+        },
+        {
+            "TITLE": "18007704294",
+            "DESCRIPTION": "AVSS 2F L\/W"
+        },
+        {
+            "TITLE": "18007704295",
+            "DESCRIPTION": "AVSS 2.F L\/R"
+        },
+        {
+            "TITLE": "18007704297",
+            "DESCRIPTION": "AVSS 2.F L\/Y"
+        },
+        {
+            "TITLE": "180077042G6",
+            "DESCRIPTION": "AVSS 2F P\/L"
+        },
+        {
+            "TITLE": "18009603914",
+            "DESCRIPTION": "AVS 0.5 L\/O"
+        },
+        {
+            "TITLE": "18009603917",
+            "DESCRIPTION": "AVS 0.5 LG\/B"
+        },
+        {
+            "TITLE": "18009603918",
+            "DESCRIPTION": "AVS 0.5 G\/O"
+        },
+        {
+            "TITLE": "18009603930",
+            "DESCRIPTION": "AVS 0.5 B"
+        },
+        {
+            "TITLE": "18009603934",
+            "DESCRIPTION": "AVS 0.5 B\/W"
+        },
+        {
+            "TITLE": "18009603935",
+            "DESCRIPTION": "AVS 0.5 B\/R"
+        },
+        {
+            "TITLE": "18009603936",
+            "DESCRIPTION": "AVS 0.5 B\/G"
+        },
+        {
+            "TITLE": "18009603937",
+            "DESCRIPTION": "AVS 0.5 B\/Y"
+        },
+        {
+            "TITLE": "18009603939",
+            "DESCRIPTION": "AVS 0.5 B\/L"
+        },
+        {
+            "TITLE": "18009603940",
+            "DESCRIPTION": "AVS 05 W"
+        },
+        {
+            "TITLE": "18009603941",
+            "DESCRIPTION": "AVS 0.5 GY"
+        },
+        {
+            "TITLE": "18009603943",
+            "DESCRIPTION": "AVS 0.5 W\/B"
+        },
+        {
+            "TITLE": "18009603945",
+            "DESCRIPTION": "AVS 0.5 W\/R"
+        },
+        {
+            "TITLE": "18009603946",
+            "DESCRIPTION": "AVS 0.5 W\/G"
+        },
+        {
+            "TITLE": "18009603949",
+            "DESCRIPTION": "AVS 0.5 W\/L"
+        },
+        {
+            "TITLE": "18009603950",
+            "DESCRIPTION": "AVS 0.5 R"
+        },
+        {
+            "TITLE": "18009603952",
+            "DESCRIPTION": "AVS 0.5 P"
+        },
+        {
+            "TITLE": "18009603953",
+            "DESCRIPTION": "AVS 0.5 R\/B"
+        },
+        {
+            "TITLE": "18009603954",
+            "DESCRIPTION": "AVS 0.5 R\/W"
+        },
+        {
+            "TITLE": "18009603956",
+            "DESCRIPTION": "AVS 0.5 R\/G"
+        },
+        {
+            "TITLE": "18009603957",
+            "DESCRIPTION": "AVS 0.5 R\/Y"
+        },
+        {
+            "TITLE": "18009603959",
+            "DESCRIPTION": "AVS 05 R\/L"
+        },
+        {
+            "TITLE": "18009603960",
+            "DESCRIPTION": "AVS 05 G"
+        },
+        {
+            "TITLE": "18009603961",
+            "DESCRIPTION": "AVS 0.5 LG"
+        },
+        {
+            "TITLE": "18009603963",
+            "DESCRIPTION": "AVS 0.5 G\/B"
+        },
+        {
+            "TITLE": "18009603964",
+            "DESCRIPTION": "AVS 0.5 G\/W"
+        },
+        {
+            "TITLE": "18009603965",
+            "DESCRIPTION": "AVS 0.5 G\/R"
+        },
+        {
+            "TITLE": "18009603969",
+            "DESCRIPTION": "AVS 0.5 G\/L"
+        },
+        {
+            "TITLE": "18009603970",
+            "DESCRIPTION": "AVS 0.5 Y"
+        },
+        {
+            "TITLE": "18009603973",
+            "DESCRIPTION": "AVS 0.5 Y\/B"
+        },
+        {
+            "TITLE": "18009603975",
+            "DESCRIPTION": "AVS 0.5 Y\/R"
+        },
+        {
+            "TITLE": "18009603976",
+            "DESCRIPTION": "AVS 0.5 Y\/G"
+        },
+        {
+            "TITLE": "18009603978",
+            "DESCRIPTION": "AVS 0.5 Y\/BR"
+        },
+        {
+            "TITLE": "18009603979",
+            "DESCRIPTION": "AVS 0.5 Y\/L"
+        },
+        {
+            "TITLE": "18009603980",
+            "DESCRIPTION": "AVS 0.5 BR"
+        },
+        {
+            "TITLE": "18009603984",
+            "DESCRIPTION": "AVS 0.5 BR\/W"
+        },
+        {
+            "TITLE": "18009603987",
+            "DESCRIPTION": "AVS 0.5 BR\/Y"
+        },
+        {
+            "TITLE": "18009603990",
+            "DESCRIPTION": "AVS 0.5 L"
+        },
+        {
+            "TITLE": "18009603991",
+            "DESCRIPTION": "AVS 0.5 SB"
+        },
+        {
+            "TITLE": "18009603992",
+            "DESCRIPTION": "AVS 0.5 V"
+        },
+        {
+            "TITLE": "18009603993",
+            "DESCRIPTION": "AVS 0.5 L\/B"
+        },
+        {
+            "TITLE": "18009603994",
+            "DESCRIPTION": "AVS 0.5 L\/W"
+        },
+        {
+            "TITLE": "18009603995",
+            "DESCRIPTION": "AVS 0.5 L\/R"
+        },
+        {
+            "TITLE": "18009603997",
+            "DESCRIPTION": "AVS 0.5 L\/Y"
+        },
+        {
+            "TITLE": "180096039F7",
+            "DESCRIPTION": "AVS 0.5 V\/Y"
+        },
+        {
+            "TITLE": "180096039G9",
+            "DESCRIPTION": "AVS 0.5 V\/G"
+        },
+        {
+            "TITLE": "180096039H2",
+            "DESCRIPTION": "AVS 0.5 P\/G"
+        },
+        {
+            "TITLE": "18009604018",
+            "DESCRIPTION": "AVS 0.85 G\/O"
+        },
+        {
+            "TITLE": "18009604030",
+            "DESCRIPTION": "AVS 0.85 B"
+        },
+        {
+            "TITLE": "18009604034",
+            "DESCRIPTION": "AVS 0.85 B\/W"
+        },
+        {
+            "TITLE": "18009604035",
+            "DESCRIPTION": "AVS 0.85 B\/R"
+        },
+        {
+            "TITLE": "18009604036",
+            "DESCRIPTION": "AVS 0.85 B\/G"
+        },
+        {
+            "TITLE": "18009604037",
+            "DESCRIPTION": "AVS 0.85 B\/Y"
+        },
+        {
+            "TITLE": "18009604039",
+            "DESCRIPTION": "AVS 0.85 B\/L"
+        },
+        {
+            "TITLE": "18009604040",
+            "DESCRIPTION": "AVS 0.85 W"
+        },
+        {
+            "TITLE": "18009604041",
+            "DESCRIPTION": "AVS 0.85 GY"
+        },
+        {
+            "TITLE": "18009604043",
+            "DESCRIPTION": "AVS 0.85 W\/B"
+        },
+        {
+            "TITLE": "18009604045",
+            "DESCRIPTION": "AVS 0.85 W\/R"
+        },
+        {
+            "TITLE": "18009604046",
+            "DESCRIPTION": "AVS 0.85 W\/G"
+        },
+        {
+            "TITLE": "18009604049",
+            "DESCRIPTION": "AVS 0.85 W\/L"
+        },
+        {
+            "TITLE": "18009604050",
+            "DESCRIPTION": "AVS 0.85 R"
+        },
+        {
+            "TITLE": "18009604052",
+            "DESCRIPTION": "AVS 0.85 P"
+        },
+        {
+            "TITLE": "18009604053",
+            "DESCRIPTION": "AVS 0.85 R\/B"
+        },
+        {
+            "TITLE": "18009604054",
+            "DESCRIPTION": "AVS 0.85 R\/W"
+        },
+        {
+            "TITLE": "18009604056",
+            "DESCRIPTION": "AVS 0.85 R\/G"
+        },
+        {
+            "TITLE": "18009604057",
+            "DESCRIPTION": "AVS 0.85 R\/Y"
+        },
+        {
+            "TITLE": "18009604059",
+            "DESCRIPTION": "AVS 0.85 R\/L"
+        },
+        {
+            "TITLE": "18009604060",
+            "DESCRIPTION": "AVS 0.85 G"
+        },
+        {
+            "TITLE": "18009604061",
+            "DESCRIPTION": "AVS 0.85 LG"
+        },
+        {
+            "TITLE": "18009604063",
+            "DESCRIPTION": "AVS 0.85 G\/B"
+        },
+        {
+            "TITLE": "18009604064",
+            "DESCRIPTION": "AVS 0.85 G\/W"
+        },
+        {
+            "TITLE": "18009604065",
+            "DESCRIPTION": "AVS 0.85 G\/R"
+        },
+        {
+            "TITLE": "18009604067",
+            "DESCRIPTION": "AVS 0.85 G\/Y"
+        },
+        {
+            "TITLE": "18009604070",
+            "DESCRIPTION": "AVS 0.85 Y"
+        },
+        {
+            "TITLE": "18009604075",
+            "DESCRIPTION": "AVS 0.85 Y\/R"
+        },
+        {
+            "TITLE": "18009604076",
+            "DESCRIPTION": "AVS 0.85 Y\/G"
+        },
+        {
+            "TITLE": "18009604079",
+            "DESCRIPTION": "AVS 0.85 Y\/L"
+        },
+        {
+            "TITLE": "18009604080",
+            "DESCRIPTION": "AVS 0.85 BR"
+        },
+        {
+            "TITLE": "18009604087",
+            "DESCRIPTION": "AVS 0.85 BR\/Y"
+        },
+        {
+            "TITLE": "18009604089",
+            "DESCRIPTION": "AVS 0.85 BR\/L"
+        },
+        {
+            "TITLE": "18009604090",
+            "DESCRIPTION": "AVS 0.85 L"
+        },
+        {
+            "TITLE": "18009604094",
+            "DESCRIPTION": "AVS 0.85 L\/W"
+        },
+        {
+            "TITLE": "18009604097",
+            "DESCRIPTION": "AVS 085 L\/Y"
+        },
+        {
+            "TITLE": "180096040A8",
+            "DESCRIPTION": "AVS 0.85 B\/P"
+        },
+        {
+            "TITLE": "180096040F0",
+            "DESCRIPTION": "AVS 0.85 GY\/B"
+        },
+        {
+            "TITLE": "180096040G4",
+            "DESCRIPTION": "AVS 0.85 V\/R"
+        },
+        {
+            "TITLE": "18009604130",
+            "DESCRIPTION": "AVS 1.25 B"
+        },
+        {
+            "TITLE": "18009604134",
+            "DESCRIPTION": "AVS 1.25 B\/W"
+        },
+        {
+            "TITLE": "18009604139",
+            "DESCRIPTION": "AVS 1.25 B\/L"
+        },
+        {
+            "TITLE": "18009604140",
+            "DESCRIPTION": "AVS 1.25 W"
+        },
+        {
+            "TITLE": "18009604150",
+            "DESCRIPTION": "AVS 1.25 R"
+        },
+        {
+            "TITLE": "18009604152",
+            "DESCRIPTION": "AVS 1.25 P"
+        },
+        {
+            "TITLE": "18009604153",
+            "DESCRIPTION": "AVS 1.25 R\/B"
+        },
+        {
+            "TITLE": "18009604154",
+            "DESCRIPTION": "AVS 1.25 R\/W"
+        },
+        {
+            "TITLE": "18009604156",
+            "DESCRIPTION": "AVS 1.25 R\/G"
+        },
+        {
+            "TITLE": "18009604157",
+            "DESCRIPTION": "AVS 1.25 R\/Y"
+        },
+        {
+            "TITLE": "18009604159",
+            "DESCRIPTION": "AVS 1.25 R\/L"
+        },
+        {
+            "TITLE": "18009604160",
+            "DESCRIPTION": "AVS 1.25 G"
+        },
+        {
+            "TITLE": "18009604163",
+            "DESCRIPTION": "AVS 1.25 G\/B"
+        },
+        {
+            "TITLE": "18009604169",
+            "DESCRIPTION": "AVS 1.25 G\/L"
+        },
+        {
+            "TITLE": "18009604170",
+            "DESCRIPTION": "AVS 1.25 Y"
+        },
+        {
+            "TITLE": "18009604175",
+            "DESCRIPTION": "AVS 1.25 Y\/R"
+        },
+        {
+            "TITLE": "18009604176",
+            "DESCRIPTION": "AVS 1.25 Y\/G"
+        },
+        {
+            "TITLE": "18009604180",
+            "DESCRIPTION": "AVS 1.25 BR"
+        },
+        {
+            "TITLE": "18009604190",
+            "DESCRIPTION": "AVS 1.25 L"
+        },
+        {
+            "TITLE": "18009604193",
+            "DESCRIPTION": "AVS 1.25 L\/B"
+        },
+        {
+            "TITLE": "18009604195",
+            "DESCRIPTION": "AVS 1.25 L\/R"
+        },
+        {
+            "TITLE": "18009604203",
+            "DESCRIPTION": "AVS 2 B\/O"
+        },
+        {
+            "TITLE": "18009604230",
+            "DESCRIPTION": "AVS 2 B"
+        },
+        {
+            "TITLE": "18009604234",
+            "DESCRIPTION": "AVS 2 B\/W"
+        },
+        {
+            "TITLE": "18009604240",
+            "DESCRIPTION": "AVS 2 W"
+        },
+        {
+            "TITLE": "18009604245",
+            "DESCRIPTION": "AVS 2 W\/R"
+        },
+        {
+            "TITLE": "18009604249",
+            "DESCRIPTION": "AVS 2 W\/L"
+        },
+        {
+            "TITLE": "18009604250",
+            "DESCRIPTION": "AVS 2 R"
+        },
+        {
+            "TITLE": "18009604251",
+            "DESCRIPTION": "AVS 2 O"
+        },
+        {
+            "TITLE": "18009604253",
+            "DESCRIPTION": "AVS 2 R\/B"
+        },
+        {
+            "TITLE": "18009604254",
+            "DESCRIPTION": "AVS 2 R\/W"
+        },
+        {
+            "TITLE": "18009604260",
+            "DESCRIPTION": "AVS 2 G"
+        },
+        {
+            "TITLE": "18009604270",
+            "DESCRIPTION": "AVS 2 Y"
+        },
+        {
+            "TITLE": "18009604273",
+            "DESCRIPTION": "AVS 2 Y\/B"
+        },
+        {
+            "TITLE": "18009604275",
+            "DESCRIPTION": "AVS 2 Y\/R"
+        },
+        {
+            "TITLE": "18009604290",
+            "DESCRIPTION": "AVS 2 L"
+        },
+        {
+            "TITLE": "18009604294",
+            "DESCRIPTION": "AVS 2 L\/W"
+        },
+        {
+            "TITLE": "18009604297",
+            "DESCRIPTION": "AVS 2 L\/Y"
+        },
+        {
+            "TITLE": "18009604330",
+            "DESCRIPTION": "AVS 3 B"
+        },
+        {
+            "TITLE": "18009604334",
+            "DESCRIPTION": "AVS 3 B\/W"
+        },
+        {
+            "TITLE": "18009604335",
+            "DESCRIPTION": "AVS 3 B\/R"
+        },
+        {
+            "TITLE": "18009604337",
+            "DESCRIPTION": "AVS 3 B\/Y"
+        },
+        {
+            "TITLE": "18009604339",
+            "DESCRIPTION": "AVS 3 B\/L"
+        },
+        {
+            "TITLE": "18009604340",
+            "DESCRIPTION": "AVS 3 W"
+        },
+        {
+            "TITLE": "18009604341",
+            "DESCRIPTION": "AVS 3 GY"
+        },
+        {
+            "TITLE": "18009604343",
+            "DESCRIPTION": "AVS 3 W\/B"
+        },
+        {
+            "TITLE": "18009604345",
+            "DESCRIPTION": "AVS 3 W\/R"
+        },
+        {
+            "TITLE": "18009604346",
+            "DESCRIPTION": "AVS 3 W\/G"
+        },
+        {
+            "TITLE": "18009604347",
+            "DESCRIPTION": "AVS 3 W\/Y"
+        },
+        {
+            "TITLE": "18009604349",
+            "DESCRIPTION": "AVS 3 W\/L"
+        },
+        {
+            "TITLE": "18009604350",
+            "DESCRIPTION": "AVS 3 R"
+        },
+        {
+            "TITLE": "18009604352",
+            "DESCRIPTION": "AVS 3 P"
+        },
+        {
+            "TITLE": "18009604353",
+            "DESCRIPTION": "AVS 3 R\/B"
+        },
+        {
+            "TITLE": "18009604354",
+            "DESCRIPTION": "AVS 3 R\/W"
+        },
+        {
+            "TITLE": "18009604356",
+            "DESCRIPTION": "AVS 3 R\/G"
+        },
+        {
+            "TITLE": "18009604357",
+            "DESCRIPTION": "AVS 3 R\/Y"
+        },
+        {
+            "TITLE": "18009604359",
+            "DESCRIPTION": "AVS 3 R\/L"
+        },
+        {
+            "TITLE": "18009604360",
+            "DESCRIPTION": "AVS 3 G"
+        },
+        {
+            "TITLE": "18009604361",
+            "DESCRIPTION": "AVS 3 LG"
+        },
+        {
+            "TITLE": "18009604370",
+            "DESCRIPTION": "AVS 3 Y"
+        },
+        {
+            "TITLE": "18009604373",
+            "DESCRIPTION": "AVS 3 Y\/B"
+        },
+        {
+            "TITLE": "18009604375",
+            "DESCRIPTION": "AVS 3 Y\/R"
+        },
+        {
+            "TITLE": "18009604376",
+            "DESCRIPTION": "AVS 3 Y\/G"
+        },
+        {
+            "TITLE": "18009604380",
+            "DESCRIPTION": "AVS 3 BR"
+        },
+        {
+            "TITLE": "18009604390",
+            "DESCRIPTION": "AVS 3 L"
+        },
+        {
+            "TITLE": "18009604391",
+            "DESCRIPTION": "AVS 3 SB"
+        },
+        {
+            "TITLE": "18009604392",
+            "DESCRIPTION": "AVS 3 V"
+        },
+        {
+            "TITLE": "18009604393",
+            "DESCRIPTION": "AVS 3 L\/B"
+        },
+        {
+            "TITLE": "18009604394",
+            "DESCRIPTION": "AVS 3 L\/W"
+        },
+        {
+            "TITLE": "18009604395",
+            "DESCRIPTION": "AVS 3 L\/R"
+        },
+        {
+            "TITLE": "18009604397",
+            "DESCRIPTION": "AVS 3 L\/Y"
+        },
+        {
+            "TITLE": "18009604430",
+            "DESCRIPTION": "AVS 5 B"
+        },
+        {
+            "TITLE": "18009604434",
+            "DESCRIPTION": "AVS 5 B\/W"
+        },
+        {
+            "TITLE": "18009604437",
+            "DESCRIPTION": "AVS 5 B\/Y"
+        },
+        {
+            "TITLE": "18009604440",
+            "DESCRIPTION": "AVS 5 W"
+        },
+        {
+            "TITLE": "18009604443",
+            "DESCRIPTION": "AVS 5 W\/B"
+        },
+        {
+            "TITLE": "18009604445",
+            "DESCRIPTION": "AVS 5 W\/R"
+        },
+        {
+            "TITLE": "18009604449",
+            "DESCRIPTION": "AVS 5 W\/L"
+        },
+        {
+            "TITLE": "18009604450",
+            "DESCRIPTION": "AVS 5 R"
+        },
+        {
+            "TITLE": "18009604452",
+            "DESCRIPTION": "AVS 5 P"
+        },
+        {
+            "TITLE": "18009604453",
+            "DESCRIPTION": "AVS 5 R\/B"
+        },
+        {
+            "TITLE": "18009604454",
+            "DESCRIPTION": "AVS 5 R\/W"
+        },
+        {
+            "TITLE": "18009604457",
+            "DESCRIPTION": "AVS 5 R\/Y"
+        },
+        {
+            "TITLE": "18009604459",
+            "DESCRIPTION": "AVS 5 R\/L"
+        },
+        {
+            "TITLE": "18009604460",
+            "DESCRIPTION": "AVS 5 G"
+        },
+        {
+            "TITLE": "18009604470",
+            "DESCRIPTION": "AVS 5 Y"
+        },
+        {
+            "TITLE": "18009604480",
+            "DESCRIPTION": "AVS 5 BR"
+        },
+        {
+            "TITLE": "18009604490",
+            "DESCRIPTION": "AVS 5 L"
+        },
+        {
+            "TITLE": "18018103960",
+            "DESCRIPTION": "AVS 05F G"
+        },
+        {
+            "TITLE": "18018103964",
+            "DESCRIPTION": "AVS 0.5F G\/W"
+        },
+        {
+            "TITLE": "18018103994",
+            "DESCRIPTION": "AVS 0.5F L\/W"
+        },
+        {
+            "TITLE": "18018104030",
+            "DESCRIPTION": "AVS 0.75F B"
+        },
+        {
+            "TITLE": "18018104070",
+            "DESCRIPTION": "AVS 0.75F Y"
+        },
+        {
+            "TITLE": "18018104103",
+            "DESCRIPTION": "AVS 1.25F B\/O"
+        },
+        {
+            "TITLE": "18018403700",
+            "DESCRIPTION": "CAVS 0.3 P\/W"
+        },
+        {
+            "TITLE": "18018403707",
+            "DESCRIPTION": "CAVS 0.3 P\/B"
+        },
+        {
+            "TITLE": "18018403709",
+            "DESCRIPTION": "CAVS 0.3 LG\/R"
+        },
+        {
+            "TITLE": "18018403710",
+            "DESCRIPTION": "CAVS 03 GY\/R"
+        },
+        {
+            "TITLE": "18018403711",
+            "DESCRIPTION": "CAVS 0.3 GY\/L"
+        },
+        {
+            "TITLE": "18018403714",
+            "DESCRIPTION": "CAVS 0.3 L\/O"
+        },
+        {
+            "TITLE": "18018403717",
+            "DESCRIPTION": "CAVS 0.3 LG\/B"
+        },
+        {
+            "TITLE": "18018403718",
+            "DESCRIPTION": "CAVS 0.3 G\/O"
+        },
+        {
+            "TITLE": "18018403726",
+            "DESCRIPTION": "CAVS 0.3 GY\/Y"
+        },
+        {
+            "TITLE": "18018403730",
+            "DESCRIPTION": "CAVS 0.3 B"
+        },
+        {
+            "TITLE": "18018403732",
+            "DESCRIPTION": "CAVS 0.3 V\/B"
+        },
+        {
+            "TITLE": "18018403733",
+            "DESCRIPTION": "CAVS 0.3 V\/W"
+        },
+        {
+            "TITLE": "18018403734",
+            "DESCRIPTION": "CAVS 0.3 B\/W"
+        },
+        {
+            "TITLE": "18018403735",
+            "DESCRIPTION": "CAVS 0.3 B\/R"
+        },
+        {
+            "TITLE": "18018403736",
+            "DESCRIPTION": "CAVS 0.3 B\/G"
+        },
+        {
+            "TITLE": "18018403737",
+            "DESCRIPTION": "CAVS 0.3 B\/Y"
+        },
+        {
+            "TITLE": "18018403739",
+            "DESCRIPTION": "CAVS 0.3 B\/L"
+        },
+        {
+            "TITLE": "18018403740",
+            "DESCRIPTION": "CAVS 0.3 W"
+        },
+        {
+            "TITLE": "18018403741",
+            "DESCRIPTION": "CAVS 0.3 GY"
+        },
+        {
+            "TITLE": "18018403743",
+            "DESCRIPTION": "CAVS 0.3 W\/B"
+        },
+        {
+            "TITLE": "18018403745",
+            "DESCRIPTION": "CAVS 0.3 W\/R"
+        },
+        {
+            "TITLE": "18018403746",
+            "DESCRIPTION": "CAVS 0.3 W\/G"
+        },
+        {
+            "TITLE": "18018403747",
+            "DESCRIPTION": "CAVS 0.3 W\/Y"
+        },
+        {
+            "TITLE": "18018403749",
+            "DESCRIPTION": "CAVS 0.3 W\/L"
+        },
+        {
+            "TITLE": "18018403750",
+            "DESCRIPTION": "CAVS 0.3 R"
+        },
+        {
+            "TITLE": "18018403751",
+            "DESCRIPTION": "CAVS 0.3 O"
+        },
+        {
+            "TITLE": "18018403752",
+            "DESCRIPTION": "CAVS 0.3 P"
+        },
+        {
+            "TITLE": "18018403753",
+            "DESCRIPTION": "CAVS 0.3 R\/B"
+        },
+        {
+            "TITLE": "18018403754",
+            "DESCRIPTION": "CAVS 0.3 R\/W"
+        },
+        {
+            "TITLE": "18018403756",
+            "DESCRIPTION": "CAVS 0.3 R\/G"
+        },
+        {
+            "TITLE": "18018403757",
+            "DESCRIPTION": "CAVS 0.3 R\/Y"
+        },
+        {
+            "TITLE": "18018403759",
+            "DESCRIPTION": "CAVS 0.3 R\/L"
+        },
+        {
+            "TITLE": "1801840375U",
+            "DESCRIPTION": "CAVS 0.3 BE"
+        },
+        {
+            "TITLE": "18018403760",
+            "DESCRIPTION": "CAVS 0.3 G"
+        },
+        {
+            "TITLE": "18018403761",
+            "DESCRIPTION": "CAVS 0.3 LG"
+        },
+        {
+            "TITLE": "18018403763",
+            "DESCRIPTION": "CAVS 0.3 G\/B"
+        },
+        {
+            "TITLE": "18018403764",
+            "DESCRIPTION": "CAVS 0.3 G\/W"
+        },
+        {
+            "TITLE": "18018403765",
+            "DESCRIPTION": "CAVS 0.3 G\/R"
+        },
+        {
+            "TITLE": "18018403767",
+            "DESCRIPTION": "CAVS 0.3 G\/Y"
+        },
+        {
+            "TITLE": "18018403769",
+            "DESCRIPTION": "CAVS 0.3 G\/L"
+        },
+        {
+            "TITLE": "18018403770",
+            "DESCRIPTION": "CAVS 0.3 Y"
+        },
+        {
+            "TITLE": "18018403773",
+            "DESCRIPTION": "CAVS 0.3 Y\/B"
+        },
+        {
+            "TITLE": "18018403774",
+            "DESCRIPTION": "CAVS 0.3 Y\/W"
+        },
+        {
+            "TITLE": "18018403775",
+            "DESCRIPTION": "CAVS 0.3 Y\/R"
+        },
+        {
+            "TITLE": "18018403776",
+            "DESCRIPTION": "CAVS 0.3 Y\/G"
+        },
+        {
+            "TITLE": "18018403777",
+            "DESCRIPTION": "CAVS 0.3 O\/L"
+        },
+        {
+            "TITLE": "18018403779",
+            "DESCRIPTION": "CAVS 0.3 Y\/L"
+        },
+        {
+            "TITLE": "18018403780",
+            "DESCRIPTION": "CAVS 0.3 BR"
+        },
+        {
+            "TITLE": "18018403784",
+            "DESCRIPTION": "CAVS 0.3 BR\/W"
+        },
+        {
+            "TITLE": "18018403789",
+            "DESCRIPTION": "CAVS 03 BR\/L"
+        },
+        {
+            "TITLE": "18018403790",
+            "DESCRIPTION": "CAVS 0.3 L"
+        },
+        {
+            "TITLE": "18018403791",
+            "DESCRIPTION": "CAVS 0.3 SB"
+        },
+        {
+            "TITLE": "18018403792",
+            "DESCRIPTION": "CAVS 0.3 V"
+        },
+        {
+            "TITLE": "18018403793",
+            "DESCRIPTION": "CAVS 0.3 L\/B"
+        },
+        {
+            "TITLE": "18018403794",
+            "DESCRIPTION": "CAVS 0.3 L\/W"
+        },
+        {
+            "TITLE": "18018403795",
+            "DESCRIPTION": "CAVS 0.3 L\/R"
+        },
+        {
+            "TITLE": "18018403796",
+            "DESCRIPTION": "CAVS 0.3 L\/G"
+        },
+        {
+            "TITLE": "18018403797",
+            "DESCRIPTION": "CAVS 0.3 L\/Y"
+        },
+        {
+            "TITLE": "180184037C1",
+            "DESCRIPTION": "CAVS 0.3 W\/V"
+        },
+        {
+            "TITLE": "180184037F7",
+            "DESCRIPTION": "CAVS 0.3 V\/Y"
+        },
+        {
+            "TITLE": "180184037G6",
+            "DESCRIPTION": "CAVS 0.3 P\/L"
+        },
+        {
+            "TITLE": "180184037G9",
+            "DESCRIPTION": "CAVS 0.3 V\/G"
+        },
+        {
+            "TITLE": "180184037H2",
+            "DESCRIPTION": "CAVS 0.3 P\/G"
+        },
+        {
+            "TITLE": "180184037H7",
+            "DESCRIPTION": "CAVS 0.3 GY\/W"
+        },
+        {
+            "TITLE": "18018403900",
+            "DESCRIPTION": "CAVS 0.5 P\/W"
+        },
+        {
+            "TITLE": "18018403901",
+            "DESCRIPTION": "CAVS 0.5 LG\/L"
+        },
+        {
+            "TITLE": "18018403903",
+            "DESCRIPTION": "CAVS 0.5 B\/O"
+        },
+        {
+            "TITLE": "18018403904",
+            "DESCRIPTION": "CAVS 0.5 O\/W"
+        },
+        {
+            "TITLE": "18018403907",
+            "DESCRIPTION": "CAVS 0.5 P\/B"
+        },
+        {
+            "TITLE": "18018403909",
+            "DESCRIPTION": "CAVS 0.5 LG\/R"
+        },
+        {
+            "TITLE": "18018403910",
+            "DESCRIPTION": "CAVS 0.5 GY\/R"
+        },
+        {
+            "TITLE": "18018403911",
+            "DESCRIPTION": "CAVS 0.5 GY\/L"
+        },
+        {
+            "TITLE": "18018403912",
+            "DESCRIPTION": "CAVS 0.5 O\/G"
+        },
+        {
+            "TITLE": "18018403913",
+            "DESCRIPTION": "CAVS 0.5 Y\/O"
+        },
+        {
+            "TITLE": "18018403914",
+            "DESCRIPTION": "CAVS 0.5 L\/O"
+        },
+        {
+            "TITLE": "18018403917",
+            "DESCRIPTION": "CAVS 0.5 LG\/B"
+        },
+        {
+            "TITLE": "18018403918",
+            "DESCRIPTION": "CAVS 0.5 G\/O"
+        },
+        {
+            "TITLE": "18018403921",
+            "DESCRIPTION": "CAVS 0.5 GY\/O"
+        },
+        {
+            "TITLE": "18018403929",
+            "DESCRIPTION": "CAVS 0.5 LG\/W"
+        },
+        {
+            "TITLE": "18018403930",
+            "DESCRIPTION": "CAVS 0.5 B"
+        },
+        {
+            "TITLE": "18018403932",
+            "DESCRIPTION": "CAVS 0.5 V\/B"
+        },
+        {
+            "TITLE": "18018403933",
+            "DESCRIPTION": "CAVS 0.5 V\/W"
+        },
+        {
+            "TITLE": "18018403934",
+            "DESCRIPTION": "CAVS 0.5 B\/W"
+        },
+        {
+            "TITLE": "18018403935",
+            "DESCRIPTION": "CAVS 0.5 B\/R"
+        },
+        {
+            "TITLE": "18018403936",
+            "DESCRIPTION": "CAVS 0.5 B\/G"
+        },
+        {
+            "TITLE": "18018403937",
+            "DESCRIPTION": "CAVS 0.5 B\/Y"
+        },
+        {
+            "TITLE": "18018403939",
+            "DESCRIPTION": "CAVS 0.5 B\/L"
+        },
+        {
+            "TITLE": "18018403940",
+            "DESCRIPTION": "CAVS 0.5 W"
+        },
+        {
+            "TITLE": "18018403941",
+            "DESCRIPTION": "CAVS 0.5 GY"
+        },
+        {
+            "TITLE": "18018403943",
+            "DESCRIPTION": "CAVS 0.5 W\/B"
+        },
+        {
+            "TITLE": "18018403945",
+            "DESCRIPTION": "CAVS 0.5 W\/R"
+        },
+        {
+            "TITLE": "18018403946",
+            "DESCRIPTION": "CAVS 0.5 W\/G"
+        },
+        {
+            "TITLE": "18018403947",
+            "DESCRIPTION": "CAVS 0.5 W\/Y"
+        },
+        {
+            "TITLE": "18018403949",
+            "DESCRIPTION": "CAVS 0.5 W\/L"
+        },
+        {
+            "TITLE": "18018403950",
+            "DESCRIPTION": "CAVS 0.5 R"
+        },
+        {
+            "TITLE": "18018403951",
+            "DESCRIPTION": "CAVS 0.5 O"
+        },
+        {
+            "TITLE": "18018403952",
+            "DESCRIPTION": "CAVS 0.5 P"
+        },
+        {
+            "TITLE": "18018403953",
+            "DESCRIPTION": "CAVS 0.5 R\/B"
+        },
+        {
+            "TITLE": "18018403954",
+            "DESCRIPTION": "CAVS 0.5 R\/W"
+        },
+        {
+            "TITLE": "18018403955",
+            "DESCRIPTION": "CAVS 0.5 R\/LG"
+        },
+        {
+            "TITLE": "18018403956",
+            "DESCRIPTION": "CAVS 0.5 R\/G"
+        },
+        {
+            "TITLE": "18018403957",
+            "DESCRIPTION": "CAVS 0.5 R\/Y"
+        },
+        {
+            "TITLE": "18018403959",
+            "DESCRIPTION": "CAVS 0.5 R\/L"
+        },
+        {
+            "TITLE": "1801840395U",
+            "DESCRIPTION": "CAVS 0.5 BE"
+        },
+        {
+            "TITLE": "18018403960",
+            "DESCRIPTION": "CAVS 0.5 G"
+        },
+        {
+            "TITLE": "18018403961",
+            "DESCRIPTION": "CAVS 0.5 LG"
+        },
+        {
+            "TITLE": "18018403963",
+            "DESCRIPTION": "CAVS 0.5 G\/B"
+        },
+        {
+            "TITLE": "18018403964",
+            "DESCRIPTION": "CAVS 0.5 G\/W"
+        },
+        {
+            "TITLE": "18018403965",
+            "DESCRIPTION": "CAVS 0.5 G\/R"
+        },
+        {
+            "TITLE": "18018403967",
+            "DESCRIPTION": "CAVS 0.5 G\/Y"
+        },
+        {
+            "TITLE": "18018403968",
+            "DESCRIPTION": "CAVS 0.5 G\/BR"
+        },
+        {
+            "TITLE": "18018403969",
+            "DESCRIPTION": "CAVS 0.5 G\/L"
+        },
+        {
+            "TITLE": "18018403970",
+            "DESCRIPTION": "CAVS 0.5 Y"
+        },
+        {
+            "TITLE": "18018403973",
+            "DESCRIPTION": "CAVS 0.5 Y\/B"
+        },
+        {
+            "TITLE": "18018403974",
+            "DESCRIPTION": "CAVS 0.5 Y\/W"
+        },
+        {
+            "TITLE": "18018403975",
+            "DESCRIPTION": "CAVS 0.5 Y\/R"
+        },
+        {
+            "TITLE": "18018403976",
+            "DESCRIPTION": "CAVS 0.5 Y\/G"
+        },
+        {
+            "TITLE": "18018403977",
+            "DESCRIPTION": "CAVS 0.5 O\/L"
+        },
+        {
+            "TITLE": "18018403979",
+            "DESCRIPTION": "CAVS 0.5 Y\/L"
+        },
+        {
+            "TITLE": "18018403980",
+            "DESCRIPTION": "CAVS 0.5 BR"
+        },
+        {
+            "TITLE": "18018403983",
+            "DESCRIPTION": "CAVS 0.5 BR\/B"
+        },
+        {
+            "TITLE": "18018403984",
+            "DESCRIPTION": "CAVS 0.5 BR\/W"
+        },
+        {
+            "TITLE": "18018403985",
+            "DESCRIPTION": "CAVS 0.5 BR\/R"
+        },
+        {
+            "TITLE": "18018403986",
+            "DESCRIPTION": "CAVS 0.5 BR\/G"
+        },
+        {
+            "TITLE": "18018403987",
+            "DESCRIPTION": "CAVS 0.5 BR\/Y"
+        },
+        {
+            "TITLE": "18018403989",
+            "DESCRIPTION": "CAVS 0.5 BR\/L"
+        },
+        {
+            "TITLE": "18018403990",
+            "DESCRIPTION": "CAVS 0.5 L"
+        },
+        {
+            "TITLE": "18018403991",
+            "DESCRIPTION": "CAVS 0.5 SB"
+        },
+        {
+            "TITLE": "18018403992",
+            "DESCRIPTION": "CAVS 0.5 V"
+        },
+        {
+            "TITLE": "18018403993",
+            "DESCRIPTION": "CAVS 0.5 L\/B"
+        },
+        {
+            "TITLE": "18018403994",
+            "DESCRIPTION": "CAVS 0.5 L\/W"
+        },
+        {
+            "TITLE": "18018403995",
+            "DESCRIPTION": "CAVS 0.5 L\/R"
+        },
+        {
+            "TITLE": "18018403996",
+            "DESCRIPTION": "CAVS 0.5 L\/G"
+        },
+        {
+            "TITLE": "18018403997",
+            "DESCRIPTION": "CAVS 0.5 L\/Y"
+        },
+        {
+            "TITLE": "180184039C1",
+            "DESCRIPTION": "CAVS 0.5 W\/V"
+        },
+        {
+            "TITLE": "180184039E7",
+            "DESCRIPTION": "CAVS 0.5 R\/GY"
+        },
+        {
+            "TITLE": "180184039F0",
+            "DESCRIPTION": "CAVS 05 GY\/B"
+        },
+        {
+            "TITLE": "180184039F3",
+            "DESCRIPTION": "CAVS 0.5 Y\/P"
+        },
+        {
+            "TITLE": "180184039F7",
+            "DESCRIPTION": "CAVS 0.5 V\/Y"
+        },
+        {
+            "TITLE": "180184039G1",
+            "DESCRIPTION": "CAVS 0.5 Y\/V"
+        },
+        {
+            "TITLE": "180184039G4",
+            "DESCRIPTION": "CAVS 0.5 V\/R"
+        },
+        {
+            "TITLE": "180184039G6",
+            "DESCRIPTION": "CAVS 0.5 P\/L"
+        },
+        {
+            "TITLE": "180184039G9",
+            "DESCRIPTION": "CAVS 0.5 V\/G"
+        },
+        {
+            "TITLE": "180184039H1",
+            "DESCRIPTION": "CAVS 0.5 GY\/G"
+        },
+        {
+            "TITLE": "180184039H2",
+            "DESCRIPTION": "CAVS 0.5 P\/G"
+        },
+        {
+            "TITLE": "180184039H7",
+            "DESCRIPTION": "CAVS 0.5 GY\/W"
+        },
+        {
+            "TITLE": "180184039J2",
+            "DESCRIPTION": "CAVS 0.5 O\/R"
+        },
+        {
+            "TITLE": "180184039K1",
+            "DESCRIPTION": "CAVS 0.5 G\/P"
+        },
+        {
+            "TITLE": "180184039M3",
+            "DESCRIPTION": "CAVS 0.5 O\/B"
+        },
+        {
+            "TITLE": "18018404000",
+            "DESCRIPTION": "CAVS 0.85 P\/W"
+        },
+        {
+            "TITLE": "18018404001",
+            "DESCRIPTION": "CAVS 0.85 LG\/L"
+        },
+        {
+            "TITLE": "18018404007",
+            "DESCRIPTION": "CAVS 0.85 P\/B"
+        },
+        {
+            "TITLE": "18018404009",
+            "DESCRIPTION": "CAVS 0.85 LG\/R"
+        },
+        {
+            "TITLE": "18018404010",
+            "DESCRIPTION": "18018404010"
+        },
+        {
+            "TITLE": "18018404014",
+            "DESCRIPTION": "CAVS 085 L\/O"
+        },
+        {
+            "TITLE": "18018404017",
+            "DESCRIPTION": "CAVS 0.85 LG\/B"
+        },
+        {
+            "TITLE": "18018404018",
+            "DESCRIPTION": "CAVS 0.85 G\/O"
+        },
+        {
+            "TITLE": "18018404028",
+            "DESCRIPTION": "CAVS 0.85 LG\/Y"
+        },
+        {
+            "TITLE": "18018404029",
+            "DESCRIPTION": "CAVS 0.85 LG\/W"
+        },
+        {
+            "TITLE": "18018404030",
+            "DESCRIPTION": "CAVS 0.85 B"
+        },
+        {
+            "TITLE": "18018404034",
+            "DESCRIPTION": "CAVS 0.85 B\/W"
+        },
+        {
+            "TITLE": "18018404035",
+            "DESCRIPTION": "CAVS 0.85 B\/R"
+        },
+        {
+            "TITLE": "18018404036",
+            "DESCRIPTION": "CAVS 0.85 B\/G"
+        },
+        {
+            "TITLE": "18018404037",
+            "DESCRIPTION": "CAVS 0.85 B\/Y"
+        },
+        {
+            "TITLE": "18018404039",
+            "DESCRIPTION": "CAVS 0.85 B\/L"
+        },
+        {
+            "TITLE": "18018404040",
+            "DESCRIPTION": "CAVS 0.85 W"
+        },
+        {
+            "TITLE": "18018404041",
+            "DESCRIPTION": "CAVS 0.85 GY"
+        },
+        {
+            "TITLE": "18018404043",
+            "DESCRIPTION": "CAVS 0.85 W\/B"
+        },
+        {
+            "TITLE": "18018404045",
+            "DESCRIPTION": "CAVS 0.85 W\/R"
+        },
+        {
+            "TITLE": "18018404046",
+            "DESCRIPTION": "CAVS 0.85 W\/G"
+        },
+        {
+            "TITLE": "18018404047",
+            "DESCRIPTION": "CAVS 0.85 W\/Y"
+        },
+        {
+            "TITLE": "18018404049",
+            "DESCRIPTION": "CAVS 0.85 W\/L"
+        },
+        {
+            "TITLE": "18018404050",
+            "DESCRIPTION": "CAVS 0.85 R"
+        },
+        {
+            "TITLE": "18018404051",
+            "DESCRIPTION": "CAVS 0.85 O"
+        },
+        {
+            "TITLE": "18018404052",
+            "DESCRIPTION": "CAVS 0.85 P"
+        },
+        {
+            "TITLE": "18018404053",
+            "DESCRIPTION": "CAVS 0.85 R\/B"
+        },
+        {
+            "TITLE": "18018404054",
+            "DESCRIPTION": "CAVS 0.85 R\/W"
+        },
+        {
+            "TITLE": "18018404056",
+            "DESCRIPTION": "CAVS 0.85 R\/G"
+        },
+        {
+            "TITLE": "18018404057",
+            "DESCRIPTION": "CAVS 0.85 R\/Y"
+        },
+        {
+            "TITLE": "18018404059",
+            "DESCRIPTION": "CAVS 0.85 R\/L"
+        },
+        {
+            "TITLE": "18018404060",
+            "DESCRIPTION": "CAVS 0.85 G"
+        },
+        {
+            "TITLE": "18018404061",
+            "DESCRIPTION": "CAVS 0.85 LG"
+        },
+        {
+            "TITLE": "18018404063",
+            "DESCRIPTION": "CAVS 0.85 G\/B"
+        },
+        {
+            "TITLE": "18018404064",
+            "DESCRIPTION": "CAVS 0.85 G\/W"
+        },
+        {
+            "TITLE": "18018404065",
+            "DESCRIPTION": "CAVS 0.85 G\/R"
+        },
+        {
+            "TITLE": "18018404067",
+            "DESCRIPTION": "CAVS 0.85 G\/Y"
+        },
+        {
+            "TITLE": "18018404069",
+            "DESCRIPTION": "CAVS 0.85 G\/L"
+        },
+        {
+            "TITLE": "18018404070",
+            "DESCRIPTION": "CAVS 0.85 Y"
+        },
+        {
+            "TITLE": "18018404073",
+            "DESCRIPTION": "CAVS 0.85 Y\/B"
+        },
+        {
+            "TITLE": "18018404074",
+            "DESCRIPTION": "CAVS 0.85 Y\/W"
+        },
+        {
+            "TITLE": "18018404075",
+            "DESCRIPTION": "CAVS 0.85 Y\/R"
+        },
+        {
+            "TITLE": "18018404076",
+            "DESCRIPTION": "CAVS 0.85 Y\/G"
+        },
+        {
+            "TITLE": "18018404079",
+            "DESCRIPTION": "CAVS 0.85 Y\/L"
+        },
+        {
+            "TITLE": "18018404080",
+            "DESCRIPTION": "CAVS 0.85 BR"
+        },
+        {
+            "TITLE": "18018404083",
+            "DESCRIPTION": "CAVS 0.85 BR\/B"
+        },
+        {
+            "TITLE": "18018404085",
+            "DESCRIPTION": "CAVS 0.85 BR\/R"
+        },
+        {
+            "TITLE": "18018404087",
+            "DESCRIPTION": "CAVS 0.85 BR\/Y"
+        },
+        {
+            "TITLE": "18018404089",
+            "DESCRIPTION": "CAVS 0.85 BR\/L"
+        },
+        {
+            "TITLE": "18018404090",
+            "DESCRIPTION": "CAVS 0.85 L"
+        },
+        {
+            "TITLE": "18018404091",
+            "DESCRIPTION": "CAVS 0.85 SB"
+        },
+        {
+            "TITLE": "18018404092",
+            "DESCRIPTION": "CAVS 0.85 V"
+        },
+        {
+            "TITLE": "18018404093",
+            "DESCRIPTION": "CAVS 0.85 L\/B"
+        },
+        {
+            "TITLE": "18018404094",
+            "DESCRIPTION": "CAVS 0.85 L\/W"
+        },
+        {
+            "TITLE": "18018404095",
+            "DESCRIPTION": "CAVS 0.85 L\/R"
+        },
+        {
+            "TITLE": "18018404096",
+            "DESCRIPTION": "CAVS 0.85 L\/G"
+        },
+        {
+            "TITLE": "18018404097",
+            "DESCRIPTION": "CAVS 0.85 L\/Y"
+        },
+        {
+            "TITLE": "180184040G1",
+            "DESCRIPTION": "CAVS 0.85 Y\/V"
+        },
+        {
+            "TITLE": "180184040G6",
+            "DESCRIPTION": "CAVS 0.85 P\/L"
+        },
+        {
+            "TITLE": "180184040H2",
+            "DESCRIPTION": "CAVS 0.85 P\/G"
+        },
+        {
+            "TITLE": "180184040M2",
+            "DESCRIPTION": "CAVS 0.85 R\/O"
+        },
+        {
+            "TITLE": "180184040M3",
+            "DESCRIPTION": "CAVS 0.85 O\/B"
+        },
+        {
+            "TITLE": "18018404109",
+            "DESCRIPTION": "CAVS 1.25 LG\/R"
+        },
+        {
+            "TITLE": "18018404110",
+            "DESCRIPTION": "CAVS 1.25 GY\/R"
+        },
+        {
+            "TITLE": "18018404114",
+            "DESCRIPTION": "CAVS 1.25 L\/O"
+        },
+        {
+            "TITLE": "18018404117",
+            "DESCRIPTION": "CAVS 1.25 LG\/B"
+        },
+        {
+            "TITLE": "18018404118",
+            "DESCRIPTION": "CAVS 1.25 G\/O"
+        },
+        {
+            "TITLE": "18018404129",
+            "DESCRIPTION": "CAVS 1.25 LG\/W"
+        },
+        {
+            "TITLE": "18018404130",
+            "DESCRIPTION": "CAVS 1.25 B"
+        },
+        {
+            "TITLE": "18018404134",
+            "DESCRIPTION": "CAVS 1.25 B\/W"
+        },
+        {
+            "TITLE": "18018404135",
+            "DESCRIPTION": "CAVS 1.25 B\/R"
+        },
+        {
+            "TITLE": "18018404137",
+            "DESCRIPTION": "CAVS 1.25 B\/Y"
+        },
+        {
+            "TITLE": "18018404139",
+            "DESCRIPTION": "CAVS 1.25 B\/L"
+        },
+        {
+            "TITLE": "18018404140",
+            "DESCRIPTION": "CAVS 1.25 W"
+        },
+        {
+            "TITLE": "18018404141",
+            "DESCRIPTION": "CAVS 1.25 GY"
+        },
+        {
+            "TITLE": "18018404143",
+            "DESCRIPTION": "CAVS 1.25 W\/B"
+        },
+        {
+            "TITLE": "18018404145",
+            "DESCRIPTION": "CAVS 1.25 W\/R"
+        },
+        {
+            "TITLE": "18018404146",
+            "DESCRIPTION": "CAVS 1.25 W\/G"
+        },
+        {
+            "TITLE": "18018404150",
+            "DESCRIPTION": "CAVS 1.25 R"
+        },
+        {
+            "TITLE": "18018404151",
+            "DESCRIPTION": "CAVS 1.25 O"
+        },
+        {
+            "TITLE": "18018404152",
+            "DESCRIPTION": "CAVS 1.25 P"
+        },
+        {
+            "TITLE": "18018404153",
+            "DESCRIPTION": "CAVS 1.25 R\/B"
+        },
+        {
+            "TITLE": "18018404154",
+            "DESCRIPTION": "CAVS 1.25 R\/W"
+        },
+        {
+            "TITLE": "18018404156",
+            "DESCRIPTION": "CAVS 1.25 R\/G"
+        },
+        {
+            "TITLE": "18018404157",
+            "DESCRIPTION": "CAVS 1.25 R\/Y"
+        },
+        {
+            "TITLE": "18018404159",
+            "DESCRIPTION": "CAVS 1.25 R\/L"
+        },
+        {
+            "TITLE": "18018404160",
+            "DESCRIPTION": "CAVS 1.25 G"
+        },
+        {
+            "TITLE": "18018404161",
+            "DESCRIPTION": "CAVS 1.25 LG"
+        },
+        {
+            "TITLE": "18018404163",
+            "DESCRIPTION": "CAVS 1.25 G\/B"
+        },
+        {
+            "TITLE": "18018404164",
+            "DESCRIPTION": "CAVS 1.25 G\/W"
+        },
+        {
+            "TITLE": "18018404165",
+            "DESCRIPTION": "CAVS 1.25 G\/R"
+        },
+        {
+            "TITLE": "18018404167",
+            "DESCRIPTION": "CAVS 1.25 G\/Y"
+        },
+        {
+            "TITLE": "18018404169",
+            "DESCRIPTION": "CAVS 1.25 G\/L"
+        },
+        {
+            "TITLE": "18018404170",
+            "DESCRIPTION": "CAVS 1.25 Y"
+        },
+        {
+            "TITLE": "18018404173",
+            "DESCRIPTION": "CAVS 125 Y\/B"
+        },
+        {
+            "TITLE": "18018404175",
+            "DESCRIPTION": "CAVS 1.25 Y\/R"
+        },
+        {
+            "TITLE": "18018404176",
+            "DESCRIPTION": "CAVS 1.25 Y\/G"
+        },
+        {
+            "TITLE": "18018404180",
+            "DESCRIPTION": "CAVS 1.25 BR"
+        },
+        {
+            "TITLE": "18018404185",
+            "DESCRIPTION": "CAVS 1.25 BR\/R"
+        },
+        {
+            "TITLE": "18018404187",
+            "DESCRIPTION": "CAVS 1.25 BR\/Y"
+        },
+        {
+            "TITLE": "18018404189",
+            "DESCRIPTION": "CAVS 1.25 BR\/L"
+        },
+        {
+            "TITLE": "18018404190",
+            "DESCRIPTION": "CAVS 1.25 L"
+        },
+        {
+            "TITLE": "18018404191",
+            "DESCRIPTION": "CAVS 1.25 SB"
+        },
+        {
+            "TITLE": "18018404192",
+            "DESCRIPTION": "CAVS 1.25 V"
+        },
+        {
+            "TITLE": "18018404193",
+            "DESCRIPTION": "CAVS 1.25 L\/B"
+        },
+        {
+            "TITLE": "18018404194",
+            "DESCRIPTION": "CAVS 1.25 L\/W"
+        },
+        {
+            "TITLE": "18018404195",
+            "DESCRIPTION": "CAVS 1.25 L\/R"
+        },
+        {
+            "TITLE": "18018404197",
+            "DESCRIPTION": "CAVS 1.25 L\/Y"
+        },
+        {
+            "TITLE": "180184041C1",
+            "DESCRIPTION": "CAVS 1.25 W\/V"
+        },
+        {
+            "TITLE": "180184041F0",
+            "DESCRIPTION": "CAVS 125 GY\/B"
+        },
+        {
+            "TITLE": "180184041G1",
+            "DESCRIPTION": "CAVS 1.25 Y\/V"
+        },
+        {
+            "TITLE": "180184041G6",
+            "DESCRIPTION": "CAVS 1.25 P\/L"
+        },
+        {
+            "TITLE": "180184041G9",
+            "DESCRIPTION": "CAVS 1.25 V\/G"
+        },
+        {
+            "TITLE": "1801R703930",
+            "DESCRIPTION": "CIVUS 0.5 B"
+        },
+        {
+            "TITLE": "1801R703940",
+            "DESCRIPTION": "CIVUS 0.5 W"
+        },
+        {
+            "TITLE": "1801R703941",
+            "DESCRIPTION": "CIVUS 0.5 GY"
+        },
+        {
+            "TITLE": "1801R703943",
+            "DESCRIPTION": "CIVUS 0.5 W\/B"
+        },
+        {
+            "TITLE": "1801R703950",
+            "DESCRIPTION": "CIVUS 0.5 R"
+        },
+        {
+            "TITLE": "1801R703952",
+            "DESCRIPTION": "CIVUS 0.5 P"
+        },
+        {
+            "TITLE": "1801R70395U",
+            "DESCRIPTION": "CIVUS 0.5 BE"
+        },
+        {
+            "TITLE": "1801R703960",
+            "DESCRIPTION": "CIVUS 0.5 G"
+        },
+        {
+            "TITLE": "1801R703961",
+            "DESCRIPTION": "CIVUS 0.5 LG"
+        },
+        {
+            "TITLE": "1801R703970",
+            "DESCRIPTION": "CIVUS 0.5 Y"
+        },
+        {
+            "TITLE": "1801R703973",
+            "DESCRIPTION": "CIVUS 0.5 Y\/B"
+        },
+        {
+            "TITLE": "1801R703980",
+            "DESCRIPTION": "CIVUS 0.5 BR"
+        },
+        {
+            "TITLE": "1801R703990",
+            "DESCRIPTION": "CIVUS 0.5 L"
+        },
+        {
+            "TITLE": "1801R703991",
+            "DESCRIPTION": "CIVUS 0.5 SB"
+        },
+        {
+            "TITLE": "1801R703992",
+            "DESCRIPTION": "CIVUS 0.5 V"
+        },
+        {
+            "TITLE": "1801R704030",
+            "DESCRIPTION": "CIVUS 0.75 B"
+        },
+        {
+            "TITLE": "1801R704040",
+            "DESCRIPTION": "CIVUS 0.75 W"
+        },
+        {
+            "TITLE": "1801R704041",
+            "DESCRIPTION": "CIVUS 0.75 GY"
+        },
+        {
+            "TITLE": "1801R704043",
+            "DESCRIPTION": "CIVUS 0.75 W\/B"
+        },
+        {
+            "TITLE": "1801R704050",
+            "DESCRIPTION": "CIVUS 0.75 R"
+        },
+        {
+            "TITLE": "1801R704052",
+            "DESCRIPTION": "CIVUS 0.75 P"
+        },
+        {
+            "TITLE": "1801R70405U",
+            "DESCRIPTION": "CIVUS 0.75 BE"
+        },
+        {
+            "TITLE": "1801R704060",
+            "DESCRIPTION": "CIVUS 0.75 G"
+        },
+        {
+            "TITLE": "1801R704061",
+            "DESCRIPTION": "CIVUS 0.75 LG"
+        },
+        {
+            "TITLE": "1801R704070",
+            "DESCRIPTION": "CIVUS 0.75 Y"
+        },
+        {
+            "TITLE": "1801R704080",
+            "DESCRIPTION": "CIVUS 0.75 BR"
+        },
+        {
+            "TITLE": "1801R704090",
+            "DESCRIPTION": "CIVUS 0.75 L"
+        },
+        {
+            "TITLE": "1801R704091",
+            "DESCRIPTION": "CIVUS 0.75 SB"
+        },
+        {
+            "TITLE": "1801R704092",
+            "DESCRIPTION": "CIVUS 0.75 V"
+        },
+        {
+            "TITLE": "1801R704130",
+            "DESCRIPTION": "CIVUS 1.25 B"
+        },
+        {
+            "TITLE": "1801R704140",
+            "DESCRIPTION": "CIVUS 1.25 W"
+        },
+        {
+            "TITLE": "1801R704141",
+            "DESCRIPTION": "CIVUS 1.25 GY"
+        },
+        {
+            "TITLE": "1801R704143",
+            "DESCRIPTION": "CIVUS 1.25 W\/B"
+        },
+        {
+            "TITLE": "1801R704150",
+            "DESCRIPTION": "CIVUS 1.25 R"
+        },
+        {
+            "TITLE": "1801R704152",
+            "DESCRIPTION": "CIVUS 1.25 P"
+        },
+        {
+            "TITLE": "1801R70415U",
+            "DESCRIPTION": "CIVUS 1.25 BE"
+        },
+        {
+            "TITLE": "1801R704160",
+            "DESCRIPTION": "CIVUS 1.25 G"
+        },
+        {
+            "TITLE": "1801R704161",
+            "DESCRIPTION": "CIVUS 1.25 LG"
+        },
+        {
+            "TITLE": "1801R704170",
+            "DESCRIPTION": "CIVUS 1.25 Y"
+        },
+        {
+            "TITLE": "1801R704180",
+            "DESCRIPTION": "CIVUS 1.25 BR"
+        },
+        {
+            "TITLE": "1801R704190",
+            "DESCRIPTION": "CIVUS 1.25 L"
+        },
+        {
+            "TITLE": "1801R704191",
+            "DESCRIPTION": "CIVUS 1.25 SB"
+        },
+        {
+            "TITLE": "1801R704192",
+            "DESCRIPTION": "CIVUS 1.25 V"
+        },
+        {
+            "TITLE": "1801R706030",
+            "DESCRIPTION": "CIVUS 1 B"
+        },
+        {
+            "TITLE": "1801R706040",
+            "DESCRIPTION": "CIVUS 1 W"
+        },
+        {
+            "TITLE": "1801R706041",
+            "DESCRIPTION": "CIVUS 1 GY"
+        },
+        {
+            "TITLE": "1801R706043",
+            "DESCRIPTION": "CIVUS 1 W\/B"
+        },
+        {
+            "TITLE": "1801R706050",
+            "DESCRIPTION": "CIVUS 1 R"
+        },
+        {
+            "TITLE": "1801R706052",
+            "DESCRIPTION": "CIVUS 1 P"
+        },
+        {
+            "TITLE": "1801R70605U",
+            "DESCRIPTION": "1801R70605U"
+        },
+        {
+            "TITLE": "1801R706060",
+            "DESCRIPTION": "1801R706060"
+        },
+        {
+            "TITLE": "1801R706061",
+            "DESCRIPTION": "CIVUS 1 LG"
+        },
+        {
+            "TITLE": "1801R706070",
+            "DESCRIPTION": "CIVUS 1 Y"
+        },
+        {
+            "TITLE": "1801R706080",
+            "DESCRIPTION": "1801R706080"
+        },
+        {
+            "TITLE": "1801R706090",
+            "DESCRIPTION": "CIVUS 1 L"
+        },
+        {
+            "TITLE": "1801R706091",
+            "DESCRIPTION": "CIVUS 1 SB"
+        },
+        {
+            "TITLE": "1801R706092",
+            "DESCRIPTION": "1801R706092"
+        },
+        {
+            "TITLE": "1801R706930",
+            "DESCRIPTION": "CIVUS 0.35 B"
+        },
+        {
+            "TITLE": "1801R706940",
+            "DESCRIPTION": "CIVUS 0.35 W"
+        },
+        {
+            "TITLE": "1801R706941",
+            "DESCRIPTION": "CIVUS 0.35 GY"
+        },
+        {
+            "TITLE": "1801R706943",
+            "DESCRIPTION": "CIVUS 0.35 W\/B"
+        },
+        {
+            "TITLE": "1801R706950",
+            "DESCRIPTION": "CIVUS 0.35 R"
+        },
+        {
+            "TITLE": "1801R706952",
+            "DESCRIPTION": "CIVUS 0.35 P"
+        },
+        {
+            "TITLE": "1801R70695U",
+            "DESCRIPTION": "CIVUS 0.35 BE"
+        },
+        {
+            "TITLE": "1801R706960",
+            "DESCRIPTION": "CIVUS 0.35 G"
+        },
+        {
+            "TITLE": "1801R706961",
+            "DESCRIPTION": "CIVUS 0.35 LG"
+        },
+        {
+            "TITLE": "1801R706970",
+            "DESCRIPTION": "CIVUS 0.35 Y"
+        },
+        {
+            "TITLE": "1801R706973",
+            "DESCRIPTION": "CIVUS 0.35 Y\/B"
+        },
+        {
+            "TITLE": "1801R706975",
+            "DESCRIPTION": "CIVUS 0.35 Y\/R"
+        },
+        {
+            "TITLE": "1801R706976",
+            "DESCRIPTION": "CIVUS 0.35 Y\/G"
+        },
+        {
+            "TITLE": "1801R706980",
+            "DESCRIPTION": "CIVUS 0.35 BR"
+        },
+        {
+            "TITLE": "1801R706990",
+            "DESCRIPTION": "CIVUS 0.35 L"
+        },
+        {
+            "TITLE": "1801R706991",
+            "DESCRIPTION": "CIVUS 0.35 SB"
+        },
+        {
+            "TITLE": "1801R706992",
+            "DESCRIPTION": "CIVUS 0.35 V"
+        },
+        {
+            "TITLE": "1801W003930",
+            "DESCRIPTION": "IVSSH 0.5F B"
+        },
+        {
+            "TITLE": "1801W003940",
+            "DESCRIPTION": "IVSSH 0.5F W"
+        },
+        {
+            "TITLE": "1801W003941",
+            "DESCRIPTION": "IVSSH 0.5F GY"
+        },
+        {
+            "TITLE": "1801W003943",
+            "DESCRIPTION": "IVSSH 0.5F W\/B"
+        },
+        {
+            "TITLE": "1801W003950",
+            "DESCRIPTION": "IVSSH 0.5F R"
+        },
+        {
+            "TITLE": "1801W003952",
+            "DESCRIPTION": "IVSSH 0.5F P"
+        },
+        {
+            "TITLE": "1801W00395U",
+            "DESCRIPTION": "IVSSH 0.5F BE"
+        },
+        {
+            "TITLE": "1801W003960",
+            "DESCRIPTION": "IVSSH 0.5F G"
+        },
+        {
+            "TITLE": "1801W003961",
+            "DESCRIPTION": "IVSSH 0.5F LG"
+        },
+        {
+            "TITLE": "1801W003970",
+            "DESCRIPTION": "IVSSH 0.5F Y"
+        },
+        {
+            "TITLE": "1801W003980",
+            "DESCRIPTION": "IVSSH 0.5F BR"
+        },
+        {
+            "TITLE": "1801W003990",
+            "DESCRIPTION": "IVSSH 0.5F L"
+        },
+        {
+            "TITLE": "1801W003991",
+            "DESCRIPTION": "IVSSH 0.5F SB"
+        },
+        {
+            "TITLE": "1801W003992",
+            "DESCRIPTION": "IVSSH 0.5F V"
+        },
+        {
+            "TITLE": "1801W004030",
+            "DESCRIPTION": "IVSSH 0.75F B"
+        },
+        {
+            "TITLE": "1801W004040",
+            "DESCRIPTION": "IVSSH 0.75F W"
+        },
+        {
+            "TITLE": "1801W004041",
+            "DESCRIPTION": "IVSSH 0.75F GY"
+        },
+        {
+            "TITLE": "1801W004043",
+            "DESCRIPTION": "IVSSH 0.75F W\/B"
+        },
+        {
+            "TITLE": "1801W004050",
+            "DESCRIPTION": "IVSSH 0.75F R"
+        },
+        {
+            "TITLE": "1801W004052",
+            "DESCRIPTION": "IVSSH 0.75F P"
+        },
+        {
+            "TITLE": "1801W00405U",
+            "DESCRIPTION": "IVSSH 0.75F BE"
+        },
+        {
+            "TITLE": "1801W004060",
+            "DESCRIPTION": "IVSSH 0.75F G"
+        },
+        {
+            "TITLE": "1801W004061",
+            "DESCRIPTION": "IVSSH 0.75F LG"
+        },
+        {
+            "TITLE": "1801W004070",
+            "DESCRIPTION": "IVSSH 0.75F Y"
+        },
+        {
+            "TITLE": "1801W004080",
+            "DESCRIPTION": "IVSSH 0.75F BR"
+        },
+        {
+            "TITLE": "1801W004090",
+            "DESCRIPTION": "IVSSH 0.75F L"
+        },
+        {
+            "TITLE": "1801W004091",
+            "DESCRIPTION": "IVSSH 0.75F SB"
+        },
+        {
+            "TITLE": "1801W004092",
+            "DESCRIPTION": "IVSSH 0.75F V"
+        },
+        {
+            "TITLE": "1801W004140",
+            "DESCRIPTION": "IVSSH 1.25F W"
+        },
+        {
+            "TITLE": "1801W004230",
+            "DESCRIPTION": "IVSSH 2F B"
+        },
+        {
+            "TITLE": "1801W004240",
+            "DESCRIPTION": "IVSSH 2F W"
+        },
+        {
+            "TITLE": "1801W004243",
+            "DESCRIPTION": "IVSSH 2F W\/B"
+        },
+        {
+            "TITLE": "1801W004250",
+            "DESCRIPTION": "IVSSH 2F R"
+        },
+        {
+            "TITLE": "1801W004260",
+            "DESCRIPTION": "IVSSH 2F G"
+        },
+        {
+            "TITLE": "1801W004261",
+            "DESCRIPTION": "IVSSH 2F LG"
+        },
+        {
+            "TITLE": "1801W004290",
+            "DESCRIPTION": "IVSSH 2F L"
+        },
+        {
+            "TITLE": "1801W004291",
+            "DESCRIPTION": "IVSSH 2F SB"
+        },
+        {
+            "TITLE": "1801W004292",
+            "DESCRIPTION": "IVSSH 2F V"
+        },
+        {
+            "TITLE": "1801W004330",
+            "DESCRIPTION": "IVSSH 3 B"
+        },
+        {
+            "TITLE": "1801W004340",
+            "DESCRIPTION": "IVSSH 3 W"
+        },
+        {
+            "TITLE": "1801W004343",
+            "DESCRIPTION": "IVSSH 3 W\/B"
+        },
+        {
+            "TITLE": "1801W004350",
+            "DESCRIPTION": "IVSSH 3 R"
+        },
+        {
+            "TITLE": "1801W004390",
+            "DESCRIPTION": "IVSSH 3 L"
+        },
+        {
+            "TITLE": "1801W006930",
+            "DESCRIPTION": "IVSSH 0.35F B"
+        },
+        {
+            "TITLE": "1801W006940",
+            "DESCRIPTION": "IVSSH 0.35F W"
+        },
+        {
+            "TITLE": "1801W006941",
+            "DESCRIPTION": "IVSSH 0.35F GY"
+        },
+        {
+            "TITLE": "1801W006943",
+            "DESCRIPTION": "IVSSH 0.35F W\/B"
+        },
+        {
+            "TITLE": "1801W006950",
+            "DESCRIPTION": "IVSSH 0.35F R"
+        },
+        {
+            "TITLE": "1801W006952",
+            "DESCRIPTION": "IVSSH 0.35F P"
+        },
+        {
+            "TITLE": "1801W00695U",
+            "DESCRIPTION": "IVSSH 0.35F BE"
+        },
+        {
+            "TITLE": "1801W006960",
+            "DESCRIPTION": "IVSSH 0.35F G"
+        },
+        {
+            "TITLE": "1801W006961",
+            "DESCRIPTION": "IVSSH 0.35F LG"
+        },
+        {
+            "TITLE": "1801W006970",
+            "DESCRIPTION": "IVSSH 0.35F Y"
+        },
+        {
+            "TITLE": "1801W006980",
+            "DESCRIPTION": "IVSSH 0.35F BR"
+        },
+        {
+            "TITLE": "1801W006990",
+            "DESCRIPTION": "IVSSH 0.35F L"
+        },
+        {
+            "TITLE": "1801W006991",
+            "DESCRIPTION": "IVSSH 0.35F SB"
+        },
+        {
+            "TITLE": "1801W006992",
+            "DESCRIPTION": "IVSSH 0.35F V"
+        },
+        {
+            "TITLE": "180BG3039A9",
+            "DESCRIPTION": "180BG3039A9"
+        },
+        {
+            "TITLE": "180BG3039AH",
+            "DESCRIPTION": "180BG3039AH"
+        },
+        {
+            "TITLE": "180BG3039AM",
+            "DESCRIPTION": "180BG3039AM"
+        },
+        {
+            "TITLE": "180BG3039AQ",
+            "DESCRIPTION": "180BG3039AQ"
+        },
+        {
+            "TITLE": "180BG3039AZ",
+            "DESCRIPTION": "180BG3039AZ"
+        },
+        {
+            "TITLE": "180BG3039BA",
+            "DESCRIPTION": "180BG3039BA"
+        },
+        {
+            "TITLE": "180BG3039BH",
+            "DESCRIPTION": "180BG3039BH"
+        },
+        {
+            "TITLE": "180BG3039BJ",
+            "DESCRIPTION": "180BG3039BJ"
+        },
+        {
+            "TITLE": "180BG3039BK",
+            "DESCRIPTION": "180BG3039BK"
+        },
+        {
+            "TITLE": "180BG3039BM",
+            "DESCRIPTION": "180BG3039BM"
+        },
+        {
+            "TITLE": "180BG3039BN",
+            "DESCRIPTION": "180BG3039BN"
+        },
+        {
+            "TITLE": "180BG3039BP",
+            "DESCRIPTION": "180BG3039BP"
+        },
+        {
+            "TITLE": "180BG3039BQ",
+            "DESCRIPTION": "180BG3039BQ"
+        },
+        {
+            "TITLE": "180BG3039BR",
+            "DESCRIPTION": "180BG3039BR"
+        },
+        {
+            "TITLE": "180CY5039AH",
+            "DESCRIPTION": "180CY5039AH"
+        },
+        {
+            "TITLE": "180CY5039AM",
+            "DESCRIPTION": "180CY5039AM"
+        },
+        {
+            "TITLE": "180CY5039AZ",
+            "DESCRIPTION": "180CY5039AZ"
+        },
+        {
+            "TITLE": "180D0203717",
+            "DESCRIPTION": "AVSSH 0.3F LG\/B"
+        },
+        {
+            "TITLE": "180D0203730",
+            "DESCRIPTION": "AVSSH 0.3F B"
+        },
+        {
+            "TITLE": "180D0203734",
+            "DESCRIPTION": "AVSSH 0.3F B\/W"
+        },
+        {
+            "TITLE": "180D0203735",
+            "DESCRIPTION": "AVSSH 0.3F B\/R"
+        },
+        {
+            "TITLE": "180D0203737",
+            "DESCRIPTION": "AVSSH 0.3F B\/Y"
+        },
+        {
+            "TITLE": "180D0203739",
+            "DESCRIPTION": "AVSSH 0.3F B\/L"
+        },
+        {
+            "TITLE": "180D0203740",
+            "DESCRIPTION": "AVSSH 0.3F W"
+        },
+        {
+            "TITLE": "180D0203741",
+            "DESCRIPTION": "AVSSH 0.3F GY"
+        },
+        {
+            "TITLE": "180D0203743",
+            "DESCRIPTION": "AVSSH 0.3F W\/B"
+        },
+        {
+            "TITLE": "180D0203745",
+            "DESCRIPTION": "AVSSH 0.3F W\/R"
+        },
+        {
+            "TITLE": "180D0203746",
+            "DESCRIPTION": "AVSSH 0.3F W\/G"
+        },
+        {
+            "TITLE": "180D0203747",
+            "DESCRIPTION": "180D0203747"
+        },
+        {
+            "TITLE": "180D0203749",
+            "DESCRIPTION": "AVSSH 0.3F W\/L"
+        },
+        {
+            "TITLE": "180D0203750",
+            "DESCRIPTION": "AVSSH 0.3F R"
+        },
+        {
+            "TITLE": "180D0203752",
+            "DESCRIPTION": "AVSSH 0.3F P"
+        },
+        {
+            "TITLE": "180D0203753",
+            "DESCRIPTION": "AVSSH 0.3F R\/B"
+        },
+        {
+            "TITLE": "180D0203754",
+            "DESCRIPTION": "AVSSH 0.3F R\/W"
+        },
+        {
+            "TITLE": "180D0203757",
+            "DESCRIPTION": "AVSSH 0.3F R\/Y"
+        },
+        {
+            "TITLE": "180D0203759",
+            "DESCRIPTION": "AVSSH 0.3F R\/L"
+        },
+        {
+            "TITLE": "180D0203760",
+            "DESCRIPTION": "AVSSH 0.3F G"
+        },
+        {
+            "TITLE": "180D0203761",
+            "DESCRIPTION": "AVSSH 0.3F LG"
+        },
+        {
+            "TITLE": "180D0203763",
+            "DESCRIPTION": "AVSSH 0.3F G\/B"
+        },
+        {
+            "TITLE": "180D0203764",
+            "DESCRIPTION": "AVSSH 0.3F G\/W"
+        },
+        {
+            "TITLE": "180D0203765",
+            "DESCRIPTION": "AVSSH 0.3F G\/R"
+        },
+        {
+            "TITLE": "180D0203767",
+            "DESCRIPTION": "AVSSH 0.3F G\/Y"
+        },
+        {
+            "TITLE": "180D0203770",
+            "DESCRIPTION": "AVSSH 0.3F Y"
+        },
+        {
+            "TITLE": "180D0203773",
+            "DESCRIPTION": "AVSSH 0.3F Y\/B"
+        },
+        {
+            "TITLE": "180D0203775",
+            "DESCRIPTION": "AVSSH 0.3F Y\/R"
+        },
+        {
+            "TITLE": "180D0203776",
+            "DESCRIPTION": "AVSSH 0.3F Y\/G"
+        },
+        {
+            "TITLE": "180D0203779",
+            "DESCRIPTION": "AVSSH 0.3F Y\/L"
+        },
+        {
+            "TITLE": "180D0203780",
+            "DESCRIPTION": "AVSSH 0.3F BR"
+        },
+        {
+            "TITLE": "180D0203783",
+            "DESCRIPTION": "AVSSH 0.3F BR\/B"
+        },
+        {
+            "TITLE": "180D0203787",
+            "DESCRIPTION": "180D0203787"
+        },
+        {
+            "TITLE": "180D0203790",
+            "DESCRIPTION": "AVSSH 0.3F L"
+        },
+        {
+            "TITLE": "180D0203791",
+            "DESCRIPTION": "AVSSH 0.3F SB"
+        },
+        {
+            "TITLE": "180D0203792",
+            "DESCRIPTION": "AVSSH 0.3F V"
+        },
+        {
+            "TITLE": "180D0203793",
+            "DESCRIPTION": "AVSSH 0.3F L\/B"
+        },
+        {
+            "TITLE": "180D0203794",
+            "DESCRIPTION": "AVSSH 0.3F L\/W"
+        },
+        {
+            "TITLE": "180D0203795",
+            "DESCRIPTION": "AVSSH 0.3F L\/R"
+        },
+        {
+            "TITLE": "180D0203797",
+            "DESCRIPTION": "AVSSH 0.3F L\/Y"
+        },
+        {
+            "TITLE": "180D02037G6",
+            "DESCRIPTION": "AVSSH 0.3F P\/L"
+        },
+        {
+            "TITLE": "180D0203903",
+            "DESCRIPTION": "AVSSH 0.5F B\/O"
+        },
+        {
+            "TITLE": "180D0203904",
+            "DESCRIPTION": "180D0203904"
+        },
+        {
+            "TITLE": "180D0203907",
+            "DESCRIPTION": "AVSSH 0.5F P\/B"
+        },
+        {
+            "TITLE": "180D0203909",
+            "DESCRIPTION": "AVSSH 0.5F LG\/R"
+        },
+        {
+            "TITLE": "180D0203910",
+            "DESCRIPTION": "AVSSH 0.5F GY\/R"
+        },
+        {
+            "TITLE": "180D0203911",
+            "DESCRIPTION": "AVSSH 0.5F GY\/L"
+        },
+        {
+            "TITLE": "180D0203917",
+            "DESCRIPTION": "AVSSH 0.5F LG\/B"
+        },
+        {
+            "TITLE": "180D0203918",
+            "DESCRIPTION": "AVSSH 0.5F G\/O"
+        },
+        {
+            "TITLE": "180D0203929",
+            "DESCRIPTION": "AVSSH 0.5F LG\/W"
+        },
+        {
+            "TITLE": "180D0203930",
+            "DESCRIPTION": "AVSSH 0.5F B"
+        },
+        {
+            "TITLE": "180D0203933",
+            "DESCRIPTION": "180D0203933"
+        },
+        {
+            "TITLE": "180D0203934",
+            "DESCRIPTION": "AVSSH 0.5F B\/W"
+        },
+        {
+            "TITLE": "180D0203935",
+            "DESCRIPTION": "AVSSH 0.5F B\/R"
+        },
+        {
+            "TITLE": "180D0203936",
+            "DESCRIPTION": "180D0203936"
+        },
+        {
+            "TITLE": "180D0203937",
+            "DESCRIPTION": "AVSSH 0.5F B\/Y"
+        },
+        {
+            "TITLE": "180D0203939",
+            "DESCRIPTION": "AVSSH 0.5F B\/L"
+        },
+        {
+            "TITLE": "180D0203940",
+            "DESCRIPTION": "AVSSH 0.5F W"
+        },
+        {
+            "TITLE": "180D0203941",
+            "DESCRIPTION": "AVSSH 0.5F GY"
+        },
+        {
+            "TITLE": "180D0203943",
+            "DESCRIPTION": "AVSSH 0.5F W\/B"
+        },
+        {
+            "TITLE": "180D0203945",
+            "DESCRIPTION": "AVSSH 0.5F W\/R"
+        },
+        {
+            "TITLE": "180D0203946",
+            "DESCRIPTION": "AVSSH 0.5F W\/G"
+        },
+        {
+            "TITLE": "180D0203949",
+            "DESCRIPTION": "AVSSH 0.5F W\/L"
+        },
+        {
+            "TITLE": "180D0203950",
+            "DESCRIPTION": "AVSSH 0.5F R"
+        },
+        {
+            "TITLE": "180D0203951",
+            "DESCRIPTION": "AVSSH 0.5F O"
+        },
+        {
+            "TITLE": "180D0203952",
+            "DESCRIPTION": "AVSSH 0.5F P"
+        },
+        {
+            "TITLE": "180D0203953",
+            "DESCRIPTION": "AVSSH 0.5F R\/B"
+        },
+        {
+            "TITLE": "180D0203954",
+            "DESCRIPTION": "AVSSH 0.5F R\/W"
+        },
+        {
+            "TITLE": "180D0203956",
+            "DESCRIPTION": "AVSSH 0.5F R\/G"
+        },
+        {
+            "TITLE": "180D0203957",
+            "DESCRIPTION": "AVSSH 0.5F R\/Y"
+        },
+        {
+            "TITLE": "180D0203959",
+            "DESCRIPTION": "AVSSH 0.5F R\/L"
+        },
+        {
+            "TITLE": "180D020395U",
+            "DESCRIPTION": "AVSSH 0.5F BE"
+        },
+        {
+            "TITLE": "180D0203960",
+            "DESCRIPTION": "AVSSH 0.5F G"
+        },
+        {
+            "TITLE": "180D0203961",
+            "DESCRIPTION": "AVSSH 0.5F LG"
+        },
+        {
+            "TITLE": "180D0203963",
+            "DESCRIPTION": "AVSSH 0.5F G\/B"
+        },
+        {
+            "TITLE": "180D0203964",
+            "DESCRIPTION": "AVSSH 0.5F G\/W"
+        },
+        {
+            "TITLE": "180D0203965",
+            "DESCRIPTION": "AVSSH 0.5F G\/R"
+        },
+        {
+            "TITLE": "180D0203967",
+            "DESCRIPTION": "AVSSH 0.5F G\/Y"
+        },
+        {
+            "TITLE": "180D0203970",
+            "DESCRIPTION": "AVSSH 0.5F Y"
+        },
+        {
+            "TITLE": "180D0203973",
+            "DESCRIPTION": "AVSSH 0.5F Y\/B"
+        },
+        {
+            "TITLE": "180D0203975",
+            "DESCRIPTION": "AVSSH 0.5F Y\/R"
+        },
+        {
+            "TITLE": "180D0203976",
+            "DESCRIPTION": "AVSSH 0.5F Y\/G"
+        },
+        {
+            "TITLE": "180D0203979",
+            "DESCRIPTION": "AVSSH 0.5F Y\/L"
+        },
+        {
+            "TITLE": "180D0203980",
+            "DESCRIPTION": "AVSSH 0.5F BR"
+        },
+        {
+            "TITLE": "180D0203983",
+            "DESCRIPTION": "180D0203983"
+        },
+        {
+            "TITLE": "180D0203984",
+            "DESCRIPTION": "AVSSH 0.5F BR\/W"
+        },
+        {
+            "TITLE": "180D0203985",
+            "DESCRIPTION": "AVSSH 0.5F BR\/R"
+        },
+        {
+            "TITLE": "180D0203987",
+            "DESCRIPTION": "AVSSH 0.5F BR\/Y"
+        },
+        {
+            "TITLE": "180D0203990",
+            "DESCRIPTION": "AVSSH 0.5F L"
+        },
+        {
+            "TITLE": "180D0203991",
+            "DESCRIPTION": "AVSSH 0.5F SB"
+        },
+        {
+            "TITLE": "180D0203992",
+            "DESCRIPTION": "AVSSH 0.5F V"
+        },
+        {
+            "TITLE": "180D0203993",
+            "DESCRIPTION": "AVSSH 0.5F L\/B"
+        },
+        {
+            "TITLE": "180D0203994",
+            "DESCRIPTION": "AVSSH 0.5F L\/W"
+        },
+        {
+            "TITLE": "180D0203995",
+            "DESCRIPTION": "AVSSH 0.5F L\/R"
+        },
+        {
+            "TITLE": "180D0203997",
+            "DESCRIPTION": "AVSSH 0.5F L\/Y"
+        },
+        {
+            "TITLE": "180D02039G4",
+            "DESCRIPTION": "AVSSH 0.5F V\/R"
+        },
+        {
+            "TITLE": "180D02039G6",
+            "DESCRIPTION": "AVSSH 0.5F P\/L"
+        },
+        {
+            "TITLE": "180D02039M8",
+            "DESCRIPTION": "180D02039M8"
+        },
+        {
+            "TITLE": "180D0204003",
+            "DESCRIPTION": "AVSSH 0.75F B\/O"
+        },
+        {
+            "TITLE": "180D0204009",
+            "DESCRIPTION": "AVSSH 0.75F LG\/R"
+        },
+        {
+            "TITLE": "180D0204030",
+            "DESCRIPTION": "AVSSH 0.75F B"
+        },
+        {
+            "TITLE": "180D0204034",
+            "DESCRIPTION": "AVSSH 0.75F B\/W"
+        },
+        {
+            "TITLE": "180D0204035",
+            "DESCRIPTION": "AVSSH 0.75F B\/R"
+        },
+        {
+            "TITLE": "180D0204037",
+            "DESCRIPTION": "AVSSH 0.75F B\/Y"
+        },
+        {
+            "TITLE": "180D0204039",
+            "DESCRIPTION": "AVSSH 0.75F B\/L"
+        },
+        {
+            "TITLE": "180D0204040",
+            "DESCRIPTION": "AVSSH 0.75F W"
+        },
+        {
+            "TITLE": "180D0204041",
+            "DESCRIPTION": "AVSSH 0.75F GY"
+        },
+        {
+            "TITLE": "180D0204043",
+            "DESCRIPTION": "AVSSH 0.75F W\/B"
+        },
+        {
+            "TITLE": "180D0204045",
+            "DESCRIPTION": "AVSSH 0.75F W\/R"
+        },
+        {
+            "TITLE": "180D0204046",
+            "DESCRIPTION": "AVSSH 0.75F W\/G"
+        },
+        {
+            "TITLE": "180D0204048",
+            "DESCRIPTION": "AVSSH 0.75F W\/BR"
+        },
+        {
+            "TITLE": "180D0204049",
+            "DESCRIPTION": "AVSSH 0.75F W\/L"
+        },
+        {
+            "TITLE": "180D0204050",
+            "DESCRIPTION": "AVSSH 0.75F R"
+        },
+        {
+            "TITLE": "180D0204051",
+            "DESCRIPTION": "AVSSH 0.75F O"
+        },
+        {
+            "TITLE": "180D0204052",
+            "DESCRIPTION": "AVSSH 0.75F P"
+        },
+        {
+            "TITLE": "180D0204053",
+            "DESCRIPTION": "AVSSH 0.75F R\/B"
+        },
+        {
+            "TITLE": "180D0204054",
+            "DESCRIPTION": "AVSSH 0.75F R\/W"
+        },
+        {
+            "TITLE": "180D0204057",
+            "DESCRIPTION": "AVSSH 0.75F R\/Y"
+        },
+        {
+            "TITLE": "180D0204059",
+            "DESCRIPTION": "AVSSH 0.75F R\/L"
+        },
+        {
+            "TITLE": "180D0204060",
+            "DESCRIPTION": "AVSSH 0.75F G"
+        },
+        {
+            "TITLE": "180D0204061",
+            "DESCRIPTION": "AVSSH 0.75F LG"
+        },
+        {
+            "TITLE": "180D0204063",
+            "DESCRIPTION": "AVSSH 0.75F G\/B"
+        },
+        {
+            "TITLE": "180D0204064",
+            "DESCRIPTION": "AVSSH 0.75F G\/W"
+        },
+        {
+            "TITLE": "180D0204065",
+            "DESCRIPTION": "AVSSH 0.75F G\/R"
+        },
+        {
+            "TITLE": "180D0204067",
+            "DESCRIPTION": "AVSSH 0.75F G\/Y"
+        },
+        {
+            "TITLE": "180D0204069",
+            "DESCRIPTION": "AVSSH 0.75F G\/L"
+        },
+        {
+            "TITLE": "180D0204070",
+            "DESCRIPTION": "AVSSH 0.75F Y"
+        },
+        {
+            "TITLE": "180D0204073",
+            "DESCRIPTION": "AVSSH 0.75F Y\/B"
+        },
+        {
+            "TITLE": "180D0204075",
+            "DESCRIPTION": "AVSSH 0.75F Y\/R"
+        },
+        {
+            "TITLE": "180D0204079",
+            "DESCRIPTION": "AVSSH 0.75F Y\/L"
+        },
+        {
+            "TITLE": "180D0204080",
+            "DESCRIPTION": "AVSSH 0.75F BR"
+        },
+        {
+            "TITLE": "180D0204087",
+            "DESCRIPTION": "AVSSH 0.75F BR\/Y"
+        },
+        {
+            "TITLE": "180D0204090",
+            "DESCRIPTION": "AVSSH 0.75F L"
+        },
+        {
+            "TITLE": "180D0204091",
+            "DESCRIPTION": "AVSSH 0.75F SB"
+        },
+        {
+            "TITLE": "180D0204092",
+            "DESCRIPTION": "AVSSH 0.75F V"
+        },
+        {
+            "TITLE": "180D0204093",
+            "DESCRIPTION": "AVSSH 0.75F L\/B"
+        },
+        {
+            "TITLE": "180D0204094",
+            "DESCRIPTION": "AVSSH 0.75F L\/W"
+        },
+        {
+            "TITLE": "180D0204095",
+            "DESCRIPTION": "AVSSH 0.75F L\/R"
+        },
+        {
+            "TITLE": "180D0204097",
+            "DESCRIPTION": "AVSSH 0.75F L\/Y"
+        },
+        {
+            "TITLE": "180D0204110",
+            "DESCRIPTION": "AVSSH 1.25F GY\/R"
+        },
+        {
+            "TITLE": "180D0204130",
+            "DESCRIPTION": "AVSSH 1.25F B"
+        },
+        {
+            "TITLE": "180D0204134",
+            "DESCRIPTION": "AVSSH 1.25F B\/W"
+        },
+        {
+            "TITLE": "180D0204135",
+            "DESCRIPTION": "AVSSH 1.25F B\/R"
+        },
+        {
+            "TITLE": "180D0204136",
+            "DESCRIPTION": "AVSSH 1.25F B\/G"
+        },
+        {
+            "TITLE": "180D0204137",
+            "DESCRIPTION": "AVSSH 1.25F B\/Y"
+        },
+        {
+            "TITLE": "180D0204139",
+            "DESCRIPTION": "AVSSH 1.25F B\/L"
+        },
+        {
+            "TITLE": "180D0204140",
+            "DESCRIPTION": "AVSSH 1.25F W"
+        },
+        {
+            "TITLE": "180D0204141",
+            "DESCRIPTION": "AVSSH 1.25F GY"
+        },
+        {
+            "TITLE": "180D0204143",
+            "DESCRIPTION": "AVSSH 1.25F W\/B"
+        },
+        {
+            "TITLE": "180D0204145",
+            "DESCRIPTION": "AVSSH 1.25F W\/R"
+        },
+        {
+            "TITLE": "180D0204146",
+            "DESCRIPTION": "AVSSH 125F W\/G"
+        },
+        {
+            "TITLE": "180D0204149",
+            "DESCRIPTION": "AVSSH 1.25F W\/L"
+        },
+        {
+            "TITLE": "180D0204150",
+            "DESCRIPTION": "AVSSH 1.25F R"
+        },
+        {
+            "TITLE": "180D0204151",
+            "DESCRIPTION": "AVSSH 1.25F O"
+        },
+        {
+            "TITLE": "180D0204152",
+            "DESCRIPTION": "AVSSH 1.25F P"
+        },
+        {
+            "TITLE": "180D0204153",
+            "DESCRIPTION": "AVSSH 1.25F R\/B"
+        },
+        {
+            "TITLE": "180D0204154",
+            "DESCRIPTION": "AVSSH 1.25F R\/W"
+        },
+        {
+            "TITLE": "180D0204156",
+            "DESCRIPTION": "AVSSH 1.25F R\/G"
+        },
+        {
+            "TITLE": "180D0204157",
+            "DESCRIPTION": "AVSSH 1.25F R\/Y"
+        },
+        {
+            "TITLE": "180D0204159",
+            "DESCRIPTION": "AVSSH 1.25F R\/L"
+        },
+        {
+            "TITLE": "180D0204160",
+            "DESCRIPTION": "AVSSH 1.25F G"
+        },
+        {
+            "TITLE": "180D0204161",
+            "DESCRIPTION": "AVSSH 1.25F LG"
+        },
+        {
+            "TITLE": "180D0204163",
+            "DESCRIPTION": "AVSSH 1.25F G\/B"
+        },
+        {
+            "TITLE": "180D0204167",
+            "DESCRIPTION": "AVSSH 125F G\/Y"
+        },
+        {
+            "TITLE": "180D0204169",
+            "DESCRIPTION": "AVSSH 1.25F G\/L"
+        },
+        {
+            "TITLE": "180D0204170",
+            "DESCRIPTION": "AVSSH 1.25F Y"
+        },
+        {
+            "TITLE": "180D0204173",
+            "DESCRIPTION": "180D0204173"
+        },
+        {
+            "TITLE": "180D0204180",
+            "DESCRIPTION": "AVSSH 1.25F BR"
+        },
+        {
+            "TITLE": "180D0204190",
+            "DESCRIPTION": "AVSSH 1.25F L"
+        },
+        {
+            "TITLE": "180D0204192",
+            "DESCRIPTION": "AVSSH 1.25F V"
+        },
+        {
+            "TITLE": "180D0204193",
+            "DESCRIPTION": "AVSSH 1.25F L\/B"
+        },
+        {
+            "TITLE": "180D0204195",
+            "DESCRIPTION": "AVSSH 1.25F L\/R"
+        },
+        {
+            "TITLE": "180D0204197",
+            "DESCRIPTION": "AVSSH 1.25F L\/Y"
+        },
+        {
+            "TITLE": "180S7703930",
+            "DESCRIPTION": "ACAVSS 0.5F B"
+        },
+        {
+            "TITLE": "180S7703940",
+            "DESCRIPTION": "ACAVSS 0.5F W"
+        },
+        {
+            "TITLE": "180S7703950",
+            "DESCRIPTION": "ACAVSS 0.5F R"
+        },
+        {
+            "TITLE": "180S7703961",
+            "DESCRIPTION": "ACAVSS 0.5F LG"
+        },
+        {
+            "TITLE": "180S7703980",
+            "DESCRIPTION": "ACAVSS 0.5F BR"
+        },
+        {
+            "TITLE": "180T8403730",
+            "DESCRIPTION": "ACCAVS 0.3 B"
+        },
+        {
+            "TITLE": "180T8403740",
+            "DESCRIPTION": "ACCAVS 0.3 W"
+        },
+        {
+            "TITLE": "180T8403750",
+            "DESCRIPTION": "WIRE"
+        },
+        {
+            "TITLE": "180T8403752",
+            "DESCRIPTION": "WIRE"
+        },
+        {
+            "TITLE": "180T8403760",
+            "DESCRIPTION": "WIRE"
+        },
+        {
+            "TITLE": "180T8403770",
+            "DESCRIPTION": "WIRE"
+        },
+        {
+            "TITLE": "180T8403790",
+            "DESCRIPTION": "WIRE"
+        },
+        {
+            "TITLE": "180T8403791",
+            "DESCRIPTION": "WIRE"
+        },
+        {
+            "TITLE": "180T8403930",
+            "DESCRIPTION": "ACCAVS 0.5 B"
+        },
+        {
+            "TITLE": "180T8403934",
+            "DESCRIPTION": "ACCAVS 0.5 B\/W"
+        },
+        {
+            "TITLE": "180T8403940",
+            "DESCRIPTION": "ACCAVS 0.5 W"
+        },
+        {
+            "TITLE": "180T8403941",
+            "DESCRIPTION": "ACCAVS 0.5 GY"
+        },
+        {
+            "TITLE": "180T8403945",
+            "DESCRIPTION": "ACCAVS 0.5 W\/R"
+        },
+        {
+            "TITLE": "180T8403950",
+            "DESCRIPTION": "ACCAVS 0.5 R"
+        },
+        {
+            "TITLE": "180T8403951",
+            "DESCRIPTION": "ACCAVS 0.5 O"
+        },
+        {
+            "TITLE": "180T8403952",
+            "DESCRIPTION": "ACCAVS 0.5 P"
+        },
+        {
+            "TITLE": "180T8403960",
+            "DESCRIPTION": "ACCAVS 0.5 G"
+        },
+        {
+            "TITLE": "180T8403970",
+            "DESCRIPTION": "ACCAVS 0.5 Y"
+        },
+        {
+            "TITLE": "180T8403973",
+            "DESCRIPTION": "ACCAVS 0.5 Y\/B"
+        },
+        {
+            "TITLE": "180T8403980",
+            "DESCRIPTION": "ACCAVS 0.5 BR"
+        },
+        {
+            "TITLE": "180T8403984",
+            "DESCRIPTION": "ACCAVS 0.5 BR\/W"
+        },
+        {
+            "TITLE": "180T8403990",
+            "DESCRIPTION": "ACCAVS 0.5 L"
+        },
+        {
+            "TITLE": "180T8403991",
+            "DESCRIPTION": "ACCAVS 0.5 SB"
+        },
+        {
+            "TITLE": "180T8403992",
+            "DESCRIPTION": "ACCAVS 0.5 V"
+        },
+        {
+            "TITLE": "180T8403997",
+            "DESCRIPTION": "ACCAVS 0.5 L\/Y"
+        },
+        {
+            "TITLE": "180TR703930",
+            "DESCRIPTION": "ACCIVUS 0.5 B"
+        },
+        {
+            "TITLE": "180TR703940",
+            "DESCRIPTION": "ACCIVUS 0.5 W"
+        },
+        {
+            "TITLE": "180TR703941",
+            "DESCRIPTION": "ACCIVUS 0.5 GY"
+        },
+        {
+            "TITLE": "180TR703943",
+            "DESCRIPTION": "ACCIVUS 0.5 W\/B"
+        },
+        {
+            "TITLE": "180TR703950",
+            "DESCRIPTION": "ACCIVUS 0.5 R"
+        },
+        {
+            "TITLE": "180TR703952",
+            "DESCRIPTION": "ACCIVUS 0.5 P"
+        },
+        {
+            "TITLE": "180TR703960",
+            "DESCRIPTION": "ACCIVUS 0.5 G"
+        },
+        {
+            "TITLE": "180TR703961",
+            "DESCRIPTION": "ACCIVUS 0.5 LG"
+        },
+        {
+            "TITLE": "180TR703970",
+            "DESCRIPTION": "ACCIVUS 0.5 Y"
+        },
+        {
+            "TITLE": "180TR703973",
+            "DESCRIPTION": "ACCIVUS 0.5 Y\/B"
+        },
+        {
+            "TITLE": "180TR703980",
+            "DESCRIPTION": "ACCIVUS 0.5 BR"
+        },
+        {
+            "TITLE": "180TR703990",
+            "DESCRIPTION": "ACCIVUS 0.5 L"
+        },
+        {
+            "TITLE": "180TR706930",
+            "DESCRIPTION": "ACCIVUS 0.35 B"
+        },
+        {
+            "TITLE": "180TR706940",
+            "DESCRIPTION": "ACCIVUS 0.35 W"
+        },
+        {
+            "TITLE": "180TR706943",
+            "DESCRIPTION": "ACCIVUS 0.35 W\/B"
+        },
+        {
+            "TITLE": "180TR706950",
+            "DESCRIPTION": "ACCIVUS 0.35 R"
+        },
+        {
+            "TITLE": "180TR706952",
+            "DESCRIPTION": "ACCIVUS 0.35 P"
+        },
+        {
+            "TITLE": "180TR706960",
+            "DESCRIPTION": "ACCIVUS 0.35 G"
+        },
+        {
+            "TITLE": "180TR706961",
+            "DESCRIPTION": "ACCIVUS 0.35 LG"
+        },
+        {
+            "TITLE": "180TR706970",
+            "DESCRIPTION": "ACCIVUS 0.35 Y"
+        },
+        {
+            "TITLE": "180TR706973",
+            "DESCRIPTION": "ACCIVUS 0.35 Y\/B"
+        },
+        {
+            "TITLE": "180TR706975",
+            "DESCRIPTION": "ACCIVUS 0.35 Y\/R"
+        },
+        {
+            "TITLE": "180TR706976",
+            "DESCRIPTION": "ACCIVUS 0.35 Y\/G"
+        },
+        {
+            "TITLE": "180TR706980",
+            "DESCRIPTION": "ACCIVUS 0.35 BR"
+        },
+        {
+            "TITLE": "180TR706990",
+            "DESCRIPTION": "ACCIVUS 0.35 L"
+        },
+        {
+            "TITLE": "180TR706991",
+            "DESCRIPTION": "ACCIVUS 0.35 SB"
+        },
+        {
+            "TITLE": "180TR706992",
+            "DESCRIPTION": "ACCIVUS 0.35 V"
+        },
+        {
+            "TITLE": "180TW003930",
+            "DESCRIPTION": "ACIVSSH 0.5F B"
+        },
+        {
+            "TITLE": "180TW003940",
+            "DESCRIPTION": "ACIVSSH 0.5F W"
+        },
+        {
+            "TITLE": "180TW003950",
+            "DESCRIPTION": "ACIVSSH 0.5F R"
+        },
+        {
+            "TITLE": "180TW003960",
+            "DESCRIPTION": "ACIVSSH 0.5F G"
+        },
+        {
+            "TITLE": "180TW003970",
+            "DESCRIPTION": "ACIVSSH 0.5F Y"
+        },
+        {
+            "TITLE": "180TW006930",
+            "DESCRIPTION": "ACIVSSH 0.35F B"
+        },
+        {
+            "TITLE": "180TW006940",
+            "DESCRIPTION": "ACIVSSH 0.35F W"
+        },
+        {
+            "TITLE": "180TW006990",
+            "DESCRIPTION": "ACIVSSH 0.35F L"
+        },
+        {
+            "TITLE": "180TW006992",
+            "DESCRIPTION": "ACIVSSH 0.35F V"
+        },
+        {
+            "TITLE": "181AD2001ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.35X1 B"
+        },
+        {
+            "TITLE": "181AD2002ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.35X2 B"
+        },
+        {
+            "TITLE": "181AD2003ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.35X3 B"
+        },
+        {
+            "TITLE": "181AD2004ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.35X4 B"
+        },
+        {
+            "TITLE": "181AD2007ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.5X1 B"
+        },
+        {
+            "TITLE": "181AD2008ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.5X2 B"
+        },
+        {
+            "TITLE": "181AD2009ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.5X3 B"
+        },
+        {
+            "TITLE": "181AD2010ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.5X4 B"
+        },
+        {
+            "TITLE": "181AD2011ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.75X2 B"
+        },
+        {
+            "TITLE": "181AD2012ZZ",
+            "DESCRIPTION": "CIVUSAS-S 1.25X1 B"
+        },
+        {
+            "TITLE": "181AD2013ZZ",
+            "DESCRIPTION": "CIVUSAS-S 1.25X2 B"
+        },
+        {
+            "TITLE": "181AD2016ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.22X2 B"
+        },
+        {
+            "TITLE": "181AD2017ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.22X3 B"
+        },
+        {
+            "TITLE": "181AD2018ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.22X4 B"
+        },
+        {
+            "TITLE": "181AD2019ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.22X5 B"
+        },
+        {
+            "TITLE": "181AD2020ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.5X2 B(R,G)"
+        },
+        {
+            "TITLE": "181AD2021ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.35X2 B(L,GY)"
+        },
+        {
+            "TITLE": "181AD2022ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.35X2 B(R,G)"
+        },
+        {
+            "TITLE": "181AD2023ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.13X2 B"
+        },
+        {
+            "TITLE": "181AD2024ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.13X3 B"
+        },
+        {
+            "TITLE": "181AD2025ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.13X4 B"
+        },
+        {
+            "TITLE": "181AD2026ZZ",
+            "DESCRIPTION": "CIVUSAS-S 0.13X6 B"
+        },
+        {
+            "TITLE": "181B09006ZZ",
+            "DESCRIPTION": "CAVSAS 0.3X2 GY\/G"
+        },
+        {
+            "TITLE": "181B0903710",
+            "DESCRIPTION": "CAVSAS 0.3X1 GY\/R"
+        },
+        {
+            "TITLE": "181B09037H7",
+            "DESCRIPTION": "CAVSAS 0.3X1 GY\/W"
+        },
+        {
+            "TITLE": "181B09037K5",
+            "DESCRIPTION": "CAVSAS 0.3X1 GY\/BR"
+        },
+        {
+            "TITLE": "181B09039H1",
+            "DESCRIPTION": "CAVSAS 0.5X1 GY\/G"
+        },
+        {
+            "TITLE": "181B09039H7",
+            "DESCRIPTION": "CAVSAS 0.5X1 GY\/W"
+        },
+        {
+            "TITLE": "181B0910210",
+            "DESCRIPTION": "CAVSAS 0.5X2 GY\/R"
+        },
+        {
+            "TITLE": "181B0910211",
+            "DESCRIPTION": "CAVSAS 0.5X2 GY\/L"
+        },
+        {
+            "TITLE": "181B0910241",
+            "DESCRIPTION": "CAVSAS 0.5X2 GY"
+        },
+        {
+            "TITLE": "181B09102F0",
+            "DESCRIPTION": "CAVSAS 0.5X2 GY\/B"
+        },
+        {
+            "TITLE": "181B09102H1",
+            "DESCRIPTION": "CAVSAS 0.5X2 GY\/G"
+        },
+        {
+            "TITLE": "181B09102H7",
+            "DESCRIPTION": "CAVSAS 0.5X2 GY\/W"
+        },
+        {
+            "TITLE": "181B09102K3",
+            "DESCRIPTION": "CAVSAS 0.5X2 GY\/P"
+        },
+        {
+            "TITLE": "181B09102K5",
+            "DESCRIPTION": "CAVSAS 0.5X2 GY\/BR"
+        },
+        {
+            "TITLE": "181B0911610",
+            "DESCRIPTION": "CAVSAS 0.3X2 GY\/R"
+        },
+        {
+            "TITLE": "181B0911611",
+            "DESCRIPTION": "CAVSAS 0.3X2 GY\/L"
+        },
+        {
+            "TITLE": "181B0911621",
+            "DESCRIPTION": "CAVSAS 0.3X2 GY\/O"
+        },
+        {
+            "TITLE": "181B0911641",
+            "DESCRIPTION": "CAVSAS 0.3X2 GY"
+        },
+        {
+            "TITLE": "181B09116K2",
+            "DESCRIPTION": "CAVSAS 0.3X2 GY\/V"
+        },
+        {
+            "TITLE": "181B09116K3",
+            "DESCRIPTION": "CAVSAS 0.3X2 GY\/P"
+        },
+        {
+            "TITLE": "181B09116K5",
+            "DESCRIPTION": "CAVSAS 0.3X2 GY\/BR"
+        },
+        {
+            "TITLE": "181B0911741",
+            "DESCRIPTION": "CAVSAS 0.3X3 GY"
+        },
+        {
+            "TITLE": "181B0911941",
+            "DESCRIPTION": "CAVSAS 0.3X4 GY"
+        },
+        {
+            "TITLE": "181B32012ZZ",
+            "DESCRIPTION": "AVSSCS 0.3FX2 DGY\/BR"
+        },
+        {
+            "TITLE": "181B32013ZZ",
+            "DESCRIPTION": "AVSSCS 0.3FX1 DGY\/O"
+        },
+        {
+            "TITLE": "181B32016ZZ",
+            "DESCRIPTION": "AVSSCS 0.5FX2 SB\/L"
+        },
+        {
+            "TITLE": "181B32026ZZ",
+            "DESCRIPTION": "AVSSCS 0.3FX1 DGY"
+        },
+        {
+            "TITLE": "181B32032ZZ",
+            "DESCRIPTION": "AVSSCS 0.3FX2 DGY\/G"
+        },
+        {
+            "TITLE": "181B32037Y5",
+            "DESCRIPTION": "AVSSCS 0.3FX1 DGY\/W"
+        },
+        {
+            "TITLE": "181B32037Z5",
+            "DESCRIPTION": "AVSSCS 0.3FX1 DGY\/L"
+        },
+        {
+            "TITLE": "181B32039S1",
+            "DESCRIPTION": "AVSSCS 0.5FX1 DGY"
+        },
+        {
+            "TITLE": "181B32039Y5",
+            "DESCRIPTION": "AVSSCS 0.5FX1 DGY\/W"
+        },
+        {
+            "TITLE": "181B32039Y6",
+            "DESCRIPTION": "AVSSCS 0.5FX1 DGY\/G"
+        },
+        {
+            "TITLE": "181B32039Y8",
+            "DESCRIPTION": "AVSSCS 0.5FX1 DGY\/R"
+        },
+        {
+            "TITLE": "181B32039Y9",
+            "DESCRIPTION": "AVSSCS 0.5FX1 DGY\/P"
+        },
+        {
+            "TITLE": "181B32039Z5",
+            "DESCRIPTION": "AVSSCS 0.5FX1 DGY\/L"
+        },
+        {
+            "TITLE": "181B32039Z6",
+            "DESCRIPTION": "AVSSCS 0.5FX1 DGY\/V"
+        },
+        {
+            "TITLE": "181B32102G0",
+            "DESCRIPTION": "AVSSCS 0.5FX2 DGY\/BR"
+        },
+        {
+            "TITLE": "181B32102S1",
+            "DESCRIPTION": "AVSSCS 0.5FX2 DGY"
+        },
+        {
+            "TITLE": "181B32102Y5",
+            "DESCRIPTION": "AVSSCS 0.5FX2 DGY\/W"
+        },
+        {
+            "TITLE": "181B32102Y6",
+            "DESCRIPTION": "AVSSCS 0.5FX2 DGY\/G"
+        },
+        {
+            "TITLE": "181B32102Y7",
+            "DESCRIPTION": "AVSSCS 0.5FX2 DGY\/Y"
+        },
+        {
+            "TITLE": "181B32102Y8",
+            "DESCRIPTION": "AVSSCS 0.5FX2 DGY\/R"
+        },
+        {
+            "TITLE": "181B32102Y9",
+            "DESCRIPTION": "AVSSCS 0.5FX2 DGY\/P"
+        },
+        {
+            "TITLE": "181B32102Z5",
+            "DESCRIPTION": "WIRE"
+        },
+        {
+            "TITLE": "181B32102Z6",
+            "DESCRIPTION": "AVSSCS 0.5FX2 DGY\/V"
+        },
+        {
+            "TITLE": "181B32102Z8",
+            "DESCRIPTION": "AVSSCS 0.5FX2 DGY\/O"
+        },
+        {
+            "TITLE": "181B32103S1",
+            "DESCRIPTION": "AVSSCS 0.5FX3 DGY"
+        },
+        {
+            "TITLE": "181B32103Y6",
+            "DESCRIPTION": "181B32103Y6"
+        },
+        {
+            "TITLE": "181B32103Z8",
+            "DESCRIPTION": "AVSSCS 0.5FX3 DGY\/O"
+        },
+        {
+            "TITLE": "181B32116S1",
+            "DESCRIPTION": "AVSSCS 0.3FX2 DGY"
+        },
+        {
+            "TITLE": "181B32116Y8",
+            "DESCRIPTION": "AVSSCS 0.3FX2 DGY\/R"
+        },
+        {
+            "TITLE": "181B32116Y9",
+            "DESCRIPTION": "AVSSCS 0.3FX2 DGY\/P"
+        },
+        {
+            "TITLE": "181B32116Z5",
+            "DESCRIPTION": "AVSSCS 0.3FX2 DGY\/L"
+        },
+        {
+            "TITLE": "181B32116Z6",
+            "DESCRIPTION": "AVSSCS 0.3FX2 DGY\/V"
+        },
+        {
+            "TITLE": "181B32117S1",
+            "DESCRIPTION": "AVSSCS 0.3FX3 DGY"
+        },
+        {
+            "TITLE": "181CQ7003ZZ",
+            "DESCRIPTION": "IVSSHCS-S 0.5FX2 B(B,W)"
+        },
+        {
+            "TITLE": "181CQ7004ZZ",
+            "DESCRIPTION": "IVSSHCS-S 0.5FX2 B(R,G)"
+        },
+        {
+            "TITLE": "181D69001ZZ",
+            "DESCRIPTION": "AVSSHCS 0.5FX2 B\/BR"
+        },
+        {
+            "TITLE": "181D69002ZZ",
+            "DESCRIPTION": "AVSSHCS 0.5FX2 B\/V"
+        },
+        {
+            "TITLE": "181D69004ZZ",
+            "DESCRIPTION": "AVSSHCS 1.25FX2 B"
+        },
+        {
+            "TITLE": "181D69006ZZ",
+            "DESCRIPTION": "AVSSHCS 1.25FX2 B\/R"
+        },
+        {
+            "TITLE": "181D69007ZZ",
+            "DESCRIPTION": "181D69007ZZ"
+        },
+        {
+            "TITLE": "181D69009ZZ",
+            "DESCRIPTION": "AVSSHCS 1.25FX2 B\/P"
+        },
+        {
+            "TITLE": "181D6903930",
+            "DESCRIPTION": "AVSSHCS 0.5FX1 B"
+        },
+        {
+            "TITLE": "181D6903934",
+            "DESCRIPTION": "AVSSHCS 0.5FX1 B\/W"
+        },
+        {
+            "TITLE": "181D6910230",
+            "DESCRIPTION": "AVSSHCS 0.5FX2 B"
+        },
+        {
+            "TITLE": "181D6910235",
+            "DESCRIPTION": "AVSSHCS 0.5FX2 B\/R"
+        },
+        {
+            "TITLE": "181D6910236",
+            "DESCRIPTION": "181D6910236"
+        },
+        {
+            "TITLE": "181D6910237",
+            "DESCRIPTION": "AVSSHCS 0.5FX2 B\/Y"
+        },
+        {
+            "TITLE": "181D6910239",
+            "DESCRIPTION": "AVSSHCS 0.5FX2 B\/L"
+        },
+        {
+            "TITLE": "181D69102A8",
+            "DESCRIPTION": "AVSSHCS 0.5FX2 B\/P"
+        },
+        {
+            "TITLE": "181E48010ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X1 GY\/R"
+        },
+        {
+            "TITLE": "181E48011ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X1 GY\/W"
+        },
+        {
+            "TITLE": "181E48012ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X1 GY"
+        },
+        {
+            "TITLE": "181E48013ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X3 GY"
+        },
+        {
+            "TITLE": "181E48015ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X1 GY"
+        },
+        {
+            "TITLE": "181E48016ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X1 GY\/O"
+        },
+        {
+            "TITLE": "181E48017ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X1 GY\/G"
+        },
+        {
+            "TITLE": "181E48018ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 GY\/SB"
+        },
+        {
+            "TITLE": "181E48019ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X1 GY\/W"
+        },
+        {
+            "TITLE": "181E48022ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 GY"
+        },
+        {
+            "TITLE": "181E48023ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 GY\/W"
+        },
+        {
+            "TITLE": "181E48024ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 GY\/R"
+        },
+        {
+            "TITLE": "181E48025ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 GY\/G"
+        },
+        {
+            "TITLE": "181E48026ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 GY\/LG"
+        },
+        {
+            "TITLE": "181E48027ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 GY\/P"
+        },
+        {
+            "TITLE": "181E48029ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X4 GY"
+        },
+        {
+            "TITLE": "181E48031ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X2 GY"
+        },
+        {
+            "TITLE": "181E48032ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X2 GY\/P"
+        },
+        {
+            "TITLE": "181E48033ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X3 GY\/B"
+        },
+        {
+            "TITLE": "181E48035ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X3 GY"
+        },
+        {
+            "TITLE": "181E48036ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X5 GY"
+        },
+        {
+            "TITLE": "181E48037ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X4 GY"
+        },
+        {
+            "TITLE": "181E48038ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X1 GY\/Y"
+        },
+        {
+            "TITLE": "181E48039ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X2 GY\/BR"
+        },
+        {
+            "TITLE": "181E48040ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X2 GY\/V"
+        },
+        {
+            "TITLE": "181E48041ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X2 GY\/R"
+        },
+        {
+            "TITLE": "181E48042ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X1 GY\/BR"
+        },
+        {
+            "TITLE": "181E48044ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X1 GY\/L"
+        },
+        {
+            "TITLE": "181E48045ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X1 GY\/LG"
+        },
+        {
+            "TITLE": "181E48046ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X1 GY\/O"
+        },
+        {
+            "TITLE": "181E48048ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X2 GY\/O"
+        },
+        {
+            "TITLE": "181E48049ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X2 GY\/L"
+        },
+        {
+            "TITLE": "181E48053ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X1 GY\/SB"
+        },
+        {
+            "TITLE": "181E48055ZZ",
+            "DESCRIPTION": "181E48055ZZ"
+        },
+        {
+            "TITLE": "181E48058ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 GY\/O"
+        },
+        {
+            "TITLE": "181E48059ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 W\/BR"
+        },
+        {
+            "TITLE": "181E48060ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 GY\/V"
+        },
+        {
+            "TITLE": "181E48061ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 W\/L"
+        },
+        {
+            "TITLE": "181E48062ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 GY\/BR"
+        },
+        {
+            "TITLE": "181E48063ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 GY\/L"
+        },
+        {
+            "TITLE": "181E48065ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X4 GY\/W"
+        },
+        {
+            "TITLE": "181E48068ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X1 GY\/LG"
+        },
+        {
+            "TITLE": "181E48072ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X2 GY\/G"
+        },
+        {
+            "TITLE": "181E48078ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.3X2 W\/R"
+        },
+        {
+            "TITLE": "181E48091ZZ",
+            "DESCRIPTION": "CAVSAS-S 0.5X2 W"
+        },
+        {
+            "TITLE": "181E50000ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX1 DGY\/BR"
+        },
+        {
+            "TITLE": "181E50001ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX2 DGY"
+        },
+        {
+            "TITLE": "181E50002ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.3FX2 DGY\/G"
+        },
+        {
+            "TITLE": "181E50003ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.3FX2 DGY\/BR"
+        },
+        {
+            "TITLE": "181E50004ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX1 DGY"
+        },
+        {
+            "TITLE": "181E50005ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX1 DGY\/W"
+        },
+        {
+            "TITLE": "181E50006ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX1 DGY\/Y"
+        },
+        {
+            "TITLE": "181E50007ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX1 DGY\/L"
+        },
+        {
+            "TITLE": "181E50008ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX2 DGY\/BR"
+        },
+        {
+            "TITLE": "181E50009ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX2 DGY\/W"
+        },
+        {
+            "TITLE": "181E50010ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX2 DGY\/P"
+        },
+        {
+            "TITLE": "181E50011ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX2 DGY\/Y"
+        },
+        {
+            "TITLE": "181E50012ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX2 DGY\/G"
+        },
+        {
+            "TITLE": "181E50013ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX1 DGY\/G"
+        },
+        {
+            "TITLE": "181E50014ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX1 DGY\/R"
+        },
+        {
+            "TITLE": "181E50016ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX2 DGY\/R"
+        },
+        {
+            "TITLE": "181E50020ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.3FX2 DGY\/R"
+        },
+        {
+            "TITLE": "181E50021ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.3FX2 DGY\/P"
+        },
+        {
+            "TITLE": "181E50025ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX2 DGY\/O"
+        },
+        {
+            "TITLE": "181E50026ZZ",
+            "DESCRIPTION": "181E50026ZZ"
+        },
+        {
+            "TITLE": "181E50027ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX3 DGY\/G"
+        },
+        {
+            "TITLE": "181E50028ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.5FX3 DGY"
+        },
+        {
+            "TITLE": "181E50036ZZ",
+            "DESCRIPTION": "AVSSCS-S 0.3FX2 DGY"
+        },
+        {
+            "TITLE": "181F21001ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.3FX2 B\/Y"
+        },
+        {
+            "TITLE": "181F21002ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX1 B"
+        },
+        {
+            "TITLE": "181F21003ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX1 B\/W"
+        },
+        {
+            "TITLE": "181F21004ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX1 B\/R"
+        },
+        {
+            "TITLE": "181F21005ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX1 B\/G"
+        },
+        {
+            "TITLE": "181F21006ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX1 B\/Y"
+        },
+        {
+            "TITLE": "181F21008ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX1 B\/V"
+        },
+        {
+            "TITLE": "181F21009ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX2 B"
+        },
+        {
+            "TITLE": "181F21010ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX2 B\/W"
+        },
+        {
+            "TITLE": "181F21011ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX2 B\/R"
+        },
+        {
+            "TITLE": "181F21013ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX2 B\/Y"
+        },
+        {
+            "TITLE": "181F21014ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX2 B\/L"
+        },
+        {
+            "TITLE": "181F21015ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX2 B\/P"
+        },
+        {
+            "TITLE": "181F21016ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX2 B\/BR"
+        },
+        {
+            "TITLE": "181F21018ZZ",
+            "DESCRIPTION": "AVSSHCS-S 0.5FX2 B\/V"
+        },
+        {
+            "TITLE": "181F21027ZZ",
+            "DESCRIPTION": "AVSSHCS-S 1.25FX2 B"
+        },
+        {
+            "TITLE": "181F21028ZZ",
+            "DESCRIPTION": "AVSSHCS-S 1.25FX2 B\/R"
+        },
+        {
+            "TITLE": "181F21029ZZ",
+            "DESCRIPTION": "AVSSHCS-S 1.25FX2 B\/Y"
+        },
+        {
+            "TITLE": "181F21031ZZ",
+            "DESCRIPTION": "AVSSHCS-S 1.25FX2 B\/P"
+        },
+        {
+            "TITLE": "181S381023T",
+            "DESCRIPTION": "ACCAVST 0.5X2 W,B"
+        },
+        {
+            "TITLE": "181V0910241",
+            "DESCRIPTION": "ACCAVSAS 0.5X2 GY"
+        },
+        {
+            "TITLE": "181V32102S1",
+            "DESCRIPTION": "ACAVSSCS 0.5FX2 DGY"
+        },
+        {
+            "TITLE": "181XD2008ZZ",
+            "DESCRIPTION": "ACCIVUSAS-S 0.5X2 B"
+        }
+    ]
+}

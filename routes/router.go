@@ -113,6 +113,7 @@ func Router(c *fiber.App) {
 	part.Post("", controllers.CreatePart)
 	part.Put("/:id", controllers.UpdatePart)
 	part.Delete("/:id", controllers.DeletePart)
+	part.Patch("", controllers.SeedPart)
 	// <!----->
 	ledger := appRouter.Group("/ledger")
 	ledger.Get("", controllers.GetLedger)

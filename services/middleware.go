@@ -122,6 +122,23 @@ func GetUserID(c *fiber.Ctx) string {
 	return *jwt.UserID
 }
 
+func GetEmpID(c *fiber.Ctx) string {
+	var r models.Response
+	r.At = time.Now()
+	r.StatusCode = fiber.StatusUnauthorized
+	s := c.Get("Authorization")
+	var jwt models.JwtToken
+	if err := configs.Store.First(&jwt, "id", strings.TrimPrefix(s, "Bearer ")).Error; err != nil {
+		panic(err)
+	}
+
+	var user models.User
+	if err := configs.Store.First(&user, "id", jwt.UserID).Error; err != nil {
+		panic(err)
+	}
+	return user.UserName
+}
+
 func SignOut(c *fiber.Ctx) string {
 	var r models.Response
 	r.At = time.Now()
