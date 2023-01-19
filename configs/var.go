@@ -68,5 +68,8 @@ func SetDB() {
 		&models.Shelve{},
 		&models.Carton{},
 		&models.CartonHistory{},
+		&models.Kind{},
+		&models.Size{},
+		&models.Color{},
 	)
 }

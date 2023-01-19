@@ -431,9 +431,9 @@ func ReadEDI(obj *models.DownloadMailBox, userID *string) (err error) {
 }
 
 func SubStringWire(txt string) (string, string, string) {
-	var kinds string = ""
-	var size string = ""
-	var color string = ""
+	var kinds string = "-"
+	var size string = "-"
+	var color string = "-"
 	lK := strings.Index(txt, " ")
 	if lK >= 0 {
 		txtKind := txt[:lK]
@@ -444,5 +444,19 @@ func SubStringWire(txt string) (string, string, string) {
 		size = lSize[:lS]
 		color = txtColor
 	}
-	return kinds, size, color
+
+	var k models.Kind
+	if err := configs.Store.FirstOrCreate(&k, &models.Kind{Title: kinds}).Error; err != nil {
+		panic(err)
+	}
+
+	var s models.Size
+	if err := configs.Store.FirstOrCreate(&s, &models.Size{Title: size}).Error; err != nil {
+		panic(err)
+	}
+	var c models.Color
+	if err := configs.Store.FirstOrCreate(&c, &models.Color{Title: color}).Error; err != nil {
+		panic(err)
+	}
+	return k.ID, s.ID, c.ID
 }

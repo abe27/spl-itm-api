@@ -57,6 +57,51 @@ func (obj *Factory) BeforeCreate(tx *gorm.DB) (err error) {
 	return
 }
 
+type Kind struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *Kind) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type Size struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *Size) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
+type Color struct {
+	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
+	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
+	Description string    `json:"description" form:"description"`
+	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
+	CreatedAt   time.Time `json:"created_at" default:"now"`
+	UpdatedAt   time.Time `json:"updated_at" default:"now"`
+}
+
+func (obj *Color) BeforeCreate(tx *gorm.DB) (err error) {
+	id, _ := g.New()
+	obj.ID = id
+	return
+}
+
 type Unit struct {
 	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
@@ -236,9 +281,6 @@ type Part struct {
 	ID          string    `gorm:"primaryKey;size:21;" json:"id"`
 	Slug        string    `validate:"required,min=1,max=25" gorm:"size:25;unique;" json:"slug" form:"slug"`
 	Title       string    `validate:"required,min=5,max=25" gorm:"not null;index;unique;size:25" json:"title" form:"title"`
-	Kinds       string    `json:"kinds" form:"kinds"`
-	Size        string    `json:"size" form:"size"`
-	Color       string    `json:"color" form:"color"`
 	Description string    `json:"description" form:"description"`
 	IsActive    bool      `gorm:"null" json:"is_active" form:"is_active" default:"false"`
 	CreatedAt   time.Time `json:"created_at" default:"now"`
@@ -257,6 +299,9 @@ type Ledger struct {
 	WhsID       *string   `gorm:"not null;" json:"whs_id" form:"whs_id" binding:"required"`
 	FactoryID   *string   `gorm:"not null;" json:"factory_id" form:"factory_id" binding:"required"`
 	PartID      *string   `gorm:"not null;" json:"part_id" form:"part_id" binding:"required"`
+	KindID      *string   `json:"kind_id" form:"kind_id" binding:"required"`
+	SizeID      *string   `json:"size_id" form:"size_id" binding:"required"`
+	ColorID     *string   `json:"color_id" form:"color_id" binding:"required"`
 	ItemTypeID  *string   `gorm:"not null;" json:"item_type_id" form:"item_type_id" binding:"required"`
 	UnitID      *string   `gorm:"not null;" json:"unit_id" form:"unit_id" binding:"required"`
 	DimWidth    float64   `json:"dim_width" form:"dim_width" default:"0"`
@@ -273,6 +318,9 @@ type Ledger struct {
 	Area        Area      `gorm:"foreignKey:AreaID;references:ID" json:"area"`
 	Factory     Factory   `gorm:"foreignKey:FactoryID;references:ID" json:"factory"`
 	Part        Part      `gorm:"foreignKey:PartID;references:ID;" json:"part"`
+	Kind        Kind      `gorm:"foreignKey:KindID;references:ID;" json:"Kind"`
+	Size        Size      `gorm:"foreignKey:SizeID;references:ID" json:"Size"`
+	Color       Color     `gorm:"foreignKey:ColorID;references:ID" json:"color"`
 	ItemType    ItemType  `gorm:"foreignKey:ItemTypeID;references:ID" json:"part_type"`
 	Unit        Unit      `gorm:"foreignKey:UnitID;references:ID" json:"unit"`
 }

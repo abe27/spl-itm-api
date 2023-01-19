@@ -57,9 +57,6 @@ func CreatePart(c *fiber.Ctx) error {
 	var Part models.Part
 	Part.Slug = strings.ToUpper(frm.Slug)
 	Part.Title = strings.ToUpper(frm.Title)
-	Part.Kinds = frm.Kinds
-	Part.Size = frm.Size
-	Part.Color = frm.Color
 	Part.Description = frm.Description
 	Part.IsActive = frm.IsActive
 	if err := configs.Store.Create(&Part).Error; err != nil {
@@ -94,9 +91,6 @@ func UpdatePart(c *fiber.Ctx) error {
 
 	Part.Slug = strings.ToUpper(frm.Slug)
 	Part.Title = strings.ToUpper(frm.Title)
-	Part.Kinds = frm.Kinds
-	Part.Size = frm.Size
-	Part.Color = frm.Color
 	Part.Description = frm.Description
 	Part.IsActive = frm.IsActive
 	if err := configs.Store.Save(&Part).Error; err != nil {
@@ -181,9 +175,6 @@ func SeedPart(c *fiber.Ctx) error {
 			var partData models.Part
 			partData.Slug = strings.ReplaceAll(p.Title, "-", "")
 			partData.Title = p.Title
-			partData.Kinds = "-"
-			partData.Size = "-"
-			partData.Color = "-"
 			partData.Description = p.Description
 			partData.IsActive = true
 
@@ -244,7 +235,6 @@ func SeedPart(c *fiber.Ctx) error {
 			var partData models.Part
 			partData.Slug = strings.ReplaceAll(p.Title, "-", "")
 			partData.Title = p.Title
-			partData.Kinds, partData.Size, partData.Color = services.SubStringWire(p.Description)
 			partData.Description = p.Description
 			partData.IsActive = true
 
@@ -252,11 +242,16 @@ func SeedPart(c *fiber.Ctx) error {
 				fmt.Printf("saving part %s\n", err.Error())
 			}
 
+			Kinds, Size, Color := services.SubStringWire(p.Description)
+
 			var ledger models.Ledger
 			ledger.WhsID = &whs.ID
 			ledger.AreaID = &Area.ID
 			ledger.FactoryID = &Factory.ID
 			ledger.PartID = &partData.ID
+			ledger.KindID = &Kinds
+			ledger.SizeID = &Size
+			ledger.ColorID = &Color
 			ledger.ItemTypeID = &ItemType.ID
 			ledger.UnitID = &Unit.ID
 			ledger.IsActive = true
